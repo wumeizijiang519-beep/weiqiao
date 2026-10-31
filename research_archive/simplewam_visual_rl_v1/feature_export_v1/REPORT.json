@@ -1,0 +1,15 @@
+{
+  "status": "SIMPLEWAM_VISUAL_FEATURE_EXPORT_COMPLETE",
+  "episodes": 288,
+  "feature_spec": {
+    "layers": [
+      29
+    ],
+    "spatial_stride": 4,
+    "num_views": 2
+  },
+  "position_sha256": "8bc77d524d7eabfcf3eaa5ad1bbae656233b0d37866c50c2bf5dd9f43479d306",
+  "wall_seconds": 1793.7034830115736,
+  "robot_actions_executed": 0,
+  "critic_updates": 0
+}

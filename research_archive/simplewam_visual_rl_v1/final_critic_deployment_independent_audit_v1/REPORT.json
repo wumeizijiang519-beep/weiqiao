@@ -1,0 +1,19 @@
+{
+  "checkpoint_count": 3,
+  "deployment_audit_report_sha256": "e35efe50602efbb446604df382562e8ca0cb80cb1b296dc990add10f8e60822b",
+  "errors": [],
+  "formal_outcomes_read": 0,
+  "raw_grad_norm": [
+    0.02366313338279724
+  ],
+  "registration_sha256": "12dfbb4dd5082be7070e660200bfd152fc1511a332907f4a73ce50a305d7be49",
+  "rerank_index": 1,
+  "rerank_scores": [
+    0.003876243717968464,
+    0.007348945364356041,
+    0.006598866544663906,
+    0.005717623047530651
+  ],
+  "robot_actions_executed": 0,
+  "status": "SIMPLEWAM_VISUAL_QGF_FINAL_CRITIC_DEPLOYMENT_AUDIT_PASS"
+}

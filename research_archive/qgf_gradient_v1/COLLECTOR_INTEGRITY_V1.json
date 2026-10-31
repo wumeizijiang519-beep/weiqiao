@@ -1,0 +1,47 @@
+{
+  "aggregate_integrity_gpu_hour_cap": 2,
+  "class_balance_gate": false,
+  "count_once_in_full_training_cohort": true,
+  "counts_against_collection_gpu_hour_cap": 24,
+  "episode_ids": [
+    "train_0003",
+    "train_0006",
+    "train_0002",
+    "train_0000"
+  ],
+  "gpu_count": 1,
+  "manifest_sha256": "7194f02c8dba2c9ae01fddab1d0c48c169e28f6778e3926a0386dfeff0307af9",
+  "max_wall_seconds": 3600,
+  "maximum_initial_integrity_attempts": 2,
+  "partition": "train",
+  "preliminary_cost_basis": "Stage0 loaded model and compiled native inference in431s; warm chunk0.12-2.01s. Four full trajectories are capped at1GPUh; full288 forecast awaits measured integrity p90.",
+  "selection_rule": "First training entry of each family in frozen manifest order, before any new outcome.",
+  "settings": {
+    "actual_rewards_only": true,
+    "candidate_seeds": [
+      10000,
+      11000,
+      12000,
+      13000
+    ],
+    "compile": true,
+    "dummy_wait": 30,
+    "horizon": 32,
+    "mixed_precision": "bf16",
+    "model_step_limit": 700,
+    "replan": 10,
+    "tolerance": 1e-06,
+    "unexecuted_labels": "NaN"
+  },
+  "source_sha256": {
+    "COLLECTOR_CONTRACT_V1.md": "e1ce91361be038ffde04f6eb650ceacd3dc6e2fca228691495b1d3eb27ee8028",
+    "audit_collection.py": "ec31fd869c9a4dc19f3de5f502f40b7a22feaf66d46bc527503a1c15a17dda19",
+    "collect.py": "26c843985e5a57d19d04b34f80c6f15045c0c94db626e2505516cb4561468748",
+    "core.py": "1b30c5d66f3958b05aa9dcc582f2eef42ee03a308300260fbe0b6d74fc0f6d29",
+    "data_contract.py": "39301bf91924133f275ca4780a751a0c37c4787c5164fa45bb182e5d20bb26df",
+    "run_collector.sh": "a2f2236f4c4b420cdc6342a48f5093f4db8318c0abac330863510400e1c2dc58",
+    "wam_runtime.py": "5c4b354b5903d6c4b955e557bbdd1bbec07bc6f6eedec35874bfda0211e3dad0"
+  },
+  "stopping": "Unknown errors stop. Completed episodes must not be replayed. No outcome-based replacements.",
+  "version": "collector_integrity_v1_20261026"
+}

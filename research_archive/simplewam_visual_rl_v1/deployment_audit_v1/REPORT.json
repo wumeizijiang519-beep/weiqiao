@@ -1,0 +1,28 @@
+{
+  "status": "SIMPLEWAM_VISUAL_QGF_DEPLOYMENT_AUDIT_PASS",
+  "errors": [],
+  "registration_sha256": "9aaf54f25c3feddc60fe23d32d364311c283f765d688dd894f061364286ffa4a",
+  "rerank_index": 3,
+  "rerank_scores": [
+    0.02472860924899578,
+    0.026533400639891624,
+    0.02672283537685871,
+    0.029998818412423134
+  ],
+  "guidance": {
+    "applied": true,
+    "score": [
+      0.024728596210479736
+    ],
+    "raw_grad_norm": [
+      0.025230880826711655
+    ],
+    "used_grad_norm": [
+      0.025230880826711655
+    ],
+    "suffix_max_error": 0.0,
+    "gripper_max_error": 0.0
+  },
+  "robot_actions_executed": 0,
+  "wam_parameters_loaded": 0
+}

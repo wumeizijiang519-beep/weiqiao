@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-26",
+  "purpose": "Locate the first cause of a frozen native-action contract failure, without resuming collection or changing a gate.",
+  "failed_collection_step": "1593640.316",
+  "failed_collection_elapsed_seconds": 2825,
+  "completed_episodes_retained": 26,
+  "partial_episode": "train_0030",
+  "partial_episode_executed_model_steps": 210,
+  "failing_boundary": 21,
+  "observation": "runs/qgf_gradient_training288_v1_shard0/train_0030/observation_0021.npz",
+  "rng": "runs/qgf_gradient_training288_v1_shard0/train_0030/transition_0021/rng_before.npz",
+  "candidate_seeds": [10000, 11000, 12000, 13000],
+  "model_actions_executed": 0,
+  "environment_instances_created": 0,
+  "maximum_attempts": 1,
+  "hard_wall_seconds": 900,
+  "maximum_additional_gpu_hours": 0.25,
+  "charged_to_collection_gpu_hour_cap": 24,
+  "settings": "Same strict official model, checkpoint, BF16, compiled sampler, observation and caller RNG. Save offending native/raw values before any validation.",
+  "scientific_collection_status": "STOPPED_NATIVE_ACTION_CONTRACT_FAILURE_PENDING_CAUSE",
+  "limitations": "Original failed bank was not saved because inverse normalization threw before proposals.npz. A cross-process zero-action replay cannot retroactively supply the original missing bank.",
+  "not_authorized_by_this_diagnostic": ["rerun completed episodes", "change gripper mapping", "relax binary gate", "resume incomplete episode", "change scene or seed", "fit critic"]
+}

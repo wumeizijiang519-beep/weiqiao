@@ -1,0 +1,3646 @@
+{
+  "admit_rule": "visual_qgf improves candidate0 and uniform_random and is noninferior to critic_rerank",
+  "arms": [
+    "candidate0",
+    "uniform_random",
+    "critic_rerank",
+    "visual_qgf"
+  ],
+  "backbone": "Simple-WAM",
+  "benchmark": "LIBERO",
+  "cohort_manifest": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/evidence/COHORT_MANIFEST.json",
+  "cohort_manifest_sha256": "7194f02c8dba2c9ae01fddab1d0c48c169e28f6778e3926a0386dfeff0307af9",
+  "deployment_audit_sha256": "78bbadf4b6b993bc4b7d4a5be7d9ac39154a1a7918d206cfe751b9fcc4852bfe",
+  "deployment_registration": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/deployment_registration_v1/REGISTRATION.json",
+  "deployment_registration_sha256": "9aaf54f25c3feddc60fe23d32d364311c283f765d688dd894f061364286ffa4a",
+  "excluded_attempted_scene_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "execution": {
+    "commit_max_abs_error": 1e-06,
+    "dummy_wait": 30,
+    "max_steps": 700,
+    "replan": 10
+  },
+  "formal_partition_locked": true,
+  "native_candidates": 4,
+  "outcomes_read_during_registration": 0,
+  "partition": "validation",
+  "primary_endpoint": "official_success",
+  "same_denoising_budget": true,
+  "scenes": 60,
+  "shadow_critic_and_gradient_for_all_arms": true,
+  "status": "SIMPLEWAM_VISUAL_QGF_ONLINE_REGISTERED",
+  "support_policy": {
+    "candidate0_and_uniform_random_do_not_require_critic_support": true,
+    "critic_rerank_uses_supported_native_candidates_only": true,
+    "no_supported_q_candidate_fallback": "candidate0",
+    "policy_frozen_before_any_scene_4_to_63_execution": true,
+    "visual_qgf_uses_supported_guided_candidates_only": true
+  },
+  "tasks": [
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 4,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 0,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 4,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 1,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 4,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 2,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 4,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 3,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 5,
+      "scene_key": "25074e2d7f81712910cf603f1e42df15bc3faf9771141a266489dda52b58cd40",
+      "task_index": 4,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 5,
+      "scene_key": "25074e2d7f81712910cf603f1e42df15bc3faf9771141a266489dda52b58cd40",
+      "task_index": 5,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 5,
+      "scene_key": "25074e2d7f81712910cf603f1e42df15bc3faf9771141a266489dda52b58cd40",
+      "task_index": 6,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 5,
+      "scene_key": "25074e2d7f81712910cf603f1e42df15bc3faf9771141a266489dda52b58cd40",
+      "task_index": 7,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 6,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 8,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 6,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 9,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 6,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 10,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 6,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 11,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 7,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 12,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 7,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 13,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 7,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 14,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 7,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 15,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 8,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 16,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 8,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 17,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 8,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 18,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 8,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 19,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 9,
+      "scene_key": "efc88b8f81f30a8d81d9ea95c4e16483f28a412c34fe426c279c412ea35a3885",
+      "task_index": 20,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 9,
+      "scene_key": "efc88b8f81f30a8d81d9ea95c4e16483f28a412c34fe426c279c412ea35a3885",
+      "task_index": 21,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 9,
+      "scene_key": "efc88b8f81f30a8d81d9ea95c4e16483f28a412c34fe426c279c412ea35a3885",
+      "task_index": 22,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 9,
+      "scene_key": "efc88b8f81f30a8d81d9ea95c4e16483f28a412c34fe426c279c412ea35a3885",
+      "task_index": 23,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 10,
+      "scene_key": "53e722c66f880103ef4ddd216a6e3f97056f4af8ea583c8a7a68816172eeaa68",
+      "task_index": 24,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 10,
+      "scene_key": "53e722c66f880103ef4ddd216a6e3f97056f4af8ea583c8a7a68816172eeaa68",
+      "task_index": 25,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 10,
+      "scene_key": "53e722c66f880103ef4ddd216a6e3f97056f4af8ea583c8a7a68816172eeaa68",
+      "task_index": 26,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 10,
+      "scene_key": "53e722c66f880103ef4ddd216a6e3f97056f4af8ea583c8a7a68816172eeaa68",
+      "task_index": 27,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 11,
+      "scene_key": "6a1999434806b46c5c84c2878c9440f55edbee19384484d952a4f16d3dd03d0c",
+      "task_index": 28,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 11,
+      "scene_key": "6a1999434806b46c5c84c2878c9440f55edbee19384484d952a4f16d3dd03d0c",
+      "task_index": 29,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 11,
+      "scene_key": "6a1999434806b46c5c84c2878c9440f55edbee19384484d952a4f16d3dd03d0c",
+      "task_index": 30,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "visual_qgf",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 11,
+      "scene_key": "6a1999434806b46c5c84c2878c9440f55edbee19384484d952a4f16d3dd03d0c",
+      "task_index": 31,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 12,
+      "scene_key": "bf04cd1840ff5241857de8175fc8907069b070c0b1c3bbd5205bec153311afb6",
+      "task_index": 32,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 12,
+      "scene_key": "bf04cd1840ff5241857de8175fc8907069b070c0b1c3bbd5205bec153311afb6",
+      "task_index": 33,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 12,
+      "scene_key": "bf04cd1840ff5241857de8175fc8907069b070c0b1c3bbd5205bec153311afb6",
+      "task_index": 34,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 12,
+      "scene_key": "bf04cd1840ff5241857de8175fc8907069b070c0b1c3bbd5205bec153311afb6",
+      "task_index": 35,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 13,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 36,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 13,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 37,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 13,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 38,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 13,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 39,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 14,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 40,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 14,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 41,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 14,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 42,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 14,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 43,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 15,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 44,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 15,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 45,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 15,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 46,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 15,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 47,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 16,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 48,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 16,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 49,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 16,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 50,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 16,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 51,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 17,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 52,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 17,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 53,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 17,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 54,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 17,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 55,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 18,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 56,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 18,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 57,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 18,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 58,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 18,
+      "scene_key": "54115fef7abd39af9010951ac15b4311c7bd2c189f759aa42954a7f9c76befc4",
+      "task_index": 59,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 19,
+      "scene_key": "7d816e88306fef62f553132e76801f19b7623dbf0c32d12538be67e579cfec8b",
+      "task_index": 60,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 19,
+      "scene_key": "7d816e88306fef62f553132e76801f19b7623dbf0c32d12538be67e579cfec8b",
+      "task_index": 61,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 19,
+      "scene_key": "7d816e88306fef62f553132e76801f19b7623dbf0c32d12538be67e579cfec8b",
+      "task_index": 62,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 19,
+      "scene_key": "7d816e88306fef62f553132e76801f19b7623dbf0c32d12538be67e579cfec8b",
+      "task_index": 63,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 20,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 64,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 20,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 65,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 20,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 66,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 20,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 67,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 21,
+      "scene_key": "d0702f1be86f386c64d3d92428c14fa902acda96810b2732e2921f9f90b4d510",
+      "task_index": 68,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 21,
+      "scene_key": "d0702f1be86f386c64d3d92428c14fa902acda96810b2732e2921f9f90b4d510",
+      "task_index": 69,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 21,
+      "scene_key": "d0702f1be86f386c64d3d92428c14fa902acda96810b2732e2921f9f90b4d510",
+      "task_index": 70,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 21,
+      "scene_key": "d0702f1be86f386c64d3d92428c14fa902acda96810b2732e2921f9f90b4d510",
+      "task_index": 71,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 22,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 72,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 22,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 73,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 22,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 74,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 22,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 75,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 23,
+      "scene_key": "a597f61d2286a4ef919f1fd50aca329c5b88c582ff9997fa5bcc322e5ab1ed6e",
+      "task_index": 76,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 23,
+      "scene_key": "a597f61d2286a4ef919f1fd50aca329c5b88c582ff9997fa5bcc322e5ab1ed6e",
+      "task_index": 77,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 23,
+      "scene_key": "a597f61d2286a4ef919f1fd50aca329c5b88c582ff9997fa5bcc322e5ab1ed6e",
+      "task_index": 78,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 23,
+      "scene_key": "a597f61d2286a4ef919f1fd50aca329c5b88c582ff9997fa5bcc322e5ab1ed6e",
+      "task_index": 79,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 24,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 80,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 24,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 81,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 24,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 82,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 24,
+      "scene_key": "f7a5e6ec1784713a25277c252c9ac212ce5810e53727b5be3176a6fb5d31e4b0",
+      "task_index": 83,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 25,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 84,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 25,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 85,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 25,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 86,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 25,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 87,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 26,
+      "scene_key": "cdf5561bebe995341f3e044e6ed50ebcd5d90980b43878e199bdaaf83abf4f33",
+      "task_index": 88,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 26,
+      "scene_key": "cdf5561bebe995341f3e044e6ed50ebcd5d90980b43878e199bdaaf83abf4f33",
+      "task_index": 89,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 26,
+      "scene_key": "cdf5561bebe995341f3e044e6ed50ebcd5d90980b43878e199bdaaf83abf4f33",
+      "task_index": 90,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 26,
+      "scene_key": "cdf5561bebe995341f3e044e6ed50ebcd5d90980b43878e199bdaaf83abf4f33",
+      "task_index": 91,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 27,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 92,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 27,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 93,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 27,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 94,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 27,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 95,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 28,
+      "scene_key": "7c19ec5f49a575d0f98e8181f86191b35d8b41683944839e341ad8e7b752b9ad",
+      "task_index": 96,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 28,
+      "scene_key": "7c19ec5f49a575d0f98e8181f86191b35d8b41683944839e341ad8e7b752b9ad",
+      "task_index": 97,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 28,
+      "scene_key": "7c19ec5f49a575d0f98e8181f86191b35d8b41683944839e341ad8e7b752b9ad",
+      "task_index": 98,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 28,
+      "scene_key": "7c19ec5f49a575d0f98e8181f86191b35d8b41683944839e341ad8e7b752b9ad",
+      "task_index": 99,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 29,
+      "scene_key": "b2063f5e215c8deffff4392509dfcaeee0af327bcfff106743c2198dd533acb1",
+      "task_index": 100,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 29,
+      "scene_key": "b2063f5e215c8deffff4392509dfcaeee0af327bcfff106743c2198dd533acb1",
+      "task_index": 101,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 29,
+      "scene_key": "b2063f5e215c8deffff4392509dfcaeee0af327bcfff106743c2198dd533acb1",
+      "task_index": 102,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 29,
+      "scene_key": "b2063f5e215c8deffff4392509dfcaeee0af327bcfff106743c2198dd533acb1",
+      "task_index": 103,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 30,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 104,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 30,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 105,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 30,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 106,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 30,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 107,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 31,
+      "scene_key": "a01a20ce5e0869ba627b2eb556b9f2b6395f59c35c1671d03c43e14c1dc57002",
+      "task_index": 108,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 31,
+      "scene_key": "a01a20ce5e0869ba627b2eb556b9f2b6395f59c35c1671d03c43e14c1dc57002",
+      "task_index": 109,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 31,
+      "scene_key": "a01a20ce5e0869ba627b2eb556b9f2b6395f59c35c1671d03c43e14c1dc57002",
+      "task_index": 110,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 31,
+      "scene_key": "a01a20ce5e0869ba627b2eb556b9f2b6395f59c35c1671d03c43e14c1dc57002",
+      "task_index": 111,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 32,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 112,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 32,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 113,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 32,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 114,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 32,
+      "scene_key": "9ad1fb74f37124f862a450987788c41430af25e33da3708e3ed929284d933950",
+      "task_index": 115,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 33,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 116,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 33,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 117,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 33,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 118,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 33,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 119,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 34,
+      "scene_key": "3ce46214518a30878f0dd9991283f1b1ebe4d62b9d0511da83b1b105c56ad102",
+      "task_index": 120,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 34,
+      "scene_key": "3ce46214518a30878f0dd9991283f1b1ebe4d62b9d0511da83b1b105c56ad102",
+      "task_index": 121,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 34,
+      "scene_key": "3ce46214518a30878f0dd9991283f1b1ebe4d62b9d0511da83b1b105c56ad102",
+      "task_index": 122,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 34,
+      "scene_key": "3ce46214518a30878f0dd9991283f1b1ebe4d62b9d0511da83b1b105c56ad102",
+      "task_index": 123,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 35,
+      "scene_key": "7aa47d1d7b6581f2613be2df1645021bc0c76b2c2faf46b76b0d1f20ba183c32",
+      "task_index": 124,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 35,
+      "scene_key": "7aa47d1d7b6581f2613be2df1645021bc0c76b2c2faf46b76b0d1f20ba183c32",
+      "task_index": 125,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 35,
+      "scene_key": "7aa47d1d7b6581f2613be2df1645021bc0c76b2c2faf46b76b0d1f20ba183c32",
+      "task_index": 126,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 35,
+      "scene_key": "7aa47d1d7b6581f2613be2df1645021bc0c76b2c2faf46b76b0d1f20ba183c32",
+      "task_index": 127,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 36,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 128,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 36,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 129,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 36,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 130,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 36,
+      "scene_key": "c8a994811f58ad1c3572931d953346d99dbf20f618816b4775ca7bec195d6517",
+      "task_index": 131,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 37,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 132,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 37,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 133,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 37,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 134,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 37,
+      "scene_key": "6f095f3a406e8e5fafeb999274aa1204c0121e7a64e345b7236a2508411be1d2",
+      "task_index": 135,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 38,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 136,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 38,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 137,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 38,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 138,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "candidate0",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 38,
+      "scene_key": "c2505a021bdd8e5233229bfe07dd1207170079a54aa16446a9bf1cef10168c2a",
+      "task_index": 139,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 39,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 140,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 39,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 141,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 39,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 142,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 39,
+      "scene_key": "2fcb2a304bea09887fe59533e3a7e9134409ddb49d76006a40d7d84e0f08f033",
+      "task_index": 143,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 40,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 144,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 40,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 145,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 40,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 146,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 40,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 147,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 41,
+      "scene_key": "f22c32d0e0f8a31e01b8968121dba09ee5e0d6c3a1c9cedd5fdda780770166da",
+      "task_index": 148,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 41,
+      "scene_key": "f22c32d0e0f8a31e01b8968121dba09ee5e0d6c3a1c9cedd5fdda780770166da",
+      "task_index": 149,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 41,
+      "scene_key": "f22c32d0e0f8a31e01b8968121dba09ee5e0d6c3a1c9cedd5fdda780770166da",
+      "task_index": 150,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 41,
+      "scene_key": "f22c32d0e0f8a31e01b8968121dba09ee5e0d6c3a1c9cedd5fdda780770166da",
+      "task_index": 151,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 42,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 152,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 42,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 153,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 42,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 154,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 42,
+      "scene_key": "f55952a48e6a66cfd6b981ac849b2a92899d39c4de2263dda1323900f3f36a9b",
+      "task_index": 155,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 43,
+      "scene_key": "b7f3c744248f3de2e08db8b18a91468211a6e37b638b3bb6621ad86015cb77b2",
+      "task_index": 156,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 43,
+      "scene_key": "b7f3c744248f3de2e08db8b18a91468211a6e37b638b3bb6621ad86015cb77b2",
+      "task_index": 157,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 43,
+      "scene_key": "b7f3c744248f3de2e08db8b18a91468211a6e37b638b3bb6621ad86015cb77b2",
+      "task_index": 158,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 43,
+      "scene_key": "b7f3c744248f3de2e08db8b18a91468211a6e37b638b3bb6621ad86015cb77b2",
+      "task_index": 159,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 44,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 160,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 44,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 161,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 44,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 162,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 44,
+      "scene_key": "c329ca221066c3999bbe29c26a7e68f29e6c7d589c59c68bb61909193c84ea2b",
+      "task_index": 163,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 45,
+      "scene_key": "98061955a3e30d497216f6c478f6042d4833a37fd20366ac3cf551a5783b41f2",
+      "task_index": 164,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 45,
+      "scene_key": "98061955a3e30d497216f6c478f6042d4833a37fd20366ac3cf551a5783b41f2",
+      "task_index": 165,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 45,
+      "scene_key": "98061955a3e30d497216f6c478f6042d4833a37fd20366ac3cf551a5783b41f2",
+      "task_index": 166,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 45,
+      "scene_key": "98061955a3e30d497216f6c478f6042d4833a37fd20366ac3cf551a5783b41f2",
+      "task_index": 167,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 46,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 168,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 46,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 169,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 46,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 170,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 46,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 171,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 47,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 172,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 47,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 173,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 47,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 174,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 47,
+      "scene_key": "58dd1cb5ad4f08d218406fe1a16b4ba729232dd8c1005f23d7a52dfed24cb23e",
+      "task_index": 175,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 48,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 176,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 48,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 177,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 48,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 178,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 48,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 179,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 49,
+      "scene_key": "d81481af678c38a0e2f4a0ecbfd03c345dd6028ec41ba3d18d07f31ecd4c1212",
+      "task_index": 180,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 49,
+      "scene_key": "d81481af678c38a0e2f4a0ecbfd03c345dd6028ec41ba3d18d07f31ecd4c1212",
+      "task_index": 181,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 49,
+      "scene_key": "d81481af678c38a0e2f4a0ecbfd03c345dd6028ec41ba3d18d07f31ecd4c1212",
+      "task_index": 182,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 49,
+      "scene_key": "d81481af678c38a0e2f4a0ecbfd03c345dd6028ec41ba3d18d07f31ecd4c1212",
+      "task_index": 183,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 50,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 184,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 50,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 185,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 50,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 186,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "critic_rerank",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 50,
+      "scene_key": "f4ae6fa2dca5dc66274182f192d5452dac96dfa05b3d0257ed83bc34a1371945",
+      "task_index": 187,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 51,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 188,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 51,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 189,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 51,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 190,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "critic_rerank",
+        "candidate0",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 51,
+      "scene_key": "877a4a9d0de6a018c68422a877ecec505f86b67d94b2323da2e85fdeb4ccbfe4",
+      "task_index": 191,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 52,
+      "scene_key": "e588b151ac040a8ffc106257a7f8094069edc7a88adc25c268cfa96b550b130a",
+      "task_index": 192,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 52,
+      "scene_key": "e588b151ac040a8ffc106257a7f8094069edc7a88adc25c268cfa96b550b130a",
+      "task_index": 193,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 52,
+      "scene_key": "e588b151ac040a8ffc106257a7f8094069edc7a88adc25c268cfa96b550b130a",
+      "task_index": 194,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 52,
+      "scene_key": "e588b151ac040a8ffc106257a7f8094069edc7a88adc25c268cfa96b550b130a",
+      "task_index": 195,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 53,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 196,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 53,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 197,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 53,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 198,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 53,
+      "scene_key": "8ca516ee5e0d6b54458b18242042747a879a955c5642954b7f2fdb0675b6aad7",
+      "task_index": 199,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 54,
+      "scene_key": "a1a229744b957fad64916431c872c4686c1170ebb522671326b3e25cdc125999",
+      "task_index": 200,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 54,
+      "scene_key": "a1a229744b957fad64916431c872c4686c1170ebb522671326b3e25cdc125999",
+      "task_index": 201,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 54,
+      "scene_key": "a1a229744b957fad64916431c872c4686c1170ebb522671326b3e25cdc125999",
+      "task_index": 202,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "visual_qgf",
+        "uniform_random",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 54,
+      "scene_key": "a1a229744b957fad64916431c872c4686c1170ebb522671326b3e25cdc125999",
+      "task_index": 203,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 55,
+      "scene_key": "665a58663b09dab12aae794d95593b5d927510512e605cf1e7ffa83b74dce00b",
+      "task_index": 204,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 55,
+      "scene_key": "665a58663b09dab12aae794d95593b5d927510512e605cf1e7ffa83b74dce00b",
+      "task_index": 205,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 55,
+      "scene_key": "665a58663b09dab12aae794d95593b5d927510512e605cf1e7ffa83b74dce00b",
+      "task_index": 206,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "critic_rerank",
+        "candidate0"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 55,
+      "scene_key": "665a58663b09dab12aae794d95593b5d927510512e605cf1e7ffa83b74dce00b",
+      "task_index": 207,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 56,
+      "scene_key": "3c3650d20d869b4c625cb2cbb01add10efc7235fb4caa6549f46631ec72490d3",
+      "task_index": 208,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 56,
+      "scene_key": "3c3650d20d869b4c625cb2cbb01add10efc7235fb4caa6549f46631ec72490d3",
+      "task_index": 209,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 56,
+      "scene_key": "3c3650d20d869b4c625cb2cbb01add10efc7235fb4caa6549f46631ec72490d3",
+      "task_index": 210,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "uniform_random",
+        "candidate0",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 56,
+      "scene_key": "3c3650d20d869b4c625cb2cbb01add10efc7235fb4caa6549f46631ec72490d3",
+      "task_index": 211,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 57,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 212,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 57,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 213,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 57,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 214,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "uniform_random",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 57,
+      "scene_key": "c44e530686e994244b048137f2761d8cf85dd44c9d9505e853c6fb07153fa3ea",
+      "task_index": 215,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 58,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 216,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 58,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 217,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 58,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 218,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "candidate0",
+        "uniform_random",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 58,
+      "scene_key": "091bfa66e8323c5c51d151ecc2edf6040db62f841fa54b771f5e6583ee5a22ba",
+      "task_index": 219,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 59,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 220,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 59,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 221,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 59,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 222,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "critic_rerank",
+        "candidate0",
+        "visual_qgf",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 59,
+      "scene_key": "81abb477e2829557948a0c6b56f8561db0b4087b27275f4e17b0e5b406144de2",
+      "task_index": 223,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 60,
+      "scene_key": "9a61cca00ac32095f3f0ab6a5beafa7d99fa656a47dba41340a2c4c9a814001c",
+      "task_index": 224,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 60,
+      "scene_key": "9a61cca00ac32095f3f0ab6a5beafa7d99fa656a47dba41340a2c4c9a814001c",
+      "task_index": 225,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 60,
+      "scene_key": "9a61cca00ac32095f3f0ab6a5beafa7d99fa656a47dba41340a2c4c9a814001c",
+      "task_index": 226,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 60,
+      "scene_key": "9a61cca00ac32095f3f0ab6a5beafa7d99fa656a47dba41340a2c4c9a814001c",
+      "task_index": 227,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 61,
+      "scene_key": "5bd64af1d62250559dcaedcffa9d23e342302437df2655a7bee2917914eaab15",
+      "task_index": 228,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 61,
+      "scene_key": "5bd64af1d62250559dcaedcffa9d23e342302437df2655a7bee2917914eaab15",
+      "task_index": 229,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 61,
+      "scene_key": "5bd64af1d62250559dcaedcffa9d23e342302437df2655a7bee2917914eaab15",
+      "task_index": 230,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "uniform_random",
+        "critic_rerank",
+        "visual_qgf"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 61,
+      "scene_key": "5bd64af1d62250559dcaedcffa9d23e342302437df2655a7bee2917914eaab15",
+      "task_index": 231,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 62,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 232,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 62,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 233,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 62,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 234,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "candidate0",
+        "visual_qgf",
+        "critic_rerank",
+        "uniform_random"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 62,
+      "scene_key": "987da53c22be72e605c2f5e866de4141f63762e4b0d420ee3d4b6ca0662232f5",
+      "task_index": 235,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "visual_qgf",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 0,
+      "arm_order_seed": 202644501,
+      "scene_index": 63,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 236,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "uniform_random",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 1,
+      "arm_order_seed": 202644501,
+      "scene_index": 63,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 237,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "candidate0",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 2,
+      "arm_order_seed": 202644501,
+      "scene_index": 63,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 238,
+      "uniform_random_seed": 202644502
+    },
+    {
+      "arm": "critic_rerank",
+      "arm_order": [
+        "visual_qgf",
+        "uniform_random",
+        "candidate0",
+        "critic_rerank"
+      ],
+      "arm_order_index": 3,
+      "arm_order_seed": 202644501,
+      "scene_index": 63,
+      "scene_key": "105e21be99b5fbe92eb907d58b6119f38fd62730d73faddde9b431a4724ddc03",
+      "task_index": 239,
+      "uniform_random_seed": 202644502
+    }
+  ]
+}

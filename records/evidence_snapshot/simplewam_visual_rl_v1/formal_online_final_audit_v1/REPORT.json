@@ -1,0 +1,48 @@
+{
+  "comparisons": {
+    "candidate0": {
+      "bootstrap95": [
+        -0.08737864077669903,
+        0.06796116504854369
+      ],
+      "mean_delta": -0.009708737864077669
+    },
+    "critic_rerank": {
+      "bootstrap95": [
+        -0.04854368932038835,
+        0.08737864077669903
+      ],
+      "mean_delta": 0.019417475728155338
+    },
+    "uniform_random": {
+      "bootstrap95": [
+        -0.10679611650485436,
+        0.04854368932038835
+      ],
+      "mean_delta": -0.02912621359223301
+    }
+  },
+  "errors": [],
+  "final_report_sha256": "ab8ffbd1dafabc4e2493ed867d14a7759e27f71a5614c8782f2446ebf6fca86d",
+  "scenes": 103,
+  "status": "SIMPLEWAM_VISUAL_QGF_FINAL_FORMAL_AUDIT_PASS",
+  "support_abstention": {
+    "candidate0": {
+      "count": 0,
+      "decisions": 3870
+    },
+    "critic_rerank": {
+      "count": 2,
+      "decisions": 4035
+    },
+    "uniform_random": {
+      "count": 0,
+      "decisions": 3780
+    },
+    "visual_qgf": {
+      "count": 1,
+      "decisions": 3946
+    }
+  },
+  "tasks": 412
+}

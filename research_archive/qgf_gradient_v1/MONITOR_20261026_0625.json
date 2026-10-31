@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-26 06:30:59 UTC",
+  "automation_id": "qgf-wam-rl",
+  "active_step": "1593640.328",
+  "collector_pid": 36225,
+  "dispatcher_pid": 19879,
+  "node": "gpu1",
+  "node_ip": "10.10.10.219",
+  "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+  "gpu_memory_mib": 14903,
+  "step_peak_rss_kib": 31406796,
+  "completed_audited_entries": 96,
+  "shard1_complete_markers": 40,
+  "shard1_independent_audit_done": false,
+  "completed_collection_gpu_seconds": 11897,
+  "live_step_elapsed_seconds_snapshot": 5756,
+  "live_cost_not_final": true,
+  "preparation": {
+    "module": "rl_batches.py",
+    "sha256": "bb4af4be0fa264b4a3204591f560872d662a39c225a87973243bec5562c70972",
+    "scope": "synthetic-only fold-isolated batching; no real corpus/scaler/model fit",
+    "cpu_tests_passed": 5,
+    "checks": [
+      "training-only scaler statistics",
+      "held transitions rejected from fitting",
+      "known plan versus actual feedback length",
+      "complete fixed within-bank permutation indices",
+      "assembled batch preserves shared TD targets in toy MatchedIQL"
+    ]
+  },
+  "full_dataset_admitted": false,
+  "gpu_encoder_audit": false,
+  "critic_fit": false,
+  "online_result": null,
+  "audio": "DISABLED",
+  "user_action_required": false
+}

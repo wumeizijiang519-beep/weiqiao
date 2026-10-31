@@ -1,0 +1,63 @@
+{
+  "status": "SIMPLEWAM_VISUAL_IQL_QUALIFIED",
+  "errors": [],
+  "seeds": {
+    "202644201": {
+      "rows": 12218,
+      "physical_groups": 137,
+      "controls": {
+        "state_only": {
+          "group_mean_mse_improvement": 0.003706610994413495,
+          "bootstrap_lower95": 0.0014197765674907714
+        },
+        "permutation": {
+          "group_mean_mse_improvement": 0.008927681483328342,
+          "bootstrap_lower95": 0.005711216933559626
+        }
+      },
+      "action_sensitivity": 0.062147073447704315,
+      "state_only_action_sensitivity": 0.006454631220549345,
+      "permutation_action_sensitivity": 0.02005041390657425,
+      "pass": true
+    },
+    "202644202": {
+      "rows": 12218,
+      "physical_groups": 137,
+      "controls": {
+        "state_only": {
+          "group_mean_mse_improvement": 0.007465498521924019,
+          "bootstrap_lower95": 0.0040562610258348284
+        },
+        "permutation": {
+          "group_mean_mse_improvement": 0.008423038758337498,
+          "bootstrap_lower95": 0.004913215432316065
+        }
+      },
+      "action_sensitivity": 0.0627492293715477,
+      "state_only_action_sensitivity": 0.006578405387699604,
+      "permutation_action_sensitivity": 0.020758559927344322,
+      "pass": true
+    },
+    "202644203": {
+      "rows": 12218,
+      "physical_groups": 137,
+      "controls": {
+        "state_only": {
+          "group_mean_mse_improvement": 0.0048501449637115,
+          "bootstrap_lower95": 0.0023124836094211786
+        },
+        "permutation": {
+          "group_mean_mse_improvement": 0.009202660992741585,
+          "bootstrap_lower95": 0.005689993302803486
+        }
+      },
+      "action_sensitivity": 0.06242760643362999,
+      "state_only_action_sensitivity": 0.00594420125707984,
+      "permutation_action_sensitivity": 0.01988244615495205,
+      "pass": true
+    }
+  },
+  "draws": 10000,
+  "group_equal": true,
+  "manifest_sha256": "172952cc0680835c2edf655c42d2a8f63b982926a783e987ba215b45ab76267d"
+}

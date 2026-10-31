@@ -1,0 +1,78 @@
+{
+  "status": "SUPPLEMENTAL_RESOURCE_COSTS_FROZEN",
+  "attempts": [
+    {
+      "run": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_resource_v1_gpu22_gpu0",
+      "exit_code": 0,
+      "gpu_count": 1,
+      "charged_gpu_seconds": 7,
+      "evidence_sha256": {
+        "process_exit_code": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+        "charged_gpu_seconds": "10159baf262b43a92d95db59dae1f72c645127301661e0a3ce4e38b295a97c58",
+        "start_time": "bf888b29217d539dcfeec70310c4f4bce37b18038f407fb9b79097b5c5dd03a0",
+        "end_time": "c9a74ed3adae96e736bf7f70b779541d9e92bd88911e1f8af7b7bcda60924791",
+        "owner.txt": "ec0e04d662cd7528d29594e7ad935c4f07deface674c612c99336d2907829ddc",
+        "cgroup.txt": "be74596de9c3fef4d64e00334c8066ace3440227bea8793ad7741debbcd471ee",
+        "SOURCE_SHA256SUMS": "2042cc8355f64bfaeccc072f893d39763acebfef70501898bb1037a383c85747"
+      }
+    },
+    {
+      "run": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_resource_v1_gpu22_gpu1",
+      "exit_code": 0,
+      "gpu_count": 1,
+      "charged_gpu_seconds": 3,
+      "evidence_sha256": {
+        "process_exit_code": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+        "charged_gpu_seconds": "1121cfccd5913f0a63fec40a6ffd44ea64f9dc135c66634ba001d10bcf4302a2",
+        "start_time": "7a3680f50df0936e7e11027f237f92286ff87cec34ac956cceefbfcf0f7b900a",
+        "end_time": "a1988a000b44a1eca06a80d88f85d78607dcb5ed6387e999921ff4e95f1cf343",
+        "owner.txt": "88230225a23b3ecc52256bd647160ef7d5f084042664815f0bb1f12c72dde58f",
+        "cgroup.txt": "be74596de9c3fef4d64e00334c8066ace3440227bea8793ad7741debbcd471ee",
+        "SOURCE_SHA256SUMS": "2042cc8355f64bfaeccc072f893d39763acebfef70501898bb1037a383c85747"
+      }
+    },
+    {
+      "run": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_resource_v1_gpu4_gpu3",
+      "exit_code": 1,
+      "gpu_count": 1,
+      "charged_gpu_seconds": 55,
+      "evidence_sha256": {
+        "process_exit_code": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+        "charged_gpu_seconds": "4c82a221b575ce7fe118b2e8cdf0764bf4ef570a3017e80b6d3438af9095f376",
+        "start_time": "f5ff2b414030038cdbcc69da0dbd87a6043e0136a1abc69266a86f5252e4c0cc",
+        "end_time": "f12fd2939227261167e4c298d59ed26ad904df073f01a0fe950e212a810b3498",
+        "owner.txt": "7dc73c2fc05e5210104d8dc4c975a094f350cfdcaf3d7364cc6e8d37a530837b",
+        "cgroup.txt": "ec822c365b14ffb663bdeabd49e3b3d852cd7e9a66b6eb74595d2d4bed0f11eb",
+        "SOURCE_SHA256SUMS": "2042cc8355f64bfaeccc072f893d39763acebfef70501898bb1037a383c85747"
+      }
+    },
+    {
+      "run": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_resource_v1_gpu4_gpu3_retry1",
+      "exit_code": 1,
+      "gpu_count": 1,
+      "charged_gpu_seconds": 673,
+      "evidence_sha256": {
+        "process_exit_code": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+        "charged_gpu_seconds": "2bb2d5b81d58031f82a3b0a13571597639a69b47c44225c6f0f62091fbbca52b",
+        "start_time": "d8712acaad7ea635fa8ab0ccc96837b8794b8a73fb4bce38592f08156811ff02",
+        "end_time": "383892e508596965d062aad5d3aaaa75c2075936f7ae685c6605e3d2d4919dcd",
+        "owner.txt": "95851b363711fd3bb0c0d2aab40e409cac7fa03a56e8857eeffbf52536a0b233",
+        "cgroup.txt": "ec822c365b14ffb663bdeabd49e3b3d852cd7e9a66b6eb74595d2d4bed0f11eb",
+        "SOURCE_SHA256SUMS": "f37764fc93eb637d9263ca128eb57990375ab9a101da329549b7982034411929"
+      }
+    }
+  ],
+  "resource_gpu_seconds": 738,
+  "original_stage0_gpu_seconds": 1058,
+  "integration_gpu_seconds_including_resources": 1796,
+  "integration_gpu_hours": 0.4988888888888889,
+  "phase_cap_gpu_hours": 2,
+  "reserve_fraction": 0.2,
+  "accounting_scope": "worker elapsed device-hours; not parent reservation hours",
+  "merge_rule": "Add resource_gpu_seconds ONCE to old Slurm-only totals; do not add Stage0 twice",
+  "cpu_comparison_exit_code": 2,
+  "cpu_comparison_gpu_seconds": 0,
+  "resource_portability_status": "NUMERIC_PORTABILITY_FAILED",
+  "qualification_override": false,
+  "source_sha256": "61f491fed0b94beb2de26f8229b4461f88e30f517d27327b0675f106875ac80d"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "REGISTERED_BEFORE_DISPATCH",
+  "platform_cutoff_cst": "2026-11-01T00:00:00+08:00",
+  "max_new_integration_gpu_seconds": 1560,
+  "sources": {
+    "resource_check.py": "bf9336c9dda5f79da882b383e74cccaeb4102daa73c003253300035a0bbc91b4",
+    "run_resource_check.sh": "e6ead0774d9e8bc130fed1e7ebae037228c93a6d89d8f27f89d8eee48a7647ad",
+    "RESOURCE_ACCELERATION_V1.md": "a197310c07be8b711d8573cdf0a943dfe789fff6bb15918a1487a2ad8cb1910a",
+    "zero_action_probe.py": "81f60bdf9ecaa56f0ae5909ae6ba0b9d5e02ffe0c4a255f58c2172d2d10b4fe1",
+    "core.py": "1b30c5d66f3958b05aa9dcc582f2eef42ee03a308300260fbe0b6d74fc0f6d29"
+  },
+  "workers": [
+    {"host": "gpu4", "job": 1581551, "physical_gpu": 3, "uuid": "GPU-e3a3e35f-949f-6746-45a4-43577f0b9b68", "mode": "egl_and_wam_portability", "hard_seconds": 1200},
+    {"host": "gpu22", "job": 1598338, "physical_gpu": 0, "uuid": "GPU-f39a66d0-5c4f-f2ca-4e60-5f52ed1b78db", "mode": "kernel", "hard_seconds": 180},
+    {"host": "gpu22", "job": 1598338, "physical_gpu": 1, "uuid": "GPU-2efca5c1-71db-641d-deb5-617c3e0f4fed", "mode": "kernel", "hard_seconds": 180}
+  ],
+  "no_robot_actions": true,
+  "no_new_cohort_episodes": true,
+  "no_real_data_feature_extraction_or_fit": true
+}

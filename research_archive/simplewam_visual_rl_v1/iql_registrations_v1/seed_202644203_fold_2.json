@@ -1,0 +1,31 @@
+{
+  "status": "SIMPLEWAM_VISUAL_IQL_WORKER_REGISTERED",
+  "worker": "seed_202644203_fold_2",
+  "seed": 202644203,
+  "heldout_fold": 2,
+  "corpus": "simplewam_visual_rl_v1/critic_corpus_v1/CORPUS.npz",
+  "corpus_sha256": "a2337827258238d6369a0161179491ffe3629b04f113cea9c0ab3d84a56e62b0",
+  "corpus_audit_sha256": "75006a798abc2d2bdcba32c6ae1f5334a1db766638343f4cc33d30b81f44d73f",
+  "training": {
+    "updates": 3000,
+    "batch_size": 256,
+    "hidden_dim": 512,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "expectile": 0.7,
+    "target_rate": 0.005
+  },
+  "q_input": {
+    "token_dim": 2048,
+    "proprio_dim": 9,
+    "planned_prefix": [
+      10,
+      7
+    ],
+    "realized_length": false
+  },
+  "controls": [
+    "state_only",
+    "within_physical_group_action_permutation"
+  ]
+}

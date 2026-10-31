@@ -1,0 +1,20 @@
+{
+  "source_sha256": {
+    "qualify_rl_oof.py": "a5d2666608662b06acdb659f96d631e0730ab6726e1a15acaecd4c21790e53d4",
+    "critic_metrics.py": "5b946344c979133cee1ab67e8c81e21fce5053918c08a757000f02d4491bf523",
+    "training_data.py": "02218ca71b8ad1b588420bf572f3a0657ce5fd434e1da50fa25ad56c2637aba6",
+    "corpus_reader.py": "fab2ed35628a89e645c4171aa478658d5cad7a87ba3e9fd00d4446cce93d8670",
+    "rl_corpus.py": "8967ee46ccf13655f254585fe8996af96df0c69caf62541fac6151c03c6824c1",
+    "train_rl_fold.py": "2ca85b8048715201d94e13875b402bdcbb2d4ac785eefa2ddac97949e00153aa"
+  },
+  "corpus_report": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_full_feature_cpu_audit_v1/REPORT.json",
+  "corpus_report_sha256": "b0ea11ddd47233e913fa48fe0cd7964d78fda0a5f96d336b2b11c732ef4f1cc0",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87",
+  "bootstrap_seed": 202640901,
+  "bootstrap_draws": 10000,
+  "normalizer_atol": 1e-07,
+  "normalizer_rtol": 1e-06,
+  "source_registration_sha256": "cd8d08e72ac18a865c618a5bfed62ef0f06681061f34e0a7ac47d8c12910a4d5",
+  "zero_gpu": true,
+  "hard_cpu_seconds": 5400
+}

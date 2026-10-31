@@ -1,0 +1,79 @@
+{
+  "backbone": "Simple-WAM",
+  "benchmark": "LIBERO",
+  "corpus_sha256": "a2337827258238d6369a0161179491ffe3629b04f113cea9c0ab3d84a56e62b0",
+  "critic_aggregation": "mean_of_three_full_data_final_conservative_twin_minima",
+  "critic_checkpoints": [
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_execution_v1/seed_202644201/FINAL_CRITIC.pt",
+      "seed": 202644201,
+      "sha256": "6ef96cfa43396a06b583952ba28a2b7b684fb3958f490a3fc83cab780c981dab"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_execution_v1/seed_202644202/FINAL_CRITIC.pt",
+      "seed": 202644202,
+      "sha256": "4d22e6a01e0ccc69b278de1caecada99b9a5461b0ddf72bdf1da6e014ea05fcf"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_execution_v1/seed_202644203/FINAL_CRITIC.pt",
+      "seed": 202644203,
+      "sha256": "1e5faeb55a8af41aa9aa049548ba76f6d7f16c7b6528305f2d34403758e16e55"
+    }
+  ],
+  "final_critic_ensemble_registration": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_ensemble_v1/REGISTRATION.json",
+  "final_critic_ensemble_registration_sha256": "609a274798f4ba9686e6ee460ffa6c0f717784d8caa27f8dd7829c78d81c9bc7",
+  "online_validation": {
+    "admit_rule": "visual_qgf improves candidate0 and uniform_random and is noninferior to critic_rerank",
+    "arms": [
+      "candidate0",
+      "uniform_random",
+      "critic_rerank",
+      "visual_qgf"
+    ],
+    "cohort_manifest": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/evidence/COHORT_MANIFEST.json",
+    "cohort_manifest_sha256": "7194f02c8dba2c9ae01fddab1d0c48c169e28f6778e3926a0386dfeff0307af9",
+    "formal_partition_locked": true,
+    "native_candidates": 4,
+    "partition": "formal",
+    "primary_endpoint": "official_success",
+    "same_denoising_budget": true,
+    "scenes": 103,
+    "shadow_critic_and_gradient_for_all_arms": true
+  },
+  "qgf": {
+    "action_dim": 7,
+    "continuous_dims": 6,
+    "execution_horizon": 10,
+    "gripper_gradient_masked": true,
+    "max_grad_norm": 1.0,
+    "sigma_max": 1.0,
+    "sigma_min": 0.0,
+    "token_gradients": false,
+    "wam_gradients": false,
+    "weight": 0.1
+  },
+  "qualification_audit_sha256": "42ef3a5a5b4c99bba3ddf61158bd60bbf87cc21c8de3fa00870d268a1100c5d9",
+  "qualification_report_sha256": "79cf7e05a87bf61d58d1a9d9a54cc204bde66dd191b532897c8ea1a4d512ef9b",
+  "selection_used_outcomes": false,
+  "status": "SIMPLEWAM_VISUAL_QGF_DEPLOYMENT_REGISTERED",
+  "support_max": [
+    1.0390625,
+    0.921875,
+    1.0625,
+    0.59375,
+    0.51953125,
+    0.8984375,
+    1.0859375
+  ],
+  "support_min": [
+    -0.8828125,
+    -0.9375,
+    -0.78125,
+    -0.703125,
+    -0.40625,
+    -0.9453125,
+    -1.15625
+  ],
+  "token_checkpoint": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/token_training_v1/TOKEN.pt",
+  "token_checkpoint_sha256": "40a436a09e618965642f680bda5d1339f3426ccd735b73aba6629fbbc46a8c97"
+}

@@ -1,0 +1,120 @@
+{
+  "ensemble_rule": "mean_over_three_seeds_of_min_q1_q2",
+  "errors": [],
+  "manifest_sha256": "89524e2704e68d9e7451ab1d0475ebd48ddc6d1d70b4fbe6a97dbb74ff0d4baa",
+  "outcome_dependent_selection": false,
+  "status": "SIMPLEWAM_VISUAL_IQL_FINAL_AUDIT_PASS",
+  "workers": [
+    {
+      "checkpoint_sha256": "6ef96cfa43396a06b583952ba28a2b7b684fb3958f490a3fc83cab780c981dab",
+      "checks": {
+        "action_sensitivity_nonzero": true,
+        "all_training_rows_registered": true,
+        "checkpoint_hash_link": true,
+        "metrics_finite": true,
+        "metrics_not_selection_inputs": true,
+        "no_heldout_fold": true,
+        "no_validation_or_online_outcomes": true,
+        "q_std_nonzero": true,
+        "registered_batch": true,
+        "registered_rows": true,
+        "registered_updates": true,
+        "registration_hash_link": true,
+        "registration_seed": true,
+        "report_rows": true,
+        "report_seed": true,
+        "report_status": true,
+        "report_step": true
+      },
+      "fixed_final_step": 50000,
+      "metrics": {
+        "action_sensitivity_full_training": 0.05877185985445976,
+        "elapsed_seconds": 976.6868404438719,
+        "loss": 0.0013829548843204975,
+        "mc_mse_full_training": 0.005671034101396799,
+        "q_loss": 0.0012030694633722305,
+        "q_mean": 0.16088885068893433,
+        "q_std": 0.2456795573234558,
+        "v_loss": 0.00017988536274060607
+      },
+      "registration_sha256": "42f33f8b9f300393f1f9d124e6329ff594db945794a0be2b54a486f7cf4c04af",
+      "report_sha256": "9fd6d1966e308e068ca2e488e24e62ec83eef9045032b17b36b431bb4fbece23",
+      "seed": 202644201,
+      "training_rows": 12218
+    },
+    {
+      "checkpoint_sha256": "4d22e6a01e0ccc69b278de1caecada99b9a5461b0ddf72bdf1da6e014ea05fcf",
+      "checks": {
+        "action_sensitivity_nonzero": true,
+        "all_training_rows_registered": true,
+        "checkpoint_hash_link": true,
+        "metrics_finite": true,
+        "metrics_not_selection_inputs": true,
+        "no_heldout_fold": true,
+        "no_validation_or_online_outcomes": true,
+        "q_std_nonzero": true,
+        "registered_batch": true,
+        "registered_rows": true,
+        "registered_updates": true,
+        "registration_hash_link": true,
+        "registration_seed": true,
+        "report_rows": true,
+        "report_seed": true,
+        "report_status": true,
+        "report_step": true
+      },
+      "fixed_final_step": 50000,
+      "metrics": {
+        "action_sensitivity_full_training": 0.053294021636247635,
+        "elapsed_seconds": 1007.0361303891987,
+        "loss": 0.0014251929242163897,
+        "mc_mse_full_training": 0.006160098128020763,
+        "q_loss": 0.0012495525879785419,
+        "q_mean": 0.16094942390918732,
+        "q_std": 0.2355821579694748,
+        "v_loss": 0.0001756403362378478
+      },
+      "registration_sha256": "b9966badf2b3436dbc21af19d204bca3509fc30706acba741652f6fbbf3b7913",
+      "report_sha256": "81a16537d2d31c86e31f78e0395fd81b5506a372e7a4d23bc42bb250f1addfe0",
+      "seed": 202644202,
+      "training_rows": 12218
+    },
+    {
+      "checkpoint_sha256": "1e5faeb55a8af41aa9aa049548ba76f6d7f16c7b6528305f2d34403758e16e55",
+      "checks": {
+        "action_sensitivity_nonzero": true,
+        "all_training_rows_registered": true,
+        "checkpoint_hash_link": true,
+        "metrics_finite": true,
+        "metrics_not_selection_inputs": true,
+        "no_heldout_fold": true,
+        "no_validation_or_online_outcomes": true,
+        "q_std_nonzero": true,
+        "registered_batch": true,
+        "registered_rows": true,
+        "registered_updates": true,
+        "registration_hash_link": true,
+        "registration_seed": true,
+        "report_rows": true,
+        "report_seed": true,
+        "report_status": true,
+        "report_step": true
+      },
+      "fixed_final_step": 50000,
+      "metrics": {
+        "action_sensitivity_full_training": 0.05207110941410065,
+        "elapsed_seconds": 979.7772816978395,
+        "loss": 0.0018648859113454819,
+        "mc_mse_full_training": 0.00564521225169301,
+        "q_loss": 0.0015720862429589033,
+        "q_mean": 0.15731969475746155,
+        "q_std": 0.2331136167049408,
+        "v_loss": 0.00029279966838657856
+      },
+      "registration_sha256": "530e4a042e0260a557805a934d5daba84d1c035ffe78386aa65e5f0cd59ea893",
+      "report_sha256": "fbfad803cf7ea493fc3d911f0af5bb981baac17847c5f962e858e981ae8d57c2",
+      "seed": 202644203,
+      "training_rows": 12218
+    }
+  ]
+}

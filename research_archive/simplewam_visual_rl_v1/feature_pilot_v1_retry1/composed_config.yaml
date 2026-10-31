@@ -1,0 +1,256 @@
+output_dir: null
+batch_size: null
+global_batch_size: 128
+num_workers: 8
+lr_scheduler_type: cosine
+learning_rate: 0.0001
+num_epochs: 10
+max_steps: null
+log_every: 10
+save_every: 5000
+save_state_every: 100000
+eval_every: 200
+eval_num_inference_steps: 10
+gradient_accumulation_steps: 1
+split_video_action_loss_backward: false
+split_video_action_loss_mode: alternating_batches
+mixed_precision: bf16
+seed: 10000
+max_grad_norm: 1.0
+weight_decay: 0.01
+resume: null
+sampling:
+  weighted: false
+  default_weight: 1.0
+  combine: max
+  replacement: true
+  num_samples: null
+  rules: []
+overwrite_video_latents: false
+video_latent_save_dtype: fp16
+video_latent_batch_size: 8
+video_latent_num_workers: 8
+wandb:
+  enabled: true
+  workspace: null
+  project: simple-wam
+  name: null
+  group: null
+  mode: online
+data:
+  train:
+    _target_: simplewam.datasets.lerobot.robot_video_dataset.RobotVideoDataset
+    dataset_dirs:
+    - ./data/libero_mujoco3.3.2/libero_spatial_no_noops_lerobot
+    - ./data/libero_mujoco3.3.2/libero_object_no_noops_lerobot
+    - ./data/libero_mujoco3.3.2/libero_goal_no_noops_lerobot
+    - ./data/libero_mujoco3.3.2/libero_10_no_noops_lerobot
+    shape_meta:
+      images:
+      - key: image
+        raw_shape:
+        - 3
+        - 512
+        - 512
+        shape:
+        - 3
+        - 224
+        - 224
+      - key: wrist_image
+        raw_shape:
+        - 3
+        - 512
+        - 512
+        shape:
+        - 3
+        - 224
+        - 224
+      action:
+      - key: default
+        raw_shape: 7
+        shape: 7
+      state:
+      - key: default
+        raw_shape: 8
+        shape: 8
+    num_frames: 33
+    global_sample_stride: 1
+    action_video_freq_ratio: 4
+    video_size:
+    - 224
+    - 448
+    camera_key: null
+    val_set_proportion: 0.0
+    is_training_set: true
+    skip_padding_as_possible: false
+    concat_multi_camera: horizontal
+    use_precomputed_video_latents: true
+    video_latent_cache_dir: ./data/video_latents/libero
+    strict_video_latent_loading: true
+    video_latent_storage_format: npz_compressed
+    video_latent_shard_size: 10000
+    use_precomputed_metadata_cache: false
+    metadata_cache_dir: null
+    metadata_cache_shard_size: 10000
+    libero_include_suites: null
+    libero_drop_task_ids: null
+    libero_fewshot_per_task: null
+    libero_fewshot_seed: 0
+    libero_fewshot_allow_less: false
+    processor:
+      _target_: simplewam.datasets.lerobot.processors.fastwam_processor.FastWAMProcessor
+      shape_meta: ${data.train.shape_meta}
+      num_obs_steps: ${data.train.num_frames}
+      num_output_cameras: 2
+      action_output_dim: 7
+      proprio_output_dim: 8
+      delta_action_dim_mask:
+        default:
+        - true
+        - true
+        - true
+        - true
+        - true
+        - true
+        - false
+      action_state_transforms: null
+      use_stepwise_action_norm: false
+      norm_default_mode: min/max
+      norm_exception_mode: null
+      action_state_merger:
+        _target_: simplewam.datasets.lerobot.transforms.action_state_merger.ConcatLeftAlign
+      train_transforms:
+      - _target_: simplewam.datasets.lerobot.transforms.image.ToTensor
+      - _target_: torchvision.transforms.Resize
+        size:
+        - 224
+        - 224
+      val_transforms:
+      - _target_: simplewam.datasets.lerobot.transforms.image.ToTensor
+      - _target_: torchvision.transforms.Resize
+        size:
+        - 224
+        - 224
+    text_embedding_cache_dir: ./data/text_embeds_cache/libero
+    context_len: 128
+model:
+  _target_: simplewam.runtime.create_fastwam_joint
+  model_id: Wan-AI/Wan2.2-TI2V-5B
+  tokenizer_model_id: Wan-AI/Wan2.1-T2V-1.3B
+  tokenizer_max_len: 128
+  load_text_encoder: true
+  proprio_dim: ${data.train.processor.proprio_output_dim}
+  redirect_common_files: true
+  mot_checkpoint_mixed_attn: false
+  action_dit_pretrained_path: null
+  skip_dit_load_from_pretrain: true
+  video_dit_config:
+    has_image_input: false
+    patch_size:
+    - 1
+    - 2
+    - 2
+    in_dim: 48
+    hidden_dim: 3072
+    ffn_dim: 14336
+    freq_dim: 256
+    text_dim: 4096
+    out_dim: 48
+    num_heads: 24
+    attn_head_dim: 128
+    num_layers: 30
+    eps: 1.0e-06
+    seperated_timestep: true
+    require_clip_embedding: false
+    require_vae_embedding: false
+    fuse_vae_embedding_in_latents: true
+    use_gradient_checkpointing: ${model.mot_checkpoint_mixed_attn}
+    video_attention_mask_mode: first_frame_causal
+    action_conditioned: false
+    action_dim: ${data.train.processor.action_output_dim}
+    action_group_causal_mask_mode: group_diagonal
+  action_dit_config:
+    action_dim: ${data.train.processor.action_output_dim}
+    hidden_dim: 1024
+    ffn_dim: 4096
+    num_heads: 24
+    attn_head_dim: 128
+    num_layers: 30
+    text_dim: 4096
+    freq_dim: 256
+    eps: 1.0e-06
+    use_gradient_checkpointing: ${model.mot_checkpoint_mixed_attn}
+  video_scheduler:
+    train_shift: 5.0
+    infer_shift: 5.0
+    num_train_timesteps: 1000
+  video_training_noise_mode: mixed
+  video_full_noise_prob: 0.5
+  video_full_noise_loss_weight: 1.0
+  action_scheduler:
+    train_shift: 5.0
+    infer_shift: 5.0
+    num_train_timesteps: 1000
+  loss:
+    lambda_video: 3.0
+    lambda_action: 1.0
+    action_loss_exclude_dataset_keywords: []
+ckpt: /public/wangsenbao221/pqr/qgf_mainstream_20261022/checkpoints/Simple-WAM/simplewam_checkpoints/libero_joint_2cam224_1e-4.pt
+gpu_id: 0
+EVALUATION:
+  task_suite_name: libero_spatial
+  task_id: 0
+  num_trials: 50
+  output_dir: /public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/feature_pilot_v1_retry1
+  env_num: 1
+  num_steps_wait: 30
+  replan_steps: 10
+  binarize_gripper: true
+  use_action_ensembler: false
+  visualize_future_video: false
+  freeze_future_video_noise: true
+  profile_action_chunk_time: false
+  action_chunk_timing_scope: end_to_end
+  compile_action_infer: false
+  torch_compile_action: true
+  torch_compile_video: false
+  torch_compile_backend: inductor
+  torch_compile_mode: reduce-overhead
+  torch_compile_fullgraph: false
+  torch_compile_dynamic: false
+  torch_compile_cudagraph_trees: false
+  save_attention_maps: false
+  attention_max_replans: 1
+  attention_max_denoise_steps: 0
+  attention_grid_step_indices:
+  - 0
+  - 5
+  - 9
+  attention_grid_layer_indices:
+  - 0
+  - 15
+  - 29
+  attention_grid_tile_h: 56
+  attention_grid_tile_w: 112
+  action_horizon: null
+  num_inference_steps: 10
+  sigma_shift: null
+  text_cfg_scale: 1.0
+  negative_prompt: ''
+  rand_device: cpu
+  tiled: false
+  offload_text_encoder: true
+  dataset_stats_path: /public/wangsenbao221/pqr/qgf_mainstream_20261022/checkpoints/Simple-WAM/simplewam_checkpoints/libero_dataset_stats.json
+  device: cuda
+MULTIRUN:
+  create_only: false
+  task_file: null
+  overrides_file: null
+  task_suite_names:
+  - libero_10
+  - libero_goal
+  - libero_spatial
+  - libero_object
+  num_gpus: 8
+  max_tasks_per_gpu: 2
+  persistent_workers: false

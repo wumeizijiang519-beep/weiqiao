@@ -1,0 +1,12 @@
+{
+  "status": "SIMPLEWAM_RL_TOKEN_AUDIT_PASS",
+  "errors": [],
+  "checkpoint_sha256": "40a436a09e618965642f680bda5d1339f3426ccd735b73aba6629fbbc46a8c97",
+  "registration_sha256": "4839d751030470073011578c3db7ab2c88285ba0d62d80a2c7ff22f9c4139caf",
+  "training_rows": 11242,
+  "validation_rows": 1264,
+  "updates": 10000,
+  "reward_fields_read": 0,
+  "success_fields_read": 0,
+  "critic_updates": 0
+}

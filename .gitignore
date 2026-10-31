@@ -1,0 +1,41 @@
+# Model and training artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.bin
+
+# Media and large execution outputs
+*.mp4
+*.avi
+*.mov
+*.webm
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Runtime and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+cache/
+checkpoints/
+outputs/
+runs/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+*.pid
+

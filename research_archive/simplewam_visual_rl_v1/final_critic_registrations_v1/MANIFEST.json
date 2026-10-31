@@ -1,0 +1,20 @@
+{
+  "status": "SIMPLEWAM_VISUAL_IQL_FINAL_REGISTRATIONS_FROZEN",
+  "workers": [
+    {
+      "registration": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_registrations_v1/seed_202644201.json",
+      "seed": 202644201,
+      "sha256": "42f33f8b9f300393f1f9d124e6329ff594db945794a0be2b54a486f7cf4c04af"
+    },
+    {
+      "registration": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_registrations_v1/seed_202644202.json",
+      "seed": 202644202,
+      "sha256": "b9966badf2b3436dbc21af19d204bca3509fc30706acba741652f6fbbf3b7913"
+    },
+    {
+      "registration": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/final_critic_registrations_v1/seed_202644203.json",
+      "seed": 202644203,
+      "sha256": "530e4a042e0260a557805a934d5daba84d1c035ffe78386aa65e5f0cd59ea893"
+    }
+  ]
+}

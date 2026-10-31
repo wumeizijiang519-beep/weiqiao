@@ -1,0 +1,18 @@
+{
+  "status": "SIMPLEWAM_VISUAL_RL_CRITIC_CORPUS_AUDIT_PASS",
+  "errors": [],
+  "rows": 12218,
+  "source_rows_checked": 12218,
+  "episodes": 288,
+  "physical_groups": 137,
+  "folds": [
+    0,
+    1,
+    2
+  ],
+  "planned_prefix_length": 10,
+  "action_dim": 7,
+  "realized_length_in_q_input": false,
+  "corpus_sha256": "a2337827258238d6369a0161179491ffe3629b04f113cea9c0ab3d84a56e62b0",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "SIMPLEWAM_VISUAL_RL_CRITIC_CORPUS_COMPLETE",
+  "rows": 12218,
+  "episodes": 288,
+  "physical_groups": 137,
+  "token_dim": 2048,
+  "planned_prefix_length": 10,
+  "action_dim": 7,
+  "realized_length_in_q_input": false,
+  "corpus_sha256": "a2337827258238d6369a0161179491ffe3629b04f113cea9c0ab3d84a56e62b0",
+  "token_checkpoint_sha256": "40a436a09e618965642f680bda5d1339f3426ccd735b73aba6629fbbc46a8c97",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87"
+}

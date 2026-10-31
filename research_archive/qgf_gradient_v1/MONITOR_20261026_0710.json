@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-26 07:16:45 UTC",
+  "stage": "shard1_independent_audit",
+  "collected_entries": 160,
+  "independently_audited_entries": 96,
+  "completed_shard1_collection": {
+    "step": "1593640.328",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "gpu_seconds": 7542
+  },
+  "active_audit": {
+    "step": "1593640.329",
+    "pid": 34757,
+    "owner_uid": 2292,
+    "elapsed_seconds_snapshot": 1059,
+    "hard_limit_seconds": 1800,
+    "gpu_count": 0,
+    "scope": "independent array/RNG/video integrity; not dataset qualification",
+    "live_activity_observed": true,
+    "io_delta_over_5_seconds": {
+      "rchar": 163113886,
+      "wchar": 145885828
+    },
+    "cpu_tick_delta": 129,
+    "open_path_advanced_from": "train_0143/transition_0022",
+    "open_path_advanced_to": "train_0144/transition_0001",
+    "deadlock_observed": false
+  },
+  "liveness_probe": {
+    "step": "1593640.330",
+    "state": "COMPLETED",
+    "elapsed_seconds": 7,
+    "gpu_count": 0,
+    "source_sha256": "21110b999e21cc678dce68fcc82c824a70f0a321c0081df63f3fbb9f20cafd44",
+    "evidence_sha256": "c3f005ac38f661d12ca219e028f625cc8289c4571e11b0c0172c505642ed7134"
+  },
+  "completed_collection_gpu_seconds": 19439,
+  "completed_total_gpu_seconds_with_stage0": 20497,
+  "remaining_collection_episodes": 128,
+  "fresh_gpu_work_dispatched": false,
+  "old_completed_work_repeated": false,
+  "full_dataset_qualified": false,
+  "critic_fit": false,
+  "online_method_result": null,
+  "audio": "DISABLED",
+  "user_action_required": false
+}

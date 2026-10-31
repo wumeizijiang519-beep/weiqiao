@@ -1,0 +1,33 @@
+{
+  "stage": "FIRST_TWO_FIXED_EPISODES_FEATURE_COST_PILOT",
+  "dataset_result": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/training288_v2_remaining/DATASET_RESULT.json",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87",
+  "encoder_report": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_encoder_audit_v1_retry1/audit/REPORT.json",
+  "encoder_report_sha256": "f5d5d2317b6c4cec4a9a59f9a173ee5f9c377967dc7ca012ca4b6738b20d1b0a",
+  "resource_cost_supplement": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/RESOURCE_COST_SUPPLEMENT.json",
+  "resource_cost_sha256": "0defbb9a0a5eaa01ad076b8abe19fbaf0a563665fb8de9dd2c63f4fa25594c65",
+  "source_sha256": {
+    "extract_feature_blocks.py": "e0cd341acc842fab458b437e2bd4ac33d06ed430f9111edeb251c64409f6cc87",
+    "feature_corpus.py": "fdcfba6ccf82311784cce3e4fd13a8b44655cf65e1caddf584e8cceb9d6ea0ff",
+    "corpus_reader.py": "fab2ed35628a89e645c4171aa478658d5cad7a87ba3e9fd00d4446cce93d8670",
+    "rl_corpus.py": "8967ee46ccf13655f254585fe8996af96df0c69caf62541fac6151c03c6824c1",
+    "training_data.py": "02218ca71b8ad1b588420bf572f3a0657ce5fd434e1da50fa25ad56c2637aba6",
+    "features.py": "59c931136728d0591bb0c5a5b486380a7128fa35b574a0c99e8ea7fbf62f31ad",
+    "wam_runtime.py": "5c4b354b5903d6c4b955e557bbdd1bbec07bc6f6eedec35874bfda0211e3dad0",
+    "core.py": "1b30c5d66f3958b05aa9dcc582f2eef42ee03a308300260fbe0b6d74fc0f6d29",
+    "data_contract.py": "39301bf91924133f275ca4780a751a0c37c4787c5164fa45bb182e5d20bb26df",
+    "audit_current_features.py": "d4337f342aadf9e102d2874446b88a06565eee9ea2825276c284875aaa14f325"
+  },
+  "episode_ids": [
+    "train_0000",
+    "train_0001"
+  ],
+  "hard_gpu_seconds": 1200,
+  "critic_phase_gpu_seconds_spent": 809,
+  "cumulative_gpu_seconds_before_pilot": 35519,
+  "run_directory": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_feature_cost_pilot_v1",
+  "model_load_forecast_seconds": 600,
+  "measured_feature_p90": null,
+  "no_scientific_rollout": true,
+  "no_critic_fit": true
+}

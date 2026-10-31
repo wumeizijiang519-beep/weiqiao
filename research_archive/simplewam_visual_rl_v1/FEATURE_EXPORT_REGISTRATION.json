@@ -1,0 +1,33 @@
+{
+  "status": "SIMPLEWAM_VISUAL_FEATURE_EXPORT_REGISTERED",
+  "dataset_result": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/training288_v2_remaining/DATASET_RESULT.json",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87",
+  "input_index": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_feature_remaining286_v1/INDEX.json",
+  "input_index_sha256": "aafcd61df134ee2f5aff21a4d732907a133d73d05c836703f813e89d3290e46c",
+  "pilot_audit": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/feature_pilot_audit_v1/REPORT.json",
+  "pilot_audit_sha256": "46d74c179a9398fca523fe73fb6d0df0b78b459d6ed53a6f2bada0da23a86f05",
+  "wam_runtime": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/wam_runtime.py",
+  "run_directory": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/feature_export_v1",
+  "population": 288,
+  "feature_spec": {
+    "layers": [
+      29
+    ],
+    "spatial_stride": 4,
+    "num_views": 2,
+    "current_time_plane": 0,
+    "visual_seed": 202644001
+  },
+  "action_contract": {
+    "H": 32,
+    "A": 7,
+    "K": 10
+  },
+  "robot_actions_authorized": 0,
+  "critic_updates_authorized": 0,
+  "source_sha256": {
+    "export_features.py": "3f57e2af01585b3d31e61da7c04c55ea7224fb57926a5d2877a18e27280cd8c4",
+    "simplewam_visual_rl/features.py": "66212cbed508d84d5e47d66e56bd5f46879a2c8290552bff63b639654b43d601",
+    "wam_runtime.py": "5c4b354b5903d6c4b955e557bbdd1bbec07bc6f6eedec35874bfda0211e3dad0"
+  }
+}

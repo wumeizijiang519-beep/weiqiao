@@ -1,0 +1,58 @@
+{
+  "admitted": false,
+  "analysis_registration_sha256": "c8a2501a7e493074e4ee9356cb1b31e660a781833dd4ed44f04b4f648da7f747",
+  "comparisons": {
+    "candidate0": {
+      "bootstrap95": [
+        -0.11666666666666667,
+        0.08333333333333333
+      ],
+      "control_only_success": 5,
+      "mean_delta": -0.016666666666666666,
+      "visual_only_success": 4
+    },
+    "critic_rerank": {
+      "bootstrap95": [
+        0.03333333333333333,
+        0.23333333333333334
+      ],
+      "control_only_success": 1,
+      "mean_delta": 0.13333333333333333,
+      "visual_only_success": 9
+    },
+    "uniform_random": {
+      "bootstrap95": [
+        -0.08333333333333333,
+        0.05
+      ],
+      "control_only_success": 3,
+      "mean_delta": -0.016666666666666666,
+      "visual_only_success": 2
+    }
+  },
+  "complete_scenes": 60,
+  "complete_tasks": 240,
+  "errors": [],
+  "final_report_sha256": "0a46b4394ace3c6420018bbff58a83a1ccf39a908f94bcaa02151eb59215cc82",
+  "online_registration_sha256": "2c248d11bbf56166c4f5d2c13b049ce8d5871d2a9839b431ae871880a750a4fe",
+  "scientific_status": "NO_SIMPLEWAM_VISUAL_QGF_ONLINE_BENEFIT",
+  "status": "SIMPLEWAM_VISUAL_QGF_ONLINE_V2_FINAL_AUDIT_PASS",
+  "success": {
+    "candidate0": {
+      "count": 44,
+      "rate": 0.7333333333333333
+    },
+    "critic_rerank": {
+      "count": 35,
+      "rate": 0.5833333333333334
+    },
+    "uniform_random": {
+      "count": 44,
+      "rate": 0.7333333333333333
+    },
+    "visual_qgf": {
+      "count": 43,
+      "rate": 0.7166666666666667
+    }
+  }
+}

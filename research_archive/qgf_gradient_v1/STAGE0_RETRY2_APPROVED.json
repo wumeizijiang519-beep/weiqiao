@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-26",
+  "authorization": "The user explicitly approved one minimal repair retry after the two-attempt limit: allow one retry within the original aggregate 2 GPU-hour budget.",
+  "previous_attempts": [
+    {"step": "1593640.307", "failure": "Hydra output-path serialization before model construction"},
+    {"step": "1593640.309", "failure": "Shared-filesystem temporary-directory cleanup during first TorchInductor compilation after exact checkpoint loading"}
+  ],
+  "third_attempt_directory": "runs/qgf_gradient_zero_action_v1_retry2",
+  "only_new_runtime_change": "TMPDIR uses a unique node-local /tmp directory; checkpoints and retained outputs/caches stay in pqr.",
+  "unchanged": ["model", "checkpoint", "dtype", "compile_action", "guidance_code", "seeds", "observation", "tolerances", "scientific_gates"],
+  "maximum_total_attempts": 3,
+  "aggregate_gpu_hours_including_failures": 2.0,
+  "maximum_wall_seconds_this_attempt": 2700,
+  "no_additional_automatic_retry": true
+}

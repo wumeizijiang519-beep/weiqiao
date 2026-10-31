@@ -1,0 +1,8 @@
+{
+  "errors": [],
+  "manifest_sha256": "89524e2704e68d9e7451ab1d0475ebd48ddc6d1d70b4fbe6a97dbb74ff0d4baa",
+  "protocol_sha256": "1b8ede9a7c0d987d31a1585892f525928fac844653a83566e244ea194c84765f",
+  "status": "SIMPLEWAM_VISUAL_IQL_FINAL_SOURCE_AUDIT_PASS",
+  "trainer_sha256": "10feac33be94c182b00290e0113951ba99cf762157af2a9b6a459f27da2feaf6",
+  "worker_count": 3
+}

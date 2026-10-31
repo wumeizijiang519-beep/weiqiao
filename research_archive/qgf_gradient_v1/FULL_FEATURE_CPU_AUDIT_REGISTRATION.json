@@ -1,0 +1,19 @@
+{
+  "dataset": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/training288_v2_remaining/DATASET_RESULT.json",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87",
+  "feature_root": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_feature_remaining286_v1",
+  "index_sha256": "aafcd61df134ee2f5aff21a4d732907a133d73d05c836703f813e89d3290e46c",
+  "source_sha256": {
+    "audit_full_feature_corpus.py": "7ad4550932b459d646d41233de313a8a2e005b7433622d861c75972c0d44a145",
+    "corpus_reader.py": "fab2ed35628a89e645c4171aa478658d5cad7a87ba3e9fd00d4446cce93d8670",
+    "rl_corpus.py": "8967ee46ccf13655f254585fe8996af96df0c69caf62541fac6151c03c6824c1",
+    "training_data.py": "02218ca71b8ad1b588420bf572f3a0657ce5fd434e1da50fa25ad56c2637aba6",
+    "features.py": "59c931136728d0591bb0c5a5b486380a7128fa35b574a0c99e8ea7fbf62f31ad"
+  },
+  "run_directory": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_full_feature_cpu_audit_v1",
+  "gpu_count": 0,
+  "cpus": 2,
+  "mem_gib": 8,
+  "hard_seconds": 5400,
+  "no_critic_fit": true
+}

@@ -1,0 +1,1724 @@
+{
+  "comparisons": {
+    "candidate0": {
+      "bootstrap95": [
+        -0.08737864077669903,
+        0.06796116504854369
+      ],
+      "control_only_success": 8,
+      "mean_delta": -0.009708737864077669,
+      "visual_only_success": 7
+    },
+    "critic_rerank": {
+      "bootstrap95": [
+        -0.04854368932038835,
+        0.08737864077669903
+      ],
+      "control_only_success": 6,
+      "mean_delta": 0.019417475728155338,
+      "visual_only_success": 8
+    },
+    "uniform_random": {
+      "bootstrap95": [
+        -0.10679611650485436,
+        0.04854368932038835
+      ],
+      "control_only_success": 10,
+      "mean_delta": -0.02912621359223301,
+      "visual_only_success": 7
+    }
+  },
+  "complete_scenes": 103,
+  "formal_registration_sha256": "4c5b6865817f91480c7618b2f9833fc1437dfb2623ce267769345153489de196",
+  "receipts": [
+    {
+      "report_sha256": "6208aff152884539f598b8e9e67f3af9e84dd6f2b6d4397de7dbb2f1de19513f",
+      "task_index": 0
+    },
+    {
+      "report_sha256": "ca09204c5c687a0212ced942533187205dcad09182dffb84d2d016719b429e14",
+      "task_index": 1
+    },
+    {
+      "report_sha256": "2aec2d8f95bafcd04861293bf8de1abbca42c1f19aa402ba8c300a84e6b5f92c",
+      "task_index": 2
+    },
+    {
+      "report_sha256": "3aa5d049f44030008ca994325950e45ae60dbb1707fa78b97f06c38ef88d24d0",
+      "task_index": 3
+    },
+    {
+      "report_sha256": "c5ebf12151a19d74363fd36db5e7e6f2ee52d6ee1e2737d2ea2946b6b853accc",
+      "task_index": 4
+    },
+    {
+      "report_sha256": "851722ad35aa533e51afa4cd01a40e3721b4c2ba50229d7ffd997b3f7ba2997f",
+      "task_index": 5
+    },
+    {
+      "report_sha256": "f09c4d4aaa55a36ba2087e13a23eee9bfb3a064937be2f4247cbf351899e8314",
+      "task_index": 6
+    },
+    {
+      "report_sha256": "80992d5df9bf4a82e1893b9005f3cd23531ff5b12b24f2ee01c136a50ca29352",
+      "task_index": 7
+    },
+    {
+      "report_sha256": "7fc3834def9228080a9d6c5c350ad4ebaf5a056ca379f6f01a4cddc33dde4212",
+      "task_index": 8
+    },
+    {
+      "report_sha256": "1857a28c30e296c9f07ca315626b1cfe4d4dd44bbdd84d5c00ae5900cd8bf08d",
+      "task_index": 9
+    },
+    {
+      "report_sha256": "9e1b42b030161edc1da9de4e87807469ee50249d948458d116285450a9ea9a48",
+      "task_index": 10
+    },
+    {
+      "report_sha256": "2cff3b7083db53795bbb48c412c8f8354479ac474591fda0b5a493f7d53ae3a5",
+      "task_index": 11
+    },
+    {
+      "report_sha256": "40d10ee483e605a9ba19037061172363d39d9a3d1411c516df5a4194f7c75ef3",
+      "task_index": 12
+    },
+    {
+      "report_sha256": "19acfe8648add3f56f45ece6b34f74e7e74a0148c3f5215ac8229b4fc57ef332",
+      "task_index": 13
+    },
+    {
+      "report_sha256": "5f5073286b53037605d62cccc73ca6256a75e83cb12c58d906b781d32f36f125",
+      "task_index": 14
+    },
+    {
+      "report_sha256": "e3384aac92d26e3a0002ac13ebeeb46c3a8746d35cde2448672cb41fca31bfff",
+      "task_index": 15
+    },
+    {
+      "report_sha256": "1fc6ca9bba28db2a05204f0e08bb1fa5722a2af0482dc7cfb31de11ad53a9b98",
+      "task_index": 16
+    },
+    {
+      "report_sha256": "a4ec25fd80dc50155ffbdb8002f45bf85ead049a3bab11d3f3a3d5ca9047f47c",
+      "task_index": 17
+    },
+    {
+      "report_sha256": "39c53caa9bb55cb631735b5b6ec1fdcc5d8db5ae44dcf4bdefea6c422b2c9729",
+      "task_index": 18
+    },
+    {
+      "report_sha256": "ca9d2802a406930b28cec71ebcd35f398e5f3c87d2c25085b33271a6dfeeb426",
+      "task_index": 19
+    },
+    {
+      "report_sha256": "961d692a3b3688e4c950c9a46c31f2d8eb7e1106a1951253544ba94325c73235",
+      "task_index": 20
+    },
+    {
+      "report_sha256": "52d32dda83039e4ba63ad33185fb8fd1293077def916dd262ff021d7d6f22a41",
+      "task_index": 21
+    },
+    {
+      "report_sha256": "4327fff8ffee246abfb430295ff7ffe1695411b03713f46727904f3fee969adb",
+      "task_index": 22
+    },
+    {
+      "report_sha256": "8b62c19b01c01245a161efa77ea1610571162bd99191006b882bc71d94b955bf",
+      "task_index": 23
+    },
+    {
+      "report_sha256": "f13f64c2ee00adc636d2f9951bbc7ae46d95181ebebc456871f94d9096f34dda",
+      "task_index": 24
+    },
+    {
+      "report_sha256": "3aec44858ad4e86f7cb0fdecd23a1ddda06c06cd3e6c46a8bdcec53c8f9276db",
+      "task_index": 25
+    },
+    {
+      "report_sha256": "b16a291febf3d8da209da013505258fc3e8d2b7c1efe43de19083384b4732204",
+      "task_index": 26
+    },
+    {
+      "report_sha256": "8258afbd779711205e05e4312111cf1a1aacff8512f81c275e04f9d107eae0f2",
+      "task_index": 27
+    },
+    {
+      "report_sha256": "f62f4fb457abdf44107ecd0c3d4498902a20d2a3f360b80df159d5425bad649f",
+      "task_index": 28
+    },
+    {
+      "report_sha256": "73260bf865063f523b222782d90069013798174310e5d3b647dbe9e59d025027",
+      "task_index": 29
+    },
+    {
+      "report_sha256": "ad9805e7bd40b853144eb225eca057571887d8623363de06851be2f64bdfdcf2",
+      "task_index": 30
+    },
+    {
+      "report_sha256": "fb537c2bfe86459faf106755f06ad66bf093c3d54f17be6fa978bc6c6d26efc5",
+      "task_index": 31
+    },
+    {
+      "report_sha256": "41401325e18309845845d5a97a132f0e8a60e2a8eac777235f4ba7c07067d386",
+      "task_index": 32
+    },
+    {
+      "report_sha256": "17662e62f3579d6a8432800db6b3971bdebb5b66ebc54f0c3da1b8d51b9a1e14",
+      "task_index": 33
+    },
+    {
+      "report_sha256": "14b7d463ff6391d3297f943b44d952a3243a2751f42a20b24628afd27bc8cbff",
+      "task_index": 34
+    },
+    {
+      "report_sha256": "35ad00934cdb216c9bf8e9a06c45c485fb1e79c2596a0a5e100aba82a0c31879",
+      "task_index": 35
+    },
+    {
+      "report_sha256": "01d16a18980deeefd2d0175a265980f1d29ce06628feb7eb2c612afed0552f15",
+      "task_index": 36
+    },
+    {
+      "report_sha256": "f8cc6f7ffa06d1eaf6ccc9e0b8245aba1ff98495fdbf9c7709615fa786f2f66a",
+      "task_index": 37
+    },
+    {
+      "report_sha256": "acb5c141d918b8a66c930bf0088af59dc6e21fd34539a78a7e5a650c32b7369a",
+      "task_index": 38
+    },
+    {
+      "report_sha256": "8ccb6b78573aad842b723e45be7cda2912393000d4e109d3f22eccca3ec6c5bf",
+      "task_index": 39
+    },
+    {
+      "report_sha256": "475eaab006d740e140e6fdb70bef8be4bf1db9a8dbf073d89199a4361640a8a4",
+      "task_index": 40
+    },
+    {
+      "report_sha256": "2efb920af9e740725a2acad466b1962831177e5832ffc5eb6c9a3edb8951be21",
+      "task_index": 41
+    },
+    {
+      "report_sha256": "793b2a33feacd730184ef7f6a172aac7b69059bac3189123d19aba4b2909cee4",
+      "task_index": 42
+    },
+    {
+      "report_sha256": "c9b5a43b2c6d60843a855d206133dfe5166fa3986790d7f383c4ff589960c13b",
+      "task_index": 43
+    },
+    {
+      "report_sha256": "2afb4992924a91bdca7e39fa925a35c6dd3a98348e45d71045a1c16cd9cd6a77",
+      "task_index": 44
+    },
+    {
+      "report_sha256": "dd429e10f0c8a62e4bb933584dcc255f556a11cbeb86e4f46a0a81ce04e5d0fc",
+      "task_index": 45
+    },
+    {
+      "report_sha256": "fefcd751e4f6143b8556896fb6b0cae652e15d1e453e1851fd9ab0297c54164b",
+      "task_index": 46
+    },
+    {
+      "report_sha256": "351704167ca0bf1eed01bf5305ab6084adc0c1dec9ec8db2a68dd0bdfa048495",
+      "task_index": 47
+    },
+    {
+      "report_sha256": "f69cff793cdc652fa831bde42b5eb1d6893a822821b18014c5799a88e7df4ef8",
+      "task_index": 48
+    },
+    {
+      "report_sha256": "d225b3db299cfa6392b9b4942bc0b83a0c1542ff1a36fbbc17f418e9483b56e6",
+      "task_index": 49
+    },
+    {
+      "report_sha256": "308e8c828ffe91edbb36e131fc0d130dab50a5f9b6fd9d54a183cea01e7b27af",
+      "task_index": 50
+    },
+    {
+      "report_sha256": "d8f71385bae598527f151b42d7002e21279e0445050f79f23e2da8635b79079b",
+      "task_index": 51
+    },
+    {
+      "report_sha256": "3d552b0c8fbed9646745cf1a22f024a5a1ce2a0ba9de03b0dba474d9376b51e3",
+      "task_index": 52
+    },
+    {
+      "report_sha256": "3c39fcc8f7dab33f27f8c85865e807c242d92ee24043cc29ed30a70202311f2f",
+      "task_index": 53
+    },
+    {
+      "report_sha256": "b889d8cfa89bc01b50ccdc4e14f24c49c69eff8e68b952b9170362a68f15e50f",
+      "task_index": 54
+    },
+    {
+      "report_sha256": "2f2b013f25be4d704bef019540e544b606b9ec6dcb0b3ad37fdb8b77e9800222",
+      "task_index": 55
+    },
+    {
+      "report_sha256": "334a51e444c65acb2d120a006d13bccf0d5bd303ccdd658c1d9e978c2cfccb61",
+      "task_index": 56
+    },
+    {
+      "report_sha256": "fe9e7388bd4b54072226d4e373cdf647693ab1010b85be42fd4027fbc0e45119",
+      "task_index": 57
+    },
+    {
+      "report_sha256": "eaa3d6116b18933606d1ad00a2602fd045125ab400778eb543accb958454c1fc",
+      "task_index": 58
+    },
+    {
+      "report_sha256": "61fe7e7df6d79216d80a6b622a9e6e37cc2654536fae31378c70bd28133b4de9",
+      "task_index": 59
+    },
+    {
+      "report_sha256": "3b74d728104554d1f3fdbb4720a98c7962b2c59ab2f5aa0454a7ca05cb084c23",
+      "task_index": 60
+    },
+    {
+      "report_sha256": "39485b053a77b58807e4d4b22fe73f30d10a33d06463f12f0ea119cb7b6f706d",
+      "task_index": 61
+    },
+    {
+      "report_sha256": "62e76f44e0329dc81c9c8934bcc95287f56597bfd673eaf14e76cd09acdfdac6",
+      "task_index": 62
+    },
+    {
+      "report_sha256": "d82f0e0038e2c8b8890684a9ef5e2eb1d3b574c074d939fb0c882224be7bf45b",
+      "task_index": 63
+    },
+    {
+      "report_sha256": "712a596237f377f95adc10e3d7ecaa25a5480ede4d8b8ce61577a879a8e7e93f",
+      "task_index": 64
+    },
+    {
+      "report_sha256": "33f2308dd3136db40d03ab1303c42977f869e7b7b327bca5d10c9f68cfd5ba58",
+      "task_index": 65
+    },
+    {
+      "report_sha256": "2f20df6700c8423f743de2c67ebd3a21869e951ddac5d2a0fa5b310c16b0e5ba",
+      "task_index": 66
+    },
+    {
+      "report_sha256": "bcb9ac43ad21c78ec554afe08d107feeff7c9c85455758683c9ebb704ef4c2ce",
+      "task_index": 67
+    },
+    {
+      "report_sha256": "b0784cd4b526ab39e4d00bd93f7a55eaaf51c55a173d9cd32b62cd4720e69502",
+      "task_index": 68
+    },
+    {
+      "report_sha256": "a571e339a6d12dc1b45cd1882451b193b419362e9b123a5cf33bb7d1191e5683",
+      "task_index": 69
+    },
+    {
+      "report_sha256": "fd3071d0c676564558a1caf8e64f95d37faeec17c11738bf9b75030b7f32235d",
+      "task_index": 70
+    },
+    {
+      "report_sha256": "c315091e4cfdd82ef2bedc3168efbd492ea4549fca62c78894c6f146549a9589",
+      "task_index": 71
+    },
+    {
+      "report_sha256": "ffce56a82ad2f4f76f88c8d6a8aef7e5844604956a273d2b0881b751241256ea",
+      "task_index": 72
+    },
+    {
+      "report_sha256": "6468d181638fab5e659e9adeabfb3606dadbb1ca8c98cc37d77d0ec060fbebec",
+      "task_index": 73
+    },
+    {
+      "report_sha256": "916799a0dd2aa89cfb0942c26fcac93ec7e89408f96762100795beb0d2c16bd2",
+      "task_index": 74
+    },
+    {
+      "report_sha256": "07b5035d6ac098d7dfb80275a02b7e0f59625b69d4ae2c0cbfa0625d0a01981d",
+      "task_index": 75
+    },
+    {
+      "report_sha256": "a2524fa0d36e1f11b213ff9b9f42dcc878c5384bef24c5459cb26d7aad4b5ea8",
+      "task_index": 76
+    },
+    {
+      "report_sha256": "ded933240e306e716fbb1faf2d16d074eb3649a4f646874ce00a57d77e973817",
+      "task_index": 77
+    },
+    {
+      "report_sha256": "a81eeb11141a665d7867de44fdf9fc156d1c0f28f1aba9fbf68da59e4b153999",
+      "task_index": 78
+    },
+    {
+      "report_sha256": "61e34ef0bde884f2be756c0440f4b1b9c40d3c6d5c76f8b091bb9889ddd2017c",
+      "task_index": 79
+    },
+    {
+      "report_sha256": "aed0844b315c4918ae5bf8d41c12291c393f39dc88ae365781e585f9ba1ebea0",
+      "task_index": 80
+    },
+    {
+      "report_sha256": "3218603922b0be62370be3e9fee67e5ba008fd3a9a6723b42009e46c86878160",
+      "task_index": 81
+    },
+    {
+      "report_sha256": "2418a5fc2ad814348a4b25ff9a50c6603f52817139b5d847ed6581eb4a18fe11",
+      "task_index": 82
+    },
+    {
+      "report_sha256": "731e79f9156ad0e384f8177c15b6d16d940988699d2acc5291dc1d1e8c9bde7b",
+      "task_index": 83
+    },
+    {
+      "report_sha256": "516e2079183e3bc3ccb902934554586e1a076b55b736be7a65a593810b22683b",
+      "task_index": 84
+    },
+    {
+      "report_sha256": "35bf8796dd8ce20ae6af72345d9c198c8f40ec6713d139343333cfee4e0c18d4",
+      "task_index": 85
+    },
+    {
+      "report_sha256": "6f0569cef3c042d7178a894464bb735d98fb16e2bddec14a58e836d4ccf736b9",
+      "task_index": 86
+    },
+    {
+      "report_sha256": "81174a47847c4a3106b80aebe41db6e2fab4162d4190fcad47cd6212c7940312",
+      "task_index": 87
+    },
+    {
+      "report_sha256": "c1857db159fcf95912639df7eeee36a82becb73cd883a227ad9839337d2f6118",
+      "task_index": 88
+    },
+    {
+      "report_sha256": "efc1dfafcbb5fc2343b83d2e3a412c7c7fc534c9a5a0bfed4732f5d6d07c05c1",
+      "task_index": 89
+    },
+    {
+      "report_sha256": "f4c669401b856df4e4e64d9bfdb506f7278152cfc598cb18597f223db5dabbf9",
+      "task_index": 90
+    },
+    {
+      "report_sha256": "d8bd492e6ae871a4d80b2b3e807ec88b19930dab8865412d608d9afb67d10e8f",
+      "task_index": 91
+    },
+    {
+      "report_sha256": "e1e03ae61d5ccb037626d525bfd9ee50d575d12443fb78fed65f660020b159a8",
+      "task_index": 92
+    },
+    {
+      "report_sha256": "f72c140a7d85e8b79e31cc9a350c42949cee2145606d6e08637b694a5f6db59c",
+      "task_index": 93
+    },
+    {
+      "report_sha256": "1bd2de4f4c82bc18e88b9ddf19c56be1849a4543efc9042f0a6d8a4b9d3fe573",
+      "task_index": 94
+    },
+    {
+      "report_sha256": "d1a138564e2c7174e1a835db2774cb0d52ef61d0ec023a4eb24840367b862f15",
+      "task_index": 95
+    },
+    {
+      "report_sha256": "28435ee9cc15e230d66a4b3c8cd78b91f22e77e7413489d60e62d4ffec862e2b",
+      "task_index": 96
+    },
+    {
+      "report_sha256": "633f3761701c7229e774e6361ba21a6b37276808d4b7cccf981d262dadbbf357",
+      "task_index": 97
+    },
+    {
+      "report_sha256": "310ea8b663a97e9ca7aceaf8ca3b52d50a304f22d6bb8cb9f1504f2ecc9bb76c",
+      "task_index": 98
+    },
+    {
+      "report_sha256": "7548a8357f29a9f65e5e0f59e666316d3292157f43980854896fd53f30849000",
+      "task_index": 99
+    },
+    {
+      "report_sha256": "03f3b91a47dc7cd865b07686da128eaf71703e3ffb8606605f82c18c73a54463",
+      "task_index": 100
+    },
+    {
+      "report_sha256": "0cddfe37da7548943df6ca779fa08501344e897f180b50871749e65e219fbf70",
+      "task_index": 101
+    },
+    {
+      "report_sha256": "9a196e476b7c40525f1fd911e81e2be11db696fced79bb6fe608a9ffafa5d24a",
+      "task_index": 102
+    },
+    {
+      "report_sha256": "4d3413f5e0de95d7d34edac2d807d6d178bc9c1d74c62d5730f96395b4a838f2",
+      "task_index": 103
+    },
+    {
+      "report_sha256": "df986f93141426bb2c6dc74e02aad0f3375472e8661107815fde966b2756ee07",
+      "task_index": 104
+    },
+    {
+      "report_sha256": "077f0139d97972a201c811b663f7b2afba07ad5f2779a74c0a31aa770bf7a370",
+      "task_index": 105
+    },
+    {
+      "report_sha256": "eeccbc53a38d3e36ec91f1023e71e3ce6036a4a2f445ec83e4c25df6b89ca491",
+      "task_index": 106
+    },
+    {
+      "report_sha256": "4d30f5fcffae51f0aa095b0880dc9b5c68815cb79bca20f3e7a53ac6351dabe1",
+      "task_index": 107
+    },
+    {
+      "report_sha256": "9c68751535942787045f0c1d8c49530b5b1d8808ef3cfdded7ab5db62323f719",
+      "task_index": 108
+    },
+    {
+      "report_sha256": "d6e34db3364f2783cd0a68544e85864bb500d42db2226d0bb2b545d206fea9ca",
+      "task_index": 109
+    },
+    {
+      "report_sha256": "c6089eb546fff34ec0e46e6fd9241baefdda46f88ec127926332d2d90478b8ab",
+      "task_index": 110
+    },
+    {
+      "report_sha256": "d349535a54a1b1e731c9e8939e12fd6164d4f9e8a711a162e7ceb0ec7ef26a37",
+      "task_index": 111
+    },
+    {
+      "report_sha256": "af768d297ddd109c8645a66303747e666a9ea7a24fecd81584dce5a521e6c1e3",
+      "task_index": 112
+    },
+    {
+      "report_sha256": "884443b593be9760f3475b46af05afcc9f8744edecf6f59ab70cac9ab46908f8",
+      "task_index": 113
+    },
+    {
+      "report_sha256": "851c56d5d23276df951c70c5e27fb420a5a0a2060dbe3dfa0e9efdcfb4a55cf2",
+      "task_index": 114
+    },
+    {
+      "report_sha256": "7446205cd559013a27eda548be721d2845d23344c12ac05330a07f895452cac9",
+      "task_index": 115
+    },
+    {
+      "report_sha256": "2e5fe0f7cab5212a2a6b082d09b622ace6f85daa2cf27182b964d97e78a158ff",
+      "task_index": 116
+    },
+    {
+      "report_sha256": "b6be76c11f43d3d76bf949f3609eca6c6e681e7bc1742492eb396255c5ee76a3",
+      "task_index": 117
+    },
+    {
+      "report_sha256": "47a605363c839706163211632463b45fda558758608b270b487f6e2b13a63b1e",
+      "task_index": 118
+    },
+    {
+      "report_sha256": "d8a1546004520beb509c0f508f3e4314627bfa340819d13e5ee383beb0710857",
+      "task_index": 119
+    },
+    {
+      "report_sha256": "3cf7cdaa6b0080bf8c8d531b2fd0fb41a12e48738dc2a80526fe6b7cee656a74",
+      "task_index": 120
+    },
+    {
+      "report_sha256": "7546ca5744bca25ea1353e78c643696e83eb7c35c8df8f7dfab88bd5f8a0fb8a",
+      "task_index": 121
+    },
+    {
+      "report_sha256": "ec2d2b18f8a03f07bd98d70ba579adb740afb4a4591c0d0f07f93ef61ee0391c",
+      "task_index": 122
+    },
+    {
+      "report_sha256": "be0196369687d53e2f4bcc3efc64674b461ac18e3c3734d35d3fb1e504d59716",
+      "task_index": 123
+    },
+    {
+      "report_sha256": "ef84c9b33ebabad000b57a347a1b2a18f1452976234ae57cc0467bc5956afc2e",
+      "task_index": 124
+    },
+    {
+      "report_sha256": "614e496be7c9bbe91971510f8f7e60b16bd95b47516509c4d7c3c1226156a3e3",
+      "task_index": 125
+    },
+    {
+      "report_sha256": "fa0ba58299757fc834386175bdddb7cfd54dc2467efbbb3f357cd89f45782385",
+      "task_index": 126
+    },
+    {
+      "report_sha256": "cadeb01048b1335c00546f614774df95652c8e6b1deac6bddb851a68cbf491fd",
+      "task_index": 127
+    },
+    {
+      "report_sha256": "819806236a109b63165ae0948fd511be254a3a2c2bd117f99fe3f6187e62518e",
+      "task_index": 128
+    },
+    {
+      "report_sha256": "a4cef96aabbc96e91d858064559f7fc52cfea927c21c7731290fbb58a8a6ac53",
+      "task_index": 129
+    },
+    {
+      "report_sha256": "f8c41768e22765f5e344355e6a7a01f8f43f000a9530c6acd09a5f8ba29c78c3",
+      "task_index": 130
+    },
+    {
+      "report_sha256": "ac5be0a7fe93f2cf75c15f79f77331c42f150f478d2ae295e6e7e1b19428a25c",
+      "task_index": 131
+    },
+    {
+      "report_sha256": "bc569fe28d5d97113f004d4f2dbc9b978b00f2b758733551ae3f82c72160a9ec",
+      "task_index": 132
+    },
+    {
+      "report_sha256": "9c06922f7f86ae117597dd59a68128dac375a3ff47effb8de219d57173439b16",
+      "task_index": 133
+    },
+    {
+      "report_sha256": "c8c450b8885d709d06ec0cbb4ead79811760a6a0f12c3fa0c8313b83e0cbdd56",
+      "task_index": 134
+    },
+    {
+      "report_sha256": "b6ceb4e5b51bc7ebdbe2de25e549930a0e81c962219e320efa12a7aa09538eb4",
+      "task_index": 135
+    },
+    {
+      "report_sha256": "ad52ae0fa1b738722b510833320f72538838e159e48022851179d0f280ac81ef",
+      "task_index": 136
+    },
+    {
+      "report_sha256": "82b8040683db35c0bc2bdf1f65c9dcf0a91d9e4c8d7d2220f76ae84803f183d1",
+      "task_index": 137
+    },
+    {
+      "report_sha256": "dbc8b9a9e6469cb4e2033ebd9e831b44e99624fb02599536ce593fb3631d2410",
+      "task_index": 138
+    },
+    {
+      "report_sha256": "3ca108acf8770949c30fda6c8e81693a1d1939f6c14efc6affeea5b36ff0613d",
+      "task_index": 139
+    },
+    {
+      "report_sha256": "d4eb44651470d877a257e81171ff191a71afca77029aad98286e408e220c2c79",
+      "task_index": 140
+    },
+    {
+      "report_sha256": "a2bae0c23229eec093a308ae38031a79e3b6aefd38e035c4270291784a5213bd",
+      "task_index": 141
+    },
+    {
+      "report_sha256": "e120acd796288da40100ff2308f9e1bc852513ea46bac10137669f6afc670bf5",
+      "task_index": 142
+    },
+    {
+      "report_sha256": "93072a72981584c1745d31fa03a5f0b04361b3859c3dd1f66c96e7b55a60d7e9",
+      "task_index": 143
+    },
+    {
+      "report_sha256": "029c401d1156b17c6885f314445e6679e6e54fc912717331d050551075550a76",
+      "task_index": 144
+    },
+    {
+      "report_sha256": "d4ed5308322302d17fd8fedffb19e7825a188db85c8554944ea32fc2847123d4",
+      "task_index": 145
+    },
+    {
+      "report_sha256": "243b1891fa1600e14a8bafe6972160503e0fde44cde41b6b0b2fcedb42a87fa6",
+      "task_index": 146
+    },
+    {
+      "report_sha256": "2aa9aca5cf13ffb9dfadd24c9a6900c90009de0f94313cc9c4e18971eb8a955c",
+      "task_index": 147
+    },
+    {
+      "report_sha256": "955c571929c2d8d1b82e8d5e6f9d3d8c756fddb46e01e5c658258e107d60d3b8",
+      "task_index": 148
+    },
+    {
+      "report_sha256": "55d1b214e3fe98c05a53b504128d60cbc5a353e942872d09d44ab3ad158916ff",
+      "task_index": 149
+    },
+    {
+      "report_sha256": "6d5c6d06c212b4ae0a7e678a3a7cffb245943d0a2d964e0a18daf292219531e9",
+      "task_index": 150
+    },
+    {
+      "report_sha256": "0d2aec6c43a10a0ea2cd567a231e39b8075c96a3106b98f6dce5c8882f371eb2",
+      "task_index": 151
+    },
+    {
+      "report_sha256": "20f2c9cb85223b1e6b9b2e581bd9b36bc1b4ba93a6d3ed382d0de4d05cbac702",
+      "task_index": 152
+    },
+    {
+      "report_sha256": "f668bc82e5bfe233871b1623cbe2291263ff998481fab76e915330da976e3d08",
+      "task_index": 153
+    },
+    {
+      "report_sha256": "3c8d083ef40db69b6c13dc337ada38b615bd05f972fdae03dad87461b8002e32",
+      "task_index": 154
+    },
+    {
+      "report_sha256": "9aeb977ef24332cc667bbf4d46cbc0554739d569e4029d8f4719b8e81d2c4ad2",
+      "task_index": 155
+    },
+    {
+      "report_sha256": "7bef26d93c71d09ebd2ff35657def5b92c3b9584f02921425eb655d9e3ea2cc4",
+      "task_index": 156
+    },
+    {
+      "report_sha256": "a09a3f4c21edc04c4894e90f8281cdb78ccffcefd40eb491ef619dda90f3b73d",
+      "task_index": 157
+    },
+    {
+      "report_sha256": "38536e49217912b17806626353488f91f762141438109c76b9373fa7633b0a58",
+      "task_index": 158
+    },
+    {
+      "report_sha256": "bccc68d0bb481f55451ff97b03a92479c7b34fbd20738584eee26c14760d86bb",
+      "task_index": 159
+    },
+    {
+      "report_sha256": "ade5ca8ca35fb82a5a3129db682967a587ba45233abede1ba82b8b32d49abf1c",
+      "task_index": 160
+    },
+    {
+      "report_sha256": "f7091cbdfead5fd580b03a4c7350e684876b997ef97096aee8624e1167966fc4",
+      "task_index": 161
+    },
+    {
+      "report_sha256": "472bd3cf0378c59dfa468d6bc16fd80e512671f78675d7e7fb82cb61b110f7c1",
+      "task_index": 162
+    },
+    {
+      "report_sha256": "903140689b30c69da77fef817d5b22106dd35eaab10625b849e63e7942b02550",
+      "task_index": 163
+    },
+    {
+      "report_sha256": "8b6aadb718bb17a725fa6fa88f2a9e15043cee1520f909fd4ee46adcc622b7e2",
+      "task_index": 164
+    },
+    {
+      "report_sha256": "c7b1768384d142108cd99d026467d97d90434c93993ca83906f938ea34deb3c0",
+      "task_index": 165
+    },
+    {
+      "report_sha256": "a7a066c340210caaaa5155759ccf34b8719b46e2547ff01ec0784f7068f7e9db",
+      "task_index": 166
+    },
+    {
+      "report_sha256": "4718ef82eea6c16d20e5b139a4f2b79cb4c3a07a56bc57eab34ea44435c86e12",
+      "task_index": 167
+    },
+    {
+      "report_sha256": "93382fe647c3893b1b73b44e9a90ff6fa34425fdda749474436f2bcaf609886c",
+      "task_index": 168
+    },
+    {
+      "report_sha256": "4e8cbc9bb840f8d89cf0af286273e390ae6097f434ab79a3c38684415210fb70",
+      "task_index": 169
+    },
+    {
+      "report_sha256": "2d701a87164b6d0af8093b559221c683a3f5b0a7f78ae96912c9094b24c861f0",
+      "task_index": 170
+    },
+    {
+      "report_sha256": "3e77622ec50eed415dc8db0bd6b4bd950716b9dcf4d69fa446e1e0ddaadcc295",
+      "task_index": 171
+    },
+    {
+      "report_sha256": "1aaa71e8f79f7a287ef64679fbc8287250f64018f18d848d7bbfeac0abaf5fbd",
+      "task_index": 172
+    },
+    {
+      "report_sha256": "f2b48f41524d605fb10b65f262f3e207abc725132352c24cfc33159a3eb64b23",
+      "task_index": 173
+    },
+    {
+      "report_sha256": "d7e1aa96fa2754a45c879a41dd72a1086bdc013462c0d7e8e884f4168011c2f5",
+      "task_index": 174
+    },
+    {
+      "report_sha256": "5818d8667564451aca2bcb119112b5f71ff70b76275b9ce1bf531293bcd6aea4",
+      "task_index": 175
+    },
+    {
+      "report_sha256": "450e6a09f1734c3036c015996326d0af6b55205b30a3df8dcd0383af2e18508c",
+      "task_index": 176
+    },
+    {
+      "report_sha256": "80d7e94db1f64d123fc792b9c46a3883dca7741ebf8ee32a2c1706b6405e5cf9",
+      "task_index": 177
+    },
+    {
+      "report_sha256": "0dff9e01e13ba1ca96950a88939a7990ace762a632c0e38fb8d1890de920ffda",
+      "task_index": 178
+    },
+    {
+      "report_sha256": "97a973a9547bf178f60174699d60fbe2afbb2545f2503406c01dd4a81eb575db",
+      "task_index": 179
+    },
+    {
+      "report_sha256": "52f1455c579f82972236e41e5b0b35cdebb36685cec0338506bd292702c23617",
+      "task_index": 180
+    },
+    {
+      "report_sha256": "6e94c5b2d70160a73fe98bddad1e4f4513e51cfebb38e7604e1ff1e9b6927758",
+      "task_index": 181
+    },
+    {
+      "report_sha256": "49c2fc62e8fe3f00a7c3f570388e18bb85cac74fc73b31792f775301e7bb75bd",
+      "task_index": 182
+    },
+    {
+      "report_sha256": "1706579d310b55686e315de67e274af7f6d632585aa301d167682ccf3fdcfb96",
+      "task_index": 183
+    },
+    {
+      "report_sha256": "86a983af1718e9915ff0e861dac11977ad45b8d25da32926d727f8cff4350ec9",
+      "task_index": 184
+    },
+    {
+      "report_sha256": "449567bd73c63d1ab685ea935eac8d3171b9110094952d066bbd232c7fec4d93",
+      "task_index": 185
+    },
+    {
+      "report_sha256": "6e8e235b103744016094322e127088acc1774a780489d5de743cddbea91bb7da",
+      "task_index": 186
+    },
+    {
+      "report_sha256": "25216c9ee14d78376ca42cdf92ff1b6b7dd396fc63c9451512b08d913fe0cc37",
+      "task_index": 187
+    },
+    {
+      "report_sha256": "752b4b26d17144b5e88660b896ea15e70f0753c5d7c155145895b75eed93cfa3",
+      "task_index": 188
+    },
+    {
+      "report_sha256": "0cfdd787b32e46278e008beb30dcafda7eddaa49355bd004654f5b0d2af065b0",
+      "task_index": 189
+    },
+    {
+      "report_sha256": "16abc504a6827f4a5b8944edb1ff6bf626adce1597531aad867c949254fcc33c",
+      "task_index": 190
+    },
+    {
+      "report_sha256": "6526453252075fefcf45355c2148c3fa4e2b5932bbd957b5677a65f1a0ab456f",
+      "task_index": 191
+    },
+    {
+      "report_sha256": "f0d61b09a765e7493c697c1ceab17fd1605d3d0b36130d303f3f74a1a93f6fe0",
+      "task_index": 192
+    },
+    {
+      "report_sha256": "8c367e985a3f9651b04400d53b7baf3535340b0da61efb17f31053d03495c920",
+      "task_index": 193
+    },
+    {
+      "report_sha256": "d943a284675564cda37b51b1f2648ffdff5569e6f1c3f4d4cc9854d01717ed44",
+      "task_index": 194
+    },
+    {
+      "report_sha256": "bbaf857d5498ba73173e8d16ed590d6ae2b890d3e62b05d72a1ebf6dbaad3b86",
+      "task_index": 195
+    },
+    {
+      "report_sha256": "086a654ac526a7c7f0a038f890f05a5972f5b845a801d8548c754be85bb80eee",
+      "task_index": 196
+    },
+    {
+      "report_sha256": "3de0801f368242bb071f6c09f299dc78be112b2d9b9ac94cf754a65925164074",
+      "task_index": 197
+    },
+    {
+      "report_sha256": "e1cf6233394f62d27b31359de9d6db6a09909383c85f2cfb80be6a1151b929d8",
+      "task_index": 198
+    },
+    {
+      "report_sha256": "78e7124e427212bed72415775632cfefeac9cf972873418a40a0cd15a7ba270b",
+      "task_index": 199
+    },
+    {
+      "report_sha256": "4449064f30eaef306118c3d254d6a79568eb8a29320783d7c23641678c8ff336",
+      "task_index": 200
+    },
+    {
+      "report_sha256": "b9954382841232a29b7b75cec1c7ec46e57748a7e05e10aebaeeb106f2355c05",
+      "task_index": 201
+    },
+    {
+      "report_sha256": "0930b13008e022bb1ef67b9829025cb528e150f176b42b1feb25a7af7c5f845b",
+      "task_index": 202
+    },
+    {
+      "report_sha256": "810aaaaf65a4fc981be3eedb1da1c0191630f59c0e411a17c8550b4f50628922",
+      "task_index": 203
+    },
+    {
+      "report_sha256": "0fe2929379fd95d8136584ae6bd08497c051ee2a818148623524bf5bca31118d",
+      "task_index": 204
+    },
+    {
+      "report_sha256": "18664bea46812e5e2c50d718c8b209875249bce7fdf8e3f51919d88dea63a8cd",
+      "task_index": 205
+    },
+    {
+      "report_sha256": "3ff71fa916cd714c04770143601b45ce44f82b92cf25f1aeb789cedd992d689a",
+      "task_index": 206
+    },
+    {
+      "report_sha256": "aad5016c2d86a797365ef3abef0309266898a780e65b93ffe00ceeac3373c0e9",
+      "task_index": 207
+    },
+    {
+      "report_sha256": "031ff714ae51e6a24a889f7dc737cce40d4fee304ce6827ba022651bd70b87ed",
+      "task_index": 208
+    },
+    {
+      "report_sha256": "9496b0e5e95a0a5e29b62b64727ef338cf6d96dd146b056e8cf14a60954bab09",
+      "task_index": 209
+    },
+    {
+      "report_sha256": "c91e4d7e4084d12a6377acb6ded07a1ec172b2ea8084b1bf88e589ce2e83a7ef",
+      "task_index": 210
+    },
+    {
+      "report_sha256": "c84afe58c9af5298e84b0eb6e0dc152bc3bb3ba6942971d279bdf21c68a38360",
+      "task_index": 211
+    },
+    {
+      "report_sha256": "b6b7989a366a6c31cebb3f18fca05cba509f35b427361f6211ff7d6fe12958be",
+      "task_index": 212
+    },
+    {
+      "report_sha256": "da9a45faf466266206cba8044f058d9e337af9c5aae8c8e5d27818f5cc399ef2",
+      "task_index": 213
+    },
+    {
+      "report_sha256": "9312f59834f48d962b5db549574462c1263ce9f26690421739aa8f0844fb3202",
+      "task_index": 214
+    },
+    {
+      "report_sha256": "06fb6f78d437e308e6d6552ae08a81124799ac20d859ac6f4b1deaa62fb72696",
+      "task_index": 215
+    },
+    {
+      "report_sha256": "75f44fbd6f0b8ce847704873a6193d49a3a6ef2f2a79995406c8e745df0313b0",
+      "task_index": 216
+    },
+    {
+      "report_sha256": "a7da271c7425d300efb30e6470aceaa8cc6c4d498cf80d9619f241df24de7fff",
+      "task_index": 217
+    },
+    {
+      "report_sha256": "11207a32fcf929fc98a166e9caf5887b3e8835c812253bc80e70e542a1608418",
+      "task_index": 218
+    },
+    {
+      "report_sha256": "9678f48217a972a4e542b8f266890ba83996d1ad6301285966fce99703a2a6ce",
+      "task_index": 219
+    },
+    {
+      "report_sha256": "28104976e857837e3c19b9bce81285ccb4be4c0bd8f1d965ddc692742409faa0",
+      "task_index": 220
+    },
+    {
+      "report_sha256": "f3c7de4af6fddd05b977bb28ab6079963a90f63d37267f09f404f1cb640bddcf",
+      "task_index": 221
+    },
+    {
+      "report_sha256": "49fe4cee647a94028a2758756710374397a97008fad2353f6122dc9118c8a0b9",
+      "task_index": 222
+    },
+    {
+      "report_sha256": "13703f5f2b434399070cf498fb4d2c063a2976456b954584b66e2c9adb4d4893",
+      "task_index": 223
+    },
+    {
+      "report_sha256": "e578d6c096660da9afafbd93d334cf82cb5a9245a786308bec9c89719f4a173c",
+      "task_index": 224
+    },
+    {
+      "report_sha256": "f8476432a15326ca9dce631fd2b34e81e3ef9c8536ce33cca9dba5193f0143d8",
+      "task_index": 225
+    },
+    {
+      "report_sha256": "061b441819b7e6749a0a0b06267ba63286f5f319f2226f03958d9ebf883d55d1",
+      "task_index": 226
+    },
+    {
+      "report_sha256": "d09d469390c7df9df692606ca0d070182434ed85603af0ac82738180227c7b4f",
+      "task_index": 227
+    },
+    {
+      "report_sha256": "a7c5e50848c236d9a3efbd3f5b0d68fb0ab72f3fbddc350dd438488fe25582e2",
+      "task_index": 228
+    },
+    {
+      "report_sha256": "116713602260b58797ebf6411824fcbd38f2e5de97bd9faee6d190a3200189ab",
+      "task_index": 229
+    },
+    {
+      "report_sha256": "4d5b4cbed95becfff8939b8f1b05b08cd3de3cd57edf482b43b9bd124ec97ecb",
+      "task_index": 230
+    },
+    {
+      "report_sha256": "c4cb7900fdf0092dbe7a3c768a5cb38ed13414733f69743b7d6d7e1ff98ef8ef",
+      "task_index": 231
+    },
+    {
+      "report_sha256": "47969bb21e45f0154f6638f8154c21e9ce5841c9087d28c8cd8e74760fbd2db3",
+      "task_index": 232
+    },
+    {
+      "report_sha256": "1c301a66d64c449be91fb4cb873c2373e280acffa4fd551fd42ffb97a7d5a2a2",
+      "task_index": 233
+    },
+    {
+      "report_sha256": "c5c188c19e57e1662aab86701586f4af83dd931514b8d99c098620a43476ac67",
+      "task_index": 234
+    },
+    {
+      "report_sha256": "eb0863492c3fb540881120156f0af9d9d47cbf1c59c460f02f2e2b27caf9efb6",
+      "task_index": 235
+    },
+    {
+      "report_sha256": "2f9de768e63b4edfc9ebe1f4b7ddc76fcea768d43ab84834be3e0f13aa68f8d0",
+      "task_index": 236
+    },
+    {
+      "report_sha256": "cc66182c89da6cb5604c7e887f729b4c9a578c27d0c170e1e1f04cc3c6b1720f",
+      "task_index": 237
+    },
+    {
+      "report_sha256": "34a3e8e26afacf23ce92f9ca9379e6cdaa5e3ef33cfb126062f1cb1f645bd35b",
+      "task_index": 238
+    },
+    {
+      "report_sha256": "f7e8a634dba9edaf417b35e80b335a09842341948a3f060715ed41bad9263b0d",
+      "task_index": 239
+    },
+    {
+      "report_sha256": "cceacd32f1e780f214edba36db3da620bd5413af9fc2873c6abe6ec740531640",
+      "task_index": 240
+    },
+    {
+      "report_sha256": "59fc59ac91f37253904b3f4846a4407370b4b52c9743c2e32afd65c61c55c6da",
+      "task_index": 241
+    },
+    {
+      "report_sha256": "851098e8e715b400e062ce38601bdf361aca7fdcf9452d5ef6bfb8fa8b8ef470",
+      "task_index": 242
+    },
+    {
+      "report_sha256": "01c26b52bc0ba4cb29ca4d31f65c9a44821cedcc36411397e46201c36d8d0d65",
+      "task_index": 243
+    },
+    {
+      "report_sha256": "aa14612263e72f831a4d3650099e1f46d7684996c55cadd8492c19864a8c21af",
+      "task_index": 244
+    },
+    {
+      "report_sha256": "76b60416aeeadccaa2d5dc0a85719d16afe9d5bd3fb9d900f526a8b91efada28",
+      "task_index": 245
+    },
+    {
+      "report_sha256": "0460214d38a0741975d75da51718e295c89ce09b3178dfbec40060cc485cf0db",
+      "task_index": 246
+    },
+    {
+      "report_sha256": "418ce7d7dc5585335a00b5f5cc96e31c435182d331d10809a024ccf4be30df0b",
+      "task_index": 247
+    },
+    {
+      "report_sha256": "de6d2bb3320af345eae85c389e31360125d50020e037289790267fae1e0697c9",
+      "task_index": 248
+    },
+    {
+      "report_sha256": "14d2dd4051af081147b406188d57a3cb29f0316d28709c8807aaa15d0c398f5b",
+      "task_index": 249
+    },
+    {
+      "report_sha256": "18fc17c766b70bbffed17ef68c0023f619a3bf6401e74bc90e14e03bcbfc93bd",
+      "task_index": 250
+    },
+    {
+      "report_sha256": "ae80590b50fab14e6119c6516782c99faaffdf4c4854042b5d88faec0dba6262",
+      "task_index": 251
+    },
+    {
+      "report_sha256": "3ceb0e85facbb36673415b6f57060a8fa39390d5d3372e079d6d6803d1ca27c2",
+      "task_index": 252
+    },
+    {
+      "report_sha256": "249e1d30144f4faff575cc0267440c23e5cec29fec42da8d42028d826e8e4f1a",
+      "task_index": 253
+    },
+    {
+      "report_sha256": "0d93704aa171db79f2d89ffe365d6b486597c13ebf7102b04ccdccc643e8bac2",
+      "task_index": 254
+    },
+    {
+      "report_sha256": "bb140978ae0de3885020157ce700a36f939aa575f8d943faa9e5523449084b13",
+      "task_index": 255
+    },
+    {
+      "report_sha256": "9fb587142f56b11b0db07d9bb1d9d22bdfc4462d764e6809153225564b8ec210",
+      "task_index": 256
+    },
+    {
+      "report_sha256": "702e4e5586cf0f19d9246aa23d83195fd5401cb1e186c275f73344e4c7762f15",
+      "task_index": 257
+    },
+    {
+      "report_sha256": "4197b9514f68e9e6316dd27ddeafaa6109df2bbd80ae554548138555560fd441",
+      "task_index": 258
+    },
+    {
+      "report_sha256": "f7dd1edcba53c26c5398e4eafa22ed18bc422668e52597b8bfad65714733cb38",
+      "task_index": 259
+    },
+    {
+      "report_sha256": "39fb13def0327808ed46077745b7ac67b1490f6cac2e4cec72f0ee01bc28f3d5",
+      "task_index": 260
+    },
+    {
+      "report_sha256": "026e2d45bcb52e814cb7ff4ce7638aca147316840a34b0b3a02bcc0e26fa9102",
+      "task_index": 261
+    },
+    {
+      "report_sha256": "e706e1a4c666f359863a8e006bd8aa163685240a6a617716870c300ce276310f",
+      "task_index": 262
+    },
+    {
+      "report_sha256": "f1d3bb9147fc97db6280a1d5278dba3aa4f25566831b89dffe7f8d1f4949d3a1",
+      "task_index": 263
+    },
+    {
+      "report_sha256": "12895f660a7bd73edd18cc2f1893ae5d427818280e0c5ad976dad81e25ee2943",
+      "task_index": 264
+    },
+    {
+      "report_sha256": "ff911fc1a050ed8c7b7bdc3e43a2043bf5bb94af3ac992b4225f16c579b1921c",
+      "task_index": 265
+    },
+    {
+      "report_sha256": "42f6f7b5d98b63713a5e8018c7c0678b7dbd9070089717ab9ce412b04bc69b30",
+      "task_index": 266
+    },
+    {
+      "report_sha256": "7333bfdd291c4c2108238737983446745783eefd1c8c1fbe429ab3b2c14364fc",
+      "task_index": 267
+    },
+    {
+      "report_sha256": "803097d74f1bf866bdf45d12b833aa82dad63bd36351e00dbbe8532f70e8aa82",
+      "task_index": 268
+    },
+    {
+      "report_sha256": "5414fbb7745ec0c524ffa33d2e00121a6bcc49915251236e9e7146458daaa59a",
+      "task_index": 269
+    },
+    {
+      "report_sha256": "3178569ef0fdd7a20926d5bf2888fd7b836fa8a8bcc6ed1a1d6655cd573fc17d",
+      "task_index": 270
+    },
+    {
+      "report_sha256": "be033ce3fd424525c40aca1bf3bbfa587045ba84a8c6f0da1128d838d7a9c8ec",
+      "task_index": 271
+    },
+    {
+      "report_sha256": "d1b896ae1458f5ced5819e0def4382950e1b474a1d4ecf343ddc17ab3b171080",
+      "task_index": 272
+    },
+    {
+      "report_sha256": "950799443a3722a5bd5b2df2e32c8cce236086c6f9aea52d8343c81f481b55d7",
+      "task_index": 273
+    },
+    {
+      "report_sha256": "f91dcbb1afe174d0195b94c02f762ec700a6a7b160bc78b8ec909e5327286dda",
+      "task_index": 274
+    },
+    {
+      "report_sha256": "dacaf869af7e7e99445caa059aaa2a60475d54a4790652a37904e80f2aafaff6",
+      "task_index": 275
+    },
+    {
+      "report_sha256": "b04b38a108b61884c7bd96078c42d427e4ab7eff4c95e6bafc76563f88f294f3",
+      "task_index": 276
+    },
+    {
+      "report_sha256": "d8896e8b1ee66bf6fc86c3923bf145caf7a8ddf0b24f770101ffa7590a709b47",
+      "task_index": 277
+    },
+    {
+      "report_sha256": "b124934313ff832e854f8a62db8eaabf86d7166463a60c2288865f01d074df17",
+      "task_index": 278
+    },
+    {
+      "report_sha256": "6e9656d020bb876ce0f0c0278c65ea79420a59d9ee931b55113ab9c986e291b7",
+      "task_index": 279
+    },
+    {
+      "report_sha256": "91cb04e2d9f975410a80d056d08a252593b1c23fd618b512fc35ad692a863a76",
+      "task_index": 280
+    },
+    {
+      "report_sha256": "69fa3680e4bbcef6f107661ff6dfdc3c88c0079c6dfe1023ff69dd29b3f4aa11",
+      "task_index": 281
+    },
+    {
+      "report_sha256": "139af102fc53b09930ceaf52e1e45473198d4d91d2d5606f8cd199ebe377272c",
+      "task_index": 282
+    },
+    {
+      "report_sha256": "03d7546eb2b96780fea9c17b0e8d5498ceca811a785b819dc25f9bb474d897a5",
+      "task_index": 283
+    },
+    {
+      "report_sha256": "6e3be0b836f78863b036e91faa84e24e6ab60813c80d0a7b26831583b8aa9fb0",
+      "task_index": 284
+    },
+    {
+      "report_sha256": "d64b04b7a7203df938c61ab7f7cb5501b253aedc699ba32f62aba13da9ae1932",
+      "task_index": 285
+    },
+    {
+      "report_sha256": "36edefe30944a88b1d6054674e82c9154ad8a8c69516c49daa73f54429e9c87a",
+      "task_index": 286
+    },
+    {
+      "report_sha256": "6be5127a557bc1b135cd81f3778875a97d5d4c40822bf3bef355c21285fc81d3",
+      "task_index": 287
+    },
+    {
+      "report_sha256": "1f3b8394f62e37cef6d84d1b54d276565a94b89365faa70d25bca83d75a4036d",
+      "task_index": 288
+    },
+    {
+      "report_sha256": "270aa096f8475d30e3a40b210afa81b758a7e187978623423682d92d547be068",
+      "task_index": 289
+    },
+    {
+      "report_sha256": "7378b70856068a45c36eb68d48a3cbceec6cf75b0226346f0433c3662dcbcf07",
+      "task_index": 290
+    },
+    {
+      "report_sha256": "a3103efac4e86cd838c13871526ca3e1c0ddabe9389203f67d6f64a44ca481c6",
+      "task_index": 291
+    },
+    {
+      "report_sha256": "19cc40dc92fe85d97aeb46cb0293d1fa0491ed5c6b1507c56878198883b51e92",
+      "task_index": 292
+    },
+    {
+      "report_sha256": "1385a4586daa67d7f17d40d38ca8706b8129d4153fb4d245d0c08e4fd8ad5d3e",
+      "task_index": 293
+    },
+    {
+      "report_sha256": "0853453c9aac96b9ff07440417ea01d8f45f9e7fa4c9e932898e6346244d6ec4",
+      "task_index": 294
+    },
+    {
+      "report_sha256": "12c82a928b72cf870c7e897ddad9dbd44c6740dedbdd4c1494e28336d5c88cbc",
+      "task_index": 295
+    },
+    {
+      "report_sha256": "5eacf73c8d538b547927615ab82a51c7301152b2f2a4fefd23e6d8f98f703d4a",
+      "task_index": 296
+    },
+    {
+      "report_sha256": "60ea69596ad004b4606972c1c54a9bdcca71ebdb24a7618ae1eec2db56de0915",
+      "task_index": 297
+    },
+    {
+      "report_sha256": "1c7f8b00c2e3d6ace19b330da084fdd80387f0844f45643fcbe22b1084e99b02",
+      "task_index": 298
+    },
+    {
+      "report_sha256": "bc329ebb7eca0848fce2eaa486d3faea1e95f85fc241b4a370f7328a7e294049",
+      "task_index": 299
+    },
+    {
+      "report_sha256": "f55ba3f0afbd81c9a8cb434cbeb967a3c3ae175623a5efac04efe1eb5eedea97",
+      "task_index": 300
+    },
+    {
+      "report_sha256": "796b95d7692112fa4aa1b44e312d75e75ee8bd888a2317153e3462eb42578a44",
+      "task_index": 301
+    },
+    {
+      "report_sha256": "fcba17c6a792069290f3efe12a98c4c7f34e015b433fd457e11c6348222035e5",
+      "task_index": 302
+    },
+    {
+      "report_sha256": "c5e81c50b13b1dbc403186046dd53d4e5220bd8ba21a1c30cb5c18b2038df4fd",
+      "task_index": 303
+    },
+    {
+      "report_sha256": "6390e13e38498e501a788a4a69b33cc836e08176573b77aea818a850cdc9ece8",
+      "task_index": 304
+    },
+    {
+      "report_sha256": "eae0112fa096bb547edb3ce76fbd9cf24a15e22022424a286cc8b5861b7ac046",
+      "task_index": 305
+    },
+    {
+      "report_sha256": "7f958cb7ef5cc4a2060e5caba858d6fb41495ea4b8deafef06ec4e84466bf6ea",
+      "task_index": 306
+    },
+    {
+      "report_sha256": "6129af0cd7c33dae4cbddbd097f5f6ec0b7dcc47d5d87427d65027a2869f90de",
+      "task_index": 307
+    },
+    {
+      "report_sha256": "6bc10c386e4a0687c3413b4abaa23a062380ab11b69ab123f6e9bbb23253f5e9",
+      "task_index": 308
+    },
+    {
+      "report_sha256": "c20962c8d361c286b279d070efd9b19c25f079d677b04b0fe2d27369469cb1ca",
+      "task_index": 309
+    },
+    {
+      "report_sha256": "0ddf2b08379fdb860ffa9d881c47f3c4d4edfb219e39a3093708394932920a77",
+      "task_index": 310
+    },
+    {
+      "report_sha256": "7e9b1a858d13eeedc8624f948b86d84d92a4a4a5a144790a7aa07f60893048c8",
+      "task_index": 311
+    },
+    {
+      "report_sha256": "5afef3e2e53235174c092c392ec823228c62d6bce93e1d545969222523b15f60",
+      "task_index": 312
+    },
+    {
+      "report_sha256": "36d77f1d482da6d02b7f497a863d14a683b538d23934c226efaa90fece5eb633",
+      "task_index": 313
+    },
+    {
+      "report_sha256": "a37d0c21609f895e4acfaa47cc6f07ce8d2c394223de20c668d0a446ea55a1e4",
+      "task_index": 314
+    },
+    {
+      "report_sha256": "56efc78cb2a36e7dad7a2e6ca158d3d7c1208117117c7951fa679387fcd73f5d",
+      "task_index": 315
+    },
+    {
+      "report_sha256": "924c44bd347d3323ccf081e8227d5e69dfa7efb9457f1d10db812eb07e6eaee7",
+      "task_index": 316
+    },
+    {
+      "report_sha256": "e277b86cc2bab3a5fce18981b3ae82ff0d0ac8c545d205f0384fb44213bfbd99",
+      "task_index": 317
+    },
+    {
+      "report_sha256": "4cd5533a366f0f945b36d41232064b5a034a7fcc7ed558b59ace452c305b6cc3",
+      "task_index": 318
+    },
+    {
+      "report_sha256": "f156ef1575da7113f506d3755018847dbc6d3176c113f6d2ed2268844838b68e",
+      "task_index": 319
+    },
+    {
+      "report_sha256": "bbdde106f50221039fad118ecdb2c7d2b6d7c7654415eab005aee99c9ec17eb1",
+      "task_index": 320
+    },
+    {
+      "report_sha256": "b5b9fd58e4c46656179d008011a75341d6493737dbfd3593596c72075b2f2b8a",
+      "task_index": 321
+    },
+    {
+      "report_sha256": "fa82de48e2378bb54a72aa86d73b8cc80774a04725bda5b07b4ec16f3b3c943a",
+      "task_index": 322
+    },
+    {
+      "report_sha256": "f00d3fffb12268ed5f5bdcdc03e975b99f31520ef3e828f3d0070467d4f436b5",
+      "task_index": 323
+    },
+    {
+      "report_sha256": "e2e1126f0a121b84b69fa911ab36b76bbea79a821d356c6a8194b0bbf7170ed2",
+      "task_index": 324
+    },
+    {
+      "report_sha256": "12b53a68b6ba6d7efcdb68e0588abf6e439577b9e4d90ace44410b3541683ede",
+      "task_index": 325
+    },
+    {
+      "report_sha256": "8afedefe665b28b4427cc85ba1b30a5ee99f63a916924a9e94443060e7fdc26b",
+      "task_index": 326
+    },
+    {
+      "report_sha256": "8993d85bb53c49f9e5636769745c6a16d06abff24852d45e33c6c4e898049279",
+      "task_index": 327
+    },
+    {
+      "report_sha256": "745a9688de71c1d3600986ed4f7b8d2fd90deaec8b84f72ec80d7f104e6b372d",
+      "task_index": 328
+    },
+    {
+      "report_sha256": "288c5dc611ea6f1c2f1e0b3b88fe6b9ca744d119f69cf095e381a069748fb06c",
+      "task_index": 329
+    },
+    {
+      "report_sha256": "f936a235cb7d713e8aa0dc6d94af061343d597ba2e7ff6a963dcd0f31c33a634",
+      "task_index": 330
+    },
+    {
+      "report_sha256": "80274244858c1addb4e4be3c31a1c6bde147fb5a9130a2ad0ed7b240049b6540",
+      "task_index": 331
+    },
+    {
+      "report_sha256": "d8bbffe86511dd429e3c3e4f035f7500848215ba332e39b58803dd392da75fc0",
+      "task_index": 332
+    },
+    {
+      "report_sha256": "dfd0ef46ee71f1c20c42749d75ea9e465f54e74eb7797398dee3c372b2235f02",
+      "task_index": 333
+    },
+    {
+      "report_sha256": "2800b310f36f077540244a0e2f8be4e5ea3075721b2eee39ec0631ba9333e7cc",
+      "task_index": 334
+    },
+    {
+      "report_sha256": "87c181f63746d6c2ca1d144352ef2768a4178b9563bc4c9eb7f1c0964b7b93fc",
+      "task_index": 335
+    },
+    {
+      "report_sha256": "4047d054330381d3af8617fc86e6143108fff7d9617d7cac315dbc156967c8ed",
+      "task_index": 336
+    },
+    {
+      "report_sha256": "20705217f830fb8f78773ad512c3a16cd1ab11e67d75ebb8ecda83dd43a939ef",
+      "task_index": 337
+    },
+    {
+      "report_sha256": "0e706a882c765905093fc697de50ad8659b31d94db7b4d3e8bcb76beed6a1504",
+      "task_index": 338
+    },
+    {
+      "report_sha256": "3145112d717dff6459522d65f921cf9403466911c34b77c9c85c39a3cda2d333",
+      "task_index": 339
+    },
+    {
+      "report_sha256": "76aa69e745cbec28cafee40a143c8a5dbdae8b924a8096ceb46cc12ec33d77bf",
+      "task_index": 340
+    },
+    {
+      "report_sha256": "e71a7fe3ff13f391472338acd43b003a4e26d11721889aa9b9d4daea4d1fad6f",
+      "task_index": 341
+    },
+    {
+      "report_sha256": "60eac70736a7047ee820276a6c1b864b46ce221f6a90ef1745f1277ec302052b",
+      "task_index": 342
+    },
+    {
+      "report_sha256": "222f83ba75a3a0fd16578c0a8d63a0d2115e76aec149c3717371069301bd51f6",
+      "task_index": 343
+    },
+    {
+      "report_sha256": "189b8fa2a22d3abb7da086768864320b53068414e0c5c8fdad325f1a1f0a6153",
+      "task_index": 344
+    },
+    {
+      "report_sha256": "58b76fb88dd3f4879cedb443351dcdd0a693fd58b6b504cbe4db73cceb8a40e6",
+      "task_index": 345
+    },
+    {
+      "report_sha256": "a0bb51d6fd86ff5991510df5e7530ad175dfbc5ca587f265f05f90913f51d172",
+      "task_index": 346
+    },
+    {
+      "report_sha256": "018567c3295acbe3af80b13d25f18776b4f1c016ad39235f4ca53aba275ec403",
+      "task_index": 347
+    },
+    {
+      "report_sha256": "c927a2d0694637eddc4d4f2f3224f8c91d7955d0c25cfdedeaf69991afc13af4",
+      "task_index": 348
+    },
+    {
+      "report_sha256": "0b291cbd57b79009e85ea44fc213f733e2cee46b9574eba03a7c767f4ef8286f",
+      "task_index": 349
+    },
+    {
+      "report_sha256": "5cd2d6c2b37b3101e5acd33eea6a62d63a188e9d5eb8231c6688ed209cc3da75",
+      "task_index": 350
+    },
+    {
+      "report_sha256": "603837688be3ff90873ec53c48503b38a9370e4649396b06398bd7d610c326ab",
+      "task_index": 351
+    },
+    {
+      "report_sha256": "a838d1168d6207851c8634f3dc5fa33ef5f1ce7f60b4a0ffdb3ccc5c13c40b4b",
+      "task_index": 352
+    },
+    {
+      "report_sha256": "06453d7fafdafa2d9087370b4a45929c8d464ff7c57644847b076497f5147295",
+      "task_index": 353
+    },
+    {
+      "report_sha256": "8a624484ef3e733bb367cf8e074c921f34d0399cf512f6960f0d598f48b8b717",
+      "task_index": 354
+    },
+    {
+      "report_sha256": "504912d5f9136597606407803bd9e1d5bf11729d0a14685633c42f88937cf4f3",
+      "task_index": 355
+    },
+    {
+      "report_sha256": "ea20055e369f2ff5eedae539d7bb4ab1c3e512d028828305c4d5080b223f0387",
+      "task_index": 356
+    },
+    {
+      "report_sha256": "f2cc38463b019bddf2f3c8ecf5e1b4ac8ceee9e2d10f1a374886ac942fa0e6c0",
+      "task_index": 357
+    },
+    {
+      "report_sha256": "dc481eb5d1dc1f49c0ef5b32c45f434662040994b2f0eee3e00f434a304a8c82",
+      "task_index": 358
+    },
+    {
+      "report_sha256": "8fdd1b2e3af9dadf3f66091c95b7e6d8391f561ff73355ccef8fe4b55a4c11fe",
+      "task_index": 359
+    },
+    {
+      "report_sha256": "89b7a5ffb7a4ec2fc9d0d018dcd0e5a8578be3f10e4c6f133162310e60b0acfc",
+      "task_index": 360
+    },
+    {
+      "report_sha256": "8585cda3e7ee8b640f9719bc4954482f91690d78095654465746f232b761bb3b",
+      "task_index": 361
+    },
+    {
+      "report_sha256": "8c7c351df3bd5fddab99bed99a68d7a1ee2c4c88963f12894b0b8c81546771ed",
+      "task_index": 362
+    },
+    {
+      "report_sha256": "3b1ae0c1bf635c6be48ff7a6cd5c158850e5aae8fbd15f0314daf00bf57a5b7a",
+      "task_index": 363
+    },
+    {
+      "report_sha256": "bf888f2c7e642750d7474b39582c0e3d50fb4b53efff98046127445939b39c1d",
+      "task_index": 364
+    },
+    {
+      "report_sha256": "056da9b02b73bd7cf41cccbb4f18c319d0da6248dd3483d4c984546048fc4ba5",
+      "task_index": 365
+    },
+    {
+      "report_sha256": "5715abc87e45d9598375df22a41dfa2f8e3776db3de57efc56dccb187444b562",
+      "task_index": 366
+    },
+    {
+      "report_sha256": "78bce402ad71ca00d5d273589124794df78099a17a180b535d236ee400eda34f",
+      "task_index": 367
+    },
+    {
+      "report_sha256": "aeff2abe736bba7d82cca7bcda9bf0e7f739fe7a1e4c8df59836bf2d7afb89ff",
+      "task_index": 368
+    },
+    {
+      "report_sha256": "9bc6f906ba72311965e814cf3d9fa9c1f575a77fdb9c7ea3b86865fc1add242d",
+      "task_index": 369
+    },
+    {
+      "report_sha256": "856b076607753c04fc7655d2dca4c41249f9cb6ce6656990cd7804dbcadb3bd2",
+      "task_index": 370
+    },
+    {
+      "report_sha256": "c772c16d7c0508462decf6282dac6f23c63b8cd42f70ce299365c71522b97a9c",
+      "task_index": 371
+    },
+    {
+      "report_sha256": "d044e0ff8a19525021096eda2161a2eca403355c9b67ab2a9f0582486f33d59c",
+      "task_index": 372
+    },
+    {
+      "report_sha256": "236b0481d98281ccae51cb1bf79ff5f253efb05b03d20d4b6a79528cb10d62c2",
+      "task_index": 373
+    },
+    {
+      "report_sha256": "bdfb4a633ea5decd30465e8b4b90d51c133eae59413af61e13b804910090a868",
+      "task_index": 374
+    },
+    {
+      "report_sha256": "922120ebd23eb49ba19ed97a97df83941172f245c9fa34eef3fc91d5ab39543e",
+      "task_index": 375
+    },
+    {
+      "report_sha256": "5e530850fc296fde3c681602cbde79dcbce0367a47a236e2048f82e6ed802332",
+      "task_index": 376
+    },
+    {
+      "report_sha256": "2f9034d2a66a8d5e3f484a52603f5a0b82b03d0906bb8d7d37c607f538d4ff91",
+      "task_index": 377
+    },
+    {
+      "report_sha256": "7201e8e95f0e03dcd80081a91ea77c90a3385ce557d309552ae4dc99bbda2877",
+      "task_index": 378
+    },
+    {
+      "report_sha256": "bd6a0c7a290350db145b50822ab1088820cd2f1d5494996968ebb7220729629f",
+      "task_index": 379
+    },
+    {
+      "report_sha256": "c9904927d48c8331bb65e6a0f482ad4d2226c6da9800417e1a3c329d50b3e4d8",
+      "task_index": 380
+    },
+    {
+      "report_sha256": "4da7d398300ea493ca34c751774b5b02ac69f3fc13649e3be18bf1a74621d38a",
+      "task_index": 381
+    },
+    {
+      "report_sha256": "7a9fdd41e404ce60ce0b9776cd03ede802ab02ceb3307b31e30a1b25fd8d078c",
+      "task_index": 382
+    },
+    {
+      "report_sha256": "71e348ba774bfb673c763957200983eaae6af8d52a4f91dae67f867ddfe83000",
+      "task_index": 383
+    },
+    {
+      "report_sha256": "33aede7508f2d8a8cafd170ed710b4b2efce6d267c02b9b478f65488e21ba34f",
+      "task_index": 384
+    },
+    {
+      "report_sha256": "d2763bfa1c1176fa66ba746de03e437ecd0eef086abbef76cfda6ce02137e703",
+      "task_index": 385
+    },
+    {
+      "report_sha256": "175fb261b7e6c41b4975d622285bb256584ad1bb9ccda51fe88670431faf75a9",
+      "task_index": 386
+    },
+    {
+      "report_sha256": "388c7c59464d6049f42dc38ce5826ffca7fcebd189274b0c65e1ff79ff25a4b5",
+      "task_index": 387
+    },
+    {
+      "report_sha256": "24ac6920ff7c8b11c5f3cb35fea62e14fc21b9c931e0a957cea6a179ed515c19",
+      "task_index": 388
+    },
+    {
+      "report_sha256": "203bf9cbe38413610c27ccd7929b2295deda43827c91ec9cf952de450f937854",
+      "task_index": 389
+    },
+    {
+      "report_sha256": "77587663a9c9cac05d18dc12131dcf5ecd2bd2a15319f05b6b2497659e85db07",
+      "task_index": 390
+    },
+    {
+      "report_sha256": "9d6acd38557e450f82dee577ec6d8057eab0c30456eac43ea49883db57e3ead2",
+      "task_index": 391
+    },
+    {
+      "report_sha256": "68575f9406c5c31efab31279a3a84de3777e2d50ffc825249ece99b81aee27e5",
+      "task_index": 392
+    },
+    {
+      "report_sha256": "8d24fdaa60ddd5be9bac8caf638b0a2cbc769dd6ec99c1cf52f77011aca8cb68",
+      "task_index": 393
+    },
+    {
+      "report_sha256": "14a6a13ddc6827a91c5381c71e0a642ec1062e80b663d44b3baf427d343ebdde",
+      "task_index": 394
+    },
+    {
+      "report_sha256": "b3247cb0aaf7a0b44e19fbeb39cc03754d898fcec3c5b15e4999f96e8f50954b",
+      "task_index": 395
+    },
+    {
+      "report_sha256": "2242c62b5dd6ca8424518ab7fe2c9290d36eb7f63c2ad7b1ff8765581c2c2684",
+      "task_index": 396
+    },
+    {
+      "report_sha256": "ffad7997b8ee1dd835877db6673f9833412322eecb22d780b49936a11f1dc27b",
+      "task_index": 397
+    },
+    {
+      "report_sha256": "cf63ebd40044546ae1f16e3a01a6d522e8631982eb247f8c6a2573d09e0f5eaf",
+      "task_index": 398
+    },
+    {
+      "report_sha256": "1abf9b7da4edfebd313c32692ffce7087d830d03f8e987b7ebe1ce19770f35aa",
+      "task_index": 399
+    },
+    {
+      "report_sha256": "bd97b3a77722ed5fc33d4b51d71fd6e6cb4fdfbb9efbf86a08cef0acbb855d29",
+      "task_index": 400
+    },
+    {
+      "report_sha256": "c75b0061e589fb628ce6275db53071e28f0834088b2fb1d371f600632083ab5f",
+      "task_index": 401
+    },
+    {
+      "report_sha256": "3bd57982ba8a56362d597e3c46340d2fe987f00afd34d7beaa126c2067747204",
+      "task_index": 402
+    },
+    {
+      "report_sha256": "c6b866304ae21adf589d3e641bfaabaa658045a8df384c79c04bab6b055c37b3",
+      "task_index": 403
+    },
+    {
+      "report_sha256": "9c83d755cd394586b87d42493a6be2d24c27c0623e776faf22157d5040725858",
+      "task_index": 404
+    },
+    {
+      "report_sha256": "65b2d486bacb32f32a0a6d0f76c12053e29c3d4cb8bc40da170bd98826e1e382",
+      "task_index": 405
+    },
+    {
+      "report_sha256": "e46ed3854893cb1ad98a5e286974d4b2b37c4851196d371891dd3a75edd38003",
+      "task_index": 406
+    },
+    {
+      "report_sha256": "051b163d78891db67ed1ff3058e2ea9d0faa6f9e8e3115562fe0ba71c52fec54",
+      "task_index": 407
+    },
+    {
+      "report_sha256": "484cdfa7fe4d08b1f89b56cdcb0eb99da0105d322ec51e74d255a02f41139352",
+      "task_index": 408
+    },
+    {
+      "report_sha256": "85a73f0cdaa5ce253bcdf960c12f7e106f5669907cc9049fe3e2698203052f1c",
+      "task_index": 409
+    },
+    {
+      "report_sha256": "b1a49bd86788e73136c2ee5a17361bb38816a5546166bc990bbbb193bee2e40d",
+      "task_index": 410
+    },
+    {
+      "report_sha256": "6e5ac12ce6f7eafd6cd401f496ffb6b091628de5ee092a764c781ac692178710",
+      "task_index": 411
+    }
+  ],
+  "status": "NO_SIMPLEWAM_VISUAL_QGF_FINAL_FORMAL_BENEFIT",
+  "success": {
+    "candidate0": {
+      "count": 77,
+      "rate": 0.7475728155339806
+    },
+    "critic_rerank": {
+      "count": 74,
+      "rate": 0.7184466019417476
+    },
+    "uniform_random": {
+      "count": 79,
+      "rate": 0.7669902912621359
+    },
+    "visual_qgf": {
+      "count": 76,
+      "rate": 0.7378640776699029
+    }
+  },
+  "support_abstention": {
+    "candidate0": {
+      "count": 0,
+      "decisions": 3870,
+      "rate": 0.0
+    },
+    "critic_rerank": {
+      "count": 2,
+      "decisions": 4035,
+      "rate": 0.0004956629491945477
+    },
+    "uniform_random": {
+      "count": 0,
+      "decisions": 3780,
+      "rate": 0.0
+    },
+    "visual_qgf": {
+      "count": 1,
+      "decisions": 3946,
+      "rate": 0.00025342118601115053
+    }
+  }
+}

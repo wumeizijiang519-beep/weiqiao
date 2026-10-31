@@ -1,0 +1,38 @@
+{
+  "version": "20261026_cpu_preparation_v1",
+  "status": "CPU_TESTED_REAL_FEATURE_AUDIT_AND_FULL_DATA_GATE_PENDING",
+  "real_data_critic_fits": 0,
+  "new_gpu_dispatch_for_preparation": false,
+  "current_only_feature_module": "features.py",
+  "decision_time_input_module": "training_data.py",
+  "matched_target_training_primitive": "matched_iql.py",
+  "contract": "DECISION_TIME_RL_INPUT_V1.md",
+  "synthetic_cpu_tests": {
+    "modules": ["test_features_data", "test_matched_iql"],
+    "passed": 7,
+    "failed": 0,
+    "log": "evidence/feature_rl_preparation_cpu_tests.log"
+  },
+  "feature_spec": {
+    "actual_latent_channels": null,
+    "actual_feature_dimension": null,
+    "current_frames": 1,
+    "latent_pool_hw": [4, 8],
+    "proprio_dimension": 8,
+    "remaining_horizon_dimension": 1,
+    "future_video_frames": 0,
+    "fold_scaling": "training_rows_only_mean_std_floor_1e-5"
+  },
+  "information_flow": {
+    "critic_action_mask": "known planned length=min(10,remaining_before)",
+    "actual_execution_length": "feedback/TD target only, never a current Q input",
+    "td_control_labels": "same detached primary EMA value targets for all three TD controls"
+  },
+  "remaining_before_real_fitting": [
+    "complete and independently admit fixed288dataset",
+    "real encoder-only A-B-A repeat/source/RNG/tensor audit after collection releases allocation",
+    "freeze actual feature dimensions and measured combined8GPUh cost forecast",
+    "implement/register corpus extraction and full dataset/OOF trainer/reporters",
+    "freeze fold/bootstrap configurations and support calibration before fitting"
+  ]
+}

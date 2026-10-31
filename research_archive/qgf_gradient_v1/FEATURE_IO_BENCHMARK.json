@@ -1,0 +1,80 @@
+{
+  "status": "CPU_IO_BENCHMARK_ONLY",
+  "dataset_sha256": "baa8340ecbe48ce0240e6e46056ed4e00309ba42e998657cda53ca7ec8666b87",
+  "samples": [
+    {
+      "episode_id": "train_0000",
+      "observation_sha256": "a27dd14d0ba89d40e19ff9c87293e8e671526c4013c5d9faf63d16c6e32d095e",
+      "seconds": 0.03767254576086998
+    },
+    {
+      "episode_id": "train_0022",
+      "observation_sha256": "a91406b13d12c80d7e2a6a81abb6d7ba34fbf08ce9b8c9cdb1b3342bb36e0fff",
+      "seconds": 0.028792498633265495
+    },
+    {
+      "episode_id": "train_0044",
+      "observation_sha256": "c24ced229e54a5098ad1de0252717c8253b7d4c9be7ce68e7fc1a6bf3078a242",
+      "seconds": 0.03582733869552612
+    },
+    {
+      "episode_id": "train_0066",
+      "observation_sha256": "cfb149510e06b402b82c0ab57ad1091acf9ed114d826f601092a437f654b6577",
+      "seconds": 0.11114370077848434
+    },
+    {
+      "episode_id": "train_0088",
+      "observation_sha256": "c06190fdee861e1c14e835cb60201fa2fb9380edaa6b8bf251dbdfe5487f131e",
+      "seconds": 0.10873273573815823
+    },
+    {
+      "episode_id": "train_0110",
+      "observation_sha256": "407f01f5d6d1b6cdc858e1c6be55bbac9377ee497d790738f227ef64c166e2a5",
+      "seconds": 0.0880284383893013
+    },
+    {
+      "episode_id": "train_0132",
+      "observation_sha256": "f459a61208170616d0e989a35368d594ad27d7237a15aaf80639ff79fe60f0eb",
+      "seconds": 0.04524674639105797
+    },
+    {
+      "episode_id": "train_0154",
+      "observation_sha256": "e6431bb478453b8faf4cbec2ba9e2bb603512d49254d0c49a8f9b89b07eebb35",
+      "seconds": 0.05808716081082821
+    },
+    {
+      "episode_id": "train_0176",
+      "observation_sha256": "673fe9134b4f4e868c442125ba771ac2a305fa50d03538d6ebf33976ef22619c",
+      "seconds": 0.14592701569199562
+    },
+    {
+      "episode_id": "train_0198",
+      "observation_sha256": "7ec4d0c2cd1cd88bdd9a520d6e72993b26d7019227d9d551fcbc6693551578e5",
+      "seconds": 0.05511165224015713
+    },
+    {
+      "episode_id": "train_0220",
+      "observation_sha256": "f4920a3ea36d7227599493c97e15ee1df112fb6d9ca8ab40f00de25bedfb6ce3",
+      "seconds": 0.08727112598717213
+    },
+    {
+      "episode_id": "train_0242",
+      "observation_sha256": "1861203a970461340bcd626f568dc81ca52a7f30a91d2a3a0d379b3a4b2f52c6",
+      "seconds": 0.08461076393723488
+    },
+    {
+      "episode_id": "train_0264",
+      "observation_sha256": "440bb6062edea37a71e75b784ad91626800efadd49fc5bd2861cea5d3b106289",
+      "seconds": 0.047029897570610046
+    },
+    {
+      "episode_id": "train_0287",
+      "observation_sha256": "9ccafcc1c40793add9fc3ad66ecc09219085be45d36401a320f981013000e545",
+      "seconds": 0.125263137742877
+    }
+  ],
+  "p90_seconds": 0.12102730665355922,
+  "gpu_seconds": 0,
+  "source_sha256": "4020327f268381e477a41f692c86d825ecec2cfdcf7babdcc64809acc5ee306d",
+  "caveat": "Small fixed boundary sample, filesystem cache/load may differ at full scale"
+}

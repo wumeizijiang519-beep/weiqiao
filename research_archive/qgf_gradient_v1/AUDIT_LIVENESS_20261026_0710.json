@@ -1,0 +1,58 @@
+{
+  "activity_observed": true,
+  "cpu_tick_delta": 129,
+  "first": {
+    "cpu_system_ticks": 2729,
+    "cpu_user_ticks": 20722,
+    "io": {
+      "cancelled_write_bytes": 0,
+      "rchar": 12869066031,
+      "read_bytes": 0,
+      "syscr": 401570,
+      "syscw": 280146,
+      "wchar": 9031122052,
+      "write_bytes": 8192
+    },
+    "monotonic_seconds": 24031535.70317319,
+    "open_corpus_files": [
+      "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_remaining257_v2_shard1/train_0143/transition_0022/rng_candidate_1_post.npz"
+    ],
+    "pid": 34757,
+    "process_start_ticks": 2403054883,
+    "process_state": "S",
+    "uid": 2292
+  },
+  "gpu_used": false,
+  "io_delta": {
+    "cancelled_write_bytes": 0,
+    "rchar": 163113886,
+    "read_bytes": 0,
+    "syscr": 4782,
+    "syscw": 4548,
+    "wchar": 145885828,
+    "write_bytes": 0
+  },
+  "process_signalled": false,
+  "scope": "Read-only liveness telemetry, not audit PASS or dataset admission",
+  "second": {
+    "cpu_system_ticks": 2748,
+    "cpu_user_ticks": 20832,
+    "io": {
+      "cancelled_write_bytes": 0,
+      "rchar": 13032179917,
+      "read_bytes": 0,
+      "syscr": 406352,
+      "syscw": 284694,
+      "wchar": 9177007880,
+      "write_bytes": 8192
+    },
+    "monotonic_seconds": 24031540.70926956,
+    "open_corpus_files": [
+      "/public/wangsenbao221/pqr/qgf_mainstream_20261022/runs/qgf_gradient_remaining257_v2_shard1/train_0144/transition_0001/rng_candidate_1_post.npz"
+    ],
+    "pid": 34757,
+    "process_start_ticks": 2403054883,
+    "process_state": "S",
+    "uid": 2292
+  }
+}

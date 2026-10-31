@@ -1,0 +1,116 @@
+{
+  "status": "SIMPLEWAM_VISUAL_QGF_DEPLOYMENT_REGISTERED",
+  "backbone": "Simple-WAM",
+  "benchmark": "LIBERO",
+  "token_checkpoint": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/token_training_v1/TOKEN.pt",
+  "token_checkpoint_sha256": "40a436a09e618965642f680bda5d1339f3426ccd735b73aba6629fbbc46a8c97",
+  "critic_aggregation": "mean_of_nine_conservative_twin_minima",
+  "critic_checkpoints": [
+    {
+      "seed": 202644201,
+      "fold": 0,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644201_fold_0/proposed.pt",
+      "sha256": "c616fb299d61c2a7a7642de02db9c7528358160115a4ae3616a5c8dab41fb2f9"
+    },
+    {
+      "seed": 202644201,
+      "fold": 1,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644201_fold_1/proposed.pt",
+      "sha256": "d65c683c02a4ff650081777ab5b579f67bafec1170628ec417922ea93fc58f18"
+    },
+    {
+      "seed": 202644201,
+      "fold": 2,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644201_fold_2/proposed.pt",
+      "sha256": "bec8b838531e0157ee216e9c7be8a1dc11f6e3a3bcf86cba36a83f4ad8695172"
+    },
+    {
+      "seed": 202644202,
+      "fold": 0,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644202_fold_0/proposed.pt",
+      "sha256": "146f06ce5c9057e9b190a75c72170ada97df935cac5e412b9036524b622b3166"
+    },
+    {
+      "seed": 202644202,
+      "fold": 1,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644202_fold_1/proposed.pt",
+      "sha256": "a90bbac266b5595dec978f5ece5fce6b5bcce57be3505f08212277648f04165c"
+    },
+    {
+      "seed": 202644202,
+      "fold": 2,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644202_fold_2/proposed.pt",
+      "sha256": "1395545a168ba48ffebcfd75ee384ee52c2d1a1143614b6a382cff5eaa798f12"
+    },
+    {
+      "seed": 202644203,
+      "fold": 0,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644203_fold_0/proposed.pt",
+      "sha256": "24bfdff59c06e5900cb8862287b47b16e22780c8c0dcf7a6b87538b4871c17ae"
+    },
+    {
+      "seed": 202644203,
+      "fold": 1,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644203_fold_1/proposed.pt",
+      "sha256": "16069cb4da6a8ca8d6c2b1c0df5e788bbd2cc4dd7121c29c6f3b872bd106188f"
+    },
+    {
+      "seed": 202644203,
+      "fold": 2,
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/iql_execution_v1/seed_202644203_fold_2/proposed.pt",
+      "sha256": "9e15788c7cee449027b52da9687a799d07bea22ca94140d8f8ed44fd93baf9a7"
+    }
+  ],
+  "selection_used_outcomes": false,
+  "support_min": [
+    -0.8828125,
+    -0.9375,
+    -0.78125,
+    -0.703125,
+    -0.40625,
+    -0.9453125,
+    -1.15625
+  ],
+  "support_max": [
+    1.0390625,
+    0.921875,
+    1.0625,
+    0.59375,
+    0.51953125,
+    0.8984375,
+    1.0859375
+  ],
+  "qgf": {
+    "execution_horizon": 10,
+    "action_dim": 7,
+    "continuous_dims": 6,
+    "weight": 0.1,
+    "max_grad_norm": 1.0,
+    "sigma_min": 0.0,
+    "sigma_max": 1.0,
+    "gripper_gradient_masked": true,
+    "wam_gradients": false,
+    "token_gradients": false
+  },
+  "online_validation": {
+    "cohort_manifest": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/evidence/COHORT_MANIFEST.json",
+    "cohort_manifest_sha256": "7194f02c8dba2c9ae01fddab1d0c48c169e28f6778e3926a0386dfeff0307af9",
+    "partition": "validation",
+    "scenes": 64,
+    "arms": [
+      "candidate0",
+      "uniform_random",
+      "critic_rerank",
+      "visual_qgf"
+    ],
+    "native_candidates": 4,
+    "same_denoising_budget": true,
+    "shadow_critic_and_gradient_for_all_arms": true,
+    "primary_endpoint": "official_success",
+    "admit_rule": "visual_qgf improves candidate0 and uniform_random and is noninferior to critic_rerank",
+    "formal_partition_locked": true
+  },
+  "qualification_report_sha256": "79cf7e05a87bf61d58d1a9d9a54cc204bde66dd191b532897c8ea1a4d512ef9b",
+  "qualification_audit_sha256": "42ef3a5a5b4c99bba3ddf61158bd60bbf87cc21c8de3fa00870d268a1100c5d9",
+  "corpus_sha256": "a2337827258238d6369a0161179491ffe3629b04f113cea9c0ab3d84a56e62b0"
+}

@@ -1,0 +1,22 @@
+{
+  "branch": "full_data_final_critic_retrain_v1",
+  "corpus": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/critic_corpus_v1/CORPUS.npz",
+  "corpus_sha256": "a2337827258238d6369a0161179491ffe3629b04f113cea9c0ab3d84a56e62b0",
+  "heldout_fold": null,
+  "required_rows": 12218,
+  "seed": 202644202,
+  "status": "SIMPLEWAM_VISUAL_IQL_FINAL_REGISTERED",
+  "token_checkpoint_sha256": "40a436a09e618965642f680bda5d1339f3426ccd735b73aba6629fbbc46a8c97",
+  "training": {
+    "batch_size": 64,
+    "expectile": 0.7,
+    "gamma": 0.99,
+    "hidden_dim": 512,
+    "learning_rate": 0.0003,
+    "parameter_grad_norm": 10.0,
+    "target_rate": 0.005,
+    "updates": 50000
+  },
+  "uses_all_training_rows": true,
+  "validation_or_online_outcomes_read": 0
+}

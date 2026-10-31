@@ -1,0 +1,10 @@
+{
+  "status": "SIMPLEWAM_RL_TOKEN_TRAINING_COMPLETE",
+  "checkpoint_sha256": "40a436a09e618965642f680bda5d1339f3426ccd735b73aba6629fbbc46a8c97",
+  "final_train_reconstruction_mse": 0.1465197205543518,
+  "validation_reconstruction_mse": 0.1938768278194379,
+  "elapsed_seconds": 450.7299962770194,
+  "reward_fields_read": 0,
+  "success_fields_read": 0,
+  "critic_updates": 0
+}

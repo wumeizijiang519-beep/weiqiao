@@ -1,0 +1,15 @@
+{
+  "status": "SIMPLEWAM_VISUAL_FEATURE_EXPORT_AUDIT_PASS",
+  "errors": [],
+  "episodes": 288,
+  "observations": 12506,
+  "feature_shape_per_observation": [
+    8,
+    3072
+  ],
+  "position_sha256": "8bc77d524d7eabfcf3eaa5ad1bbae656233b0d37866c50c2bf5dd9f43479d306",
+  "registration_sha256": "2f5800f1c117a31ac0125984ccb5d17a124769a26bd8e78342617148c6fd5910",
+  "export_report_sha256": "1eaeaca9a7b30628a64955fda0751cd5ac04e7bcb7595f26abdc6462597dae56",
+  "robot_actions_executed": 0,
+  "critic_updates": 0
+}

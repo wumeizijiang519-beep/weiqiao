@@ -1,0 +1,40 @@
+{
+  "status": "SIMPLEWAM_RL_TOKEN_TRAINING_REGISTERED",
+  "seed": 202644101,
+  "feature_export": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/feature_export_v1",
+  "feature_audit": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/feature_export_audit_v1/REPORT.json",
+  "dataset_result": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_gradient_v1/training288_v2_remaining/DATASET_RESULT.json",
+  "validation_selection": {
+    "method": "sha256_order",
+    "salt": "simplewam-token-val-v1",
+    "population_groups": 137,
+    "selected_groups": 13
+  },
+  "validation_groups": [
+    "717e894328410b3d9b49885c0757546f5fa47ff7bbd1d31249e612bc9876ec39",
+    "6cf30986ec8c85e4cb6743ff2538b02d2fd20865e23a627bf939d0effac8f986",
+    "372c80e48b55710e1d1b7bc94e78278962e28b245be535d13708526eb0febd95",
+    "43be4f831cf17bc751770706c49ad5ec8fda5d75b1a176abc6c9915314e5caa1",
+    "36fe12064e96e10c7fcf595e24a2588659047f67643b12cefb6aa8eefcf937c7",
+    "d83251520111f5a4047f02ccc5c295573c5a5e42b225bc5846499ffcbb80ce81",
+    "7cb97b0cf39c4f7941c70e19855da3bae6670bef4118a614ffc51201e7af3f19",
+    "34c1e86205a02d8a6b0c16cdb0880ddf9fe30ab12c6db3f5730374c6b958b683",
+    "511fdd32acdb9706396afa1aa66f9b895560472e1bcaafa4d6d2160132d55cc3",
+    "a8d4930e95c70a6b73a013e43bb42d6127b961dfdeff039b12a14b20bf9e8348",
+    "c1bbef62ae2dfad3a73a00b9a339243ce2b2679eac8a99768bd2d47f3f273c8d",
+    "4dae1e1b20593c661e332d7ea434fdcf31adb3bf4531a3f419df59fe0518cf25",
+    "ea36f43379816276bd3ed28342f1f52857b6e47d10d2ef8102e4b79a7a2690e4"
+  ],
+  "model": {
+    "feature_dim": 3072,
+    "position_dim": 5,
+    "num_tokens": 1,
+    "token_dim": 2048,
+    "num_heads": 8,
+    "num_layers": 2
+  },
+  "learning_rate": 0.0003,
+  "batch_size": 64,
+  "updates": 10000,
+  "outcome_fields_allowed": false
+}

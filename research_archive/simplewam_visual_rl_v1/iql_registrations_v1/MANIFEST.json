@@ -1,0 +1,50 @@
+{
+  "status": "SIMPLEWAM_VISUAL_IQL_REGISTRATIONS_FROZEN",
+  "workers": [
+    {
+      "worker": "seed_202644201_fold_0",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644201_fold_0.json",
+      "sha256": "fa8f118f9ec403cf6f47fc4519cee544ae42ad3611420f0f0d028f3b759d7abc"
+    },
+    {
+      "worker": "seed_202644201_fold_1",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644201_fold_1.json",
+      "sha256": "676eeda422ce40e1fd215839749d3aa2caeba6d0a3eab2dc43210ce796d57a20"
+    },
+    {
+      "worker": "seed_202644201_fold_2",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644201_fold_2.json",
+      "sha256": "513ac10c8e3bd1684bc86358863379600ec58f71fce9174a230bdd9920ee1087"
+    },
+    {
+      "worker": "seed_202644202_fold_0",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644202_fold_0.json",
+      "sha256": "49f149a2b28b1e0a5b5bcf18815d814de7c0038eb16d376494ccf1eb0bf4e196"
+    },
+    {
+      "worker": "seed_202644202_fold_1",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644202_fold_1.json",
+      "sha256": "2d661026396e9b3e38e4f0d1db0f12c1dc4993e9f26673f03a9b4b9e5a652ca0"
+    },
+    {
+      "worker": "seed_202644202_fold_2",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644202_fold_2.json",
+      "sha256": "9d8422af90df049aa0aae38f9d020a1fa4a11f813715cf8711616a1cd49288b7"
+    },
+    {
+      "worker": "seed_202644203_fold_0",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644203_fold_0.json",
+      "sha256": "44f31e6559456b92708b14c7b2e039ae53544a48743df67fae9b1553900d22b5"
+    },
+    {
+      "worker": "seed_202644203_fold_1",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644203_fold_1.json",
+      "sha256": "725994f4f211f25dffb8256836ca2f289cce3d08faac354ed2cdcc5e3ba1c9b5"
+    },
+    {
+      "worker": "seed_202644203_fold_2",
+      "registration": "simplewam_visual_rl_v1/iql_registrations_v1/seed_202644203_fold_2.json",
+      "sha256": "d170eef17edfae7db4457518993fb64bc13c475cc0226223186233f5d837cffe"
+    }
+  ]
+}

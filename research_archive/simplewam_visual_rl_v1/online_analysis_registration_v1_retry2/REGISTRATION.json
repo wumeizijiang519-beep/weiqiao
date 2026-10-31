@@ -1,0 +1,37 @@
+{
+  "admit_rule": {
+    "visual_qgf_minus_candidate0_lower95_gt": 0.0,
+    "visual_qgf_minus_critic_rerank_lower95_gte": -0.05,
+    "visual_qgf_minus_uniform_random_lower95_gt": 0.0
+  },
+  "execution_source_audit_sha256": "7637b4e42c373b04043a096556e4754b8274b19e31f9ff697c3b860a72540462",
+  "missing_task_policy": "fail_closed_no_scientific_conclusion",
+  "noninferiority_margin_vs_critic_rerank": 0.05,
+  "online_registration_sha256": "43016cc510141a03816820e43f3dad80b39da65b545030f1d2c78f00be91e5ea",
+  "outcomes_read_during_registration": 0,
+  "paired_bootstrap": {
+    "draws": 10000,
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "seed": 202644601
+  },
+  "primary_endpoint": "official_success",
+  "required_arms": [
+    "candidate0",
+    "uniform_random",
+    "critic_rerank",
+    "visual_qgf"
+  ],
+  "required_scenes": 64,
+  "secondary_metrics": [
+    "paired_discordance",
+    "wall_seconds",
+    "decision_latency",
+    "video_frames",
+    "gpu_cost"
+  ],
+  "status": "SIMPLEWAM_VISUAL_QGF_ONLINE_ANALYSIS_REGISTERED",
+  "unit": "physical_scene_equal_weight"
+}

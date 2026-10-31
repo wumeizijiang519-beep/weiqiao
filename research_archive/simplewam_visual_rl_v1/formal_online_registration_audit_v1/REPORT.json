@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "formal_entries": 216,
+  "formal_unique_physical_groups": 103,
+  "outcomes_read": 0,
+  "registration_sha256": "4c5b6865817f91480c7618b2f9833fc1437dfb2623ce267769345153489de196",
+  "scenes": 103,
+  "status": "SIMPLEWAM_VISUAL_QGF_FINAL_FORMAL_REGISTRATION_AUDIT_PASS",
+  "tasks": 412,
+  "train_formal_group_overlap": 0,
+  "validation_formal_group_overlap": 0
+}

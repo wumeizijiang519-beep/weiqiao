@@ -1,0 +1,12 @@
+{
+  "deployment_sha256": "12dfbb4dd5082be7070e660200bfd152fc1511a332907f4a73ce50a305d7be49",
+  "errors": [],
+  "mock_only": true,
+  "outcomes_read": 0,
+  "registration_sha256": "4c5b6865817f91480c7618b2f9833fc1437dfb2623ce267769345153489de196",
+  "robot_actions_executed": 0,
+  "scenes": 103,
+  "source_sha256": "81043ba9418a3a081a66123e1af08ca6637580c22fdd075781810a7ed975f17c",
+  "status": "SIMPLEWAM_VISUAL_QGF_FINAL_FORMAL_SOURCE_AUDIT_PASS",
+  "tasks": 412
+}

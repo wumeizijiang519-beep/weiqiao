@@ -1,0 +1,37 @@
+{
+  "status": "SIMPLEWAM_VISUAL_FEATURE_PILOT_PASS",
+  "backbone": "Simple-WAM",
+  "benchmark": "LIBERO",
+  "tau0_runtime_dependency": false,
+  "observation": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/support_gradient_qgf_v1/pilot_v1/train_0250/frozen_policy_input.npz",
+  "observation_sha256": "b3978cdfaea74e3aea058d0ed54751846103da32c70f1756b4191b9b9b7d26f5",
+  "description": "put the black bowl in the bottom drawer of the cabinet and close it add 28",
+  "feature_spec": {
+    "layers": [
+      29
+    ],
+    "spatial_stride": 4,
+    "num_views": 2
+  },
+  "grid_size": [
+    3,
+    7,
+    14
+  ],
+  "feature_shape": [
+    1,
+    8,
+    3072
+  ],
+  "position_shape": [
+    8,
+    5
+  ],
+  "feature_sha256": "273e2d511366d4f8bd22fdb2aa16e7b071d6d95d23aebc748733ca6ee88da1cc",
+  "position_sha256": "8bc77d524d7eabfcf3eaa5ad1bbae656233b0d37866c50c2bf5dd9f43479d306",
+  "prompt_context_sha256": "951b8efa546f8cdfb90cd22454a0acbe1559f57c62029ddcc72ace1f3a7536db",
+  "repeat_max_abs_error": 0.0,
+  "position_repeat_max_abs_error": 0.0,
+  "robot_actions_executed": 0,
+  "critic_updates": 0
+}

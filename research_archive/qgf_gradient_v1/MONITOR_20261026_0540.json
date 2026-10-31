@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-26 05:44:43 UTC",
+  "automation_id": "qgf-wam-rl",
+  "stage": "fixed_training_collection",
+  "active_step": "1593640.328",
+  "collector_pid": 36225,
+  "dispatcher_pid": 19879,
+  "node": "gpu1",
+  "node_ip": "10.10.10.219",
+  "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+  "gpu_memory_mib": 14775,
+  "step_maxrss_kib": 31406796,
+  "completed_audited_entries": 96,
+  "shard1_completion_markers": 22,
+  "shard1_independent_audit_done": false,
+  "episode_in_progress": "train_0118",
+  "completed_collection_gpu_seconds": 11897,
+  "active_step_elapsed_seconds_snapshot": 3051,
+  "active_cost_not_final": true,
+  "preparation": {
+    "module": "rl_corpus.py",
+    "sha256": "8967ee46ccf13655f254585fe8996af96df0c69caf62541fac6151c03c6824c1",
+    "scope": "pure array helpers, synthetic tests only; no real corpus extraction/fit",
+    "tests_passed": 7,
+    "checks": [
+      "R+1 current-only features",
+      "known planned prefix masks separate from actual feedback length",
+      "actual-step semi-MDP return discount",
+      "no labels for unexecuted candidates",
+      "actual selected native prefix",
+      "terminal completeness",
+      "physical-group split isolation"
+    ]
+  },
+  "dataset_admission": false,
+  "real_feature_extraction": false,
+  "critic_fit": false,
+  "method_result": null,
+  "audio": "DISABLED",
+  "user_action_required": false
+}

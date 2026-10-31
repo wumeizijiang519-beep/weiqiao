@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-26 04:15:57 UTC",
+  "automation_id": "qgf-wam-rl",
+  "active_step": "1593640.325",
+  "dispatcher_pid": 19879,
+  "collector_pid": 29616,
+  "node": "gpu1",
+  "node_ip": "10.10.10.219",
+  "assigned_gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+  "gpu_memory_mib": 14835,
+  "step_maxrss_kib": 31598116,
+  "step_elapsed_seconds_snapshot": 5257,
+  "completed_collection_charged_gpu_seconds": 4841,
+  "live_step_cost_final": false,
+  "new_completion_markers": 41,
+  "new_shard_independently_audited": false,
+  "preserved_audited_entries": 31,
+  "progress_episode": "train_0072",
+  "download_started": false,
+  "disk_used_percent": 44,
+  "current_stage": "fixed training collection in progress",
+  "preparation_only": {
+    "module": "audit_current_features.py",
+    "sha256": "d4337f342aadf9e102d2874446b88a06565eee9ea2825276c284875aaa14f325",
+    "cpu_synthetic_checks_passed": 13,
+    "checks": [
+      "A-B-A hidden-state detection",
+      "caller RNG preservation",
+      "input immutability",
+      "float32/finite/dimension contract",
+      "byte-exact scalar/int64/BF16 buffer hashes",
+      "planned-prefix leakage and matched TD regression"
+    ],
+    "gpu_dispatch": false,
+    "real_feature_extraction": false,
+    "data_admission": false,
+    "critic_fit": false
+  },
+  "user_action_needed": false,
+  "audio": "DISABLED; no sound/unmute/volume operations",
+  "scientific_result": null
+}

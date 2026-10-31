@@ -1,0 +1,5 @@
+JobID|State|ExitCode|Elapsed|MaxRSS|AllocTRES
+1677369.12|CANCELLED by 2292|0:9|02:13:48|34507000K|cpu=4,gres/gpu=1,mem=45G,node=1
+1677369.13|CANCELLED by 2292|0:9|02:13:48|34537064K|cpu=4,gres/gpu=1,mem=45G,node=1
+1677369.14|CANCELLED by 2292|0:9|02:13:50|34712148K|cpu=4,gres/gpu=1,mem=45G,node=1
+1677369.15|CANCELLED by 2292|0:9|02:13:48|34523752K|cpu=4,gres/gpu=1,mem=45G,node=1

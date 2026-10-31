@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-26 03:35:03 UTC",
+  "automation_id": "qgf-wam-rl",
+  "scope": "Routine health check and CPU-only aggregator preparation; not a scientific result",
+  "active_collection_step": "1593640.325",
+  "active_collector_pid": 29616,
+  "active_collector_owner": "wangsenbao221",
+  "node": "gpu1",
+  "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+  "observed_gpu_memory_mib": 14903,
+  "observed_step_maxrss_kib": 31598116,
+  "assigned_ram_gib": 45,
+  "parent_ram_gib": 50,
+  "parent_job_expires_cst": "2026-10-29T15:50:01+08:00",
+  "active_dispatcher_pid": 19879,
+  "completion_marker_snapshot": {
+    "preserved_and_recovered_audited": 31,
+    "new_shard0_complete_markers": 25,
+    "new_shard0_independent_audit_complete": false,
+    "current_episode": "train_0056",
+    "not_a_final_outcome_summary": true
+  },
+  "source_sha256": {
+    "aggregate_training_v2.py": "589ac5a1d8b378031ce6973f1a1b6a88339713e412e7cec5efeff34517c3f79a",
+    "aggregate_training.py": "4cc596b7eedc18dd61f943f778b48a8f90e0043ef5478b357de3a061feaebf50",
+    "data_contract.py": "39301bf91924133f275ca4780a751a0c37c4787c5164fa45bb182e5d20bb26df",
+    "test_training_gate.py": "0ec303d72ac5fd6128537b229925f374f02a621005076656fd8261406f996000",
+    "test_aggregate_v2.py": "fae0c53d28cec00f8879c0a73f289d107c55e6146532339f69ee7473394c911c",
+    "wam_runtime.py": "5c4b354b5903d6c4b955e557bbdd1bbec07bc6f6eedec35874bfda0211e3dad0"
+  },
+  "aggregator_sha256": "589ac5a1d8b378031ce6973f1a1b6a88339713e412e7cec5efeff34517c3f79a",
+  "cpu_checks": {
+    "regressions_passed": 10,
+    "preserved_entries_reconciled": 31,
+    "full_corpus_ready": false,
+    "qualification_run": false,
+    "critic_fit": false
+  },
+  "base_charged_collection_gpu_seconds": 4841,
+  "live_step_elapsed_snapshot": 2572,
+  "live_step_cost_not_final": true,
+  "auxiliary_query_step": {
+    "step": "1593640.326",
+    "elapsed_seconds": 0,
+    "gpu_count": 1
+  },
+  "audio": "DISABLED; no playback or volume operation",
+  "human_action_required": false
+}

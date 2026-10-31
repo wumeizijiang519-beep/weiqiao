@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "formal_outcomes_read": 0,
+  "registration_sha256": "4c5b6865817f91480c7618b2f9833fc1437dfb2623ce267769345153489de196",
+  "robot_actions_executed": 0,
+  "scenes": 103,
+  "sources": {
+    "dispatcher": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/dispatch_formal_online_v1.sh",
+      "sha256": "e740488272906c0d11b977f688ac90961fb1fa45ce2c35e9c89842120cba2df2"
+    },
+    "final_audit": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/audit_formal_online_final.py",
+      "sha256": "d67ceb7308972e262053b230d6c0e8de558097871a7dfdf8233b1f83672c1703"
+    },
+    "finalizer": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/finalize_formal_online.py",
+      "sha256": "8c48e7c26a83083a394988cb862936cd42acef831681e89d60e2f48a4b1009cb"
+    },
+    "gate": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/run_formal_wam_compatibility_gate.py",
+      "sha256": "c5bc6f74343e022300636c0c9848ad17caff7d731bab28919586ffcc91d399ec"
+    },
+    "gate_wrapper": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/run_formal_wam_compatibility_gate.sh",
+      "sha256": "3b8e20401296600f8603ada78f3c00e696ff942bcc37ec4c7a2de7abef9b636d"
+    },
+    "lane": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/run_formal_online_lane.sh",
+      "sha256": "92f80fc6eebec06e2146609e1a968535fa79fdaf531ca7e8becd58be43c1f9e2"
+    },
+    "runner": {
+      "path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/simplewam_visual_rl_v1/run_online_task_formal_final.py",
+      "sha256": "81043ba9418a3a081a66123e1af08ca6637580c22fdd075781810a7ed975f17c"
+    }
+  },
+  "status": "SIMPLEWAM_VISUAL_QGF_FINAL_FORMAL_EXECUTION_CHAIN_AUDIT_PASS",
+  "tasks": 412
+}

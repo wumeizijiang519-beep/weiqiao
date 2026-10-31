@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26",
+  "source": "Direct user reply in this chat",
+  "decision": "Approved V2 amendment; continue collection only after contract and exact-resume audits pass",
+  "approved_document": "GRIPPER_CONTRACT_V2_PROPOSAL.md",
+  "native_gripper_values": [-1, 0, 1],
+  "model_or_action_modification": false,
+  "preserve_complete_training_entries": 30,
+  "partial_entry": "train_0030",
+  "partial_real_steps": 210,
+  "resume_requires_exact_state_observation_controller_rng_reconstruction": true,
+  "unchanged": ["fixed288population", "tasks", "seeds", "model", "checkpoint", "budget", "reward and success", "data and RL qualification gates"],
+  "if_reconstruction_fails": "Stop and report; no invented outcome or replacement scene",
+  "audio_alert_authorization": "REVOKED_BY_USER",
+  "notifications": "Text only; never play, unmute or raise audio volume"
+}

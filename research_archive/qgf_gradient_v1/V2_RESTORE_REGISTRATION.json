@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26",
+  "authorization": "V2_AUTHORIZATION.json: user approved exact contract and restoration gates before continuation",
+  "fixed_episode": "train_0030",
+  "frozen_prefix_model_steps": 210,
+  "frozen_prefix_boundaries": 21,
+  "zero_action_contract_gate": "Audit frozen retained real native/raw outputs from Stage0 and the exact failure-observation diagnostic; no new inference claims",
+  "restoration_passes": 2,
+  "simulation_state_comparison": "exact array equality at every archived step",
+  "observation_comparison": "exact canonical observation hash at every retained boundary",
+  "controller_comparison": "repeated complete replay numeric-controller-history signatures must match; original controller snapshots were not retained",
+  "rng_comparison": "exact Python/NumPy/Torch CPU/CUDA hashes after dummy waits, before inference, after actual execution and at resume boundary",
+  "selected_rng": "exact independent selection sequence and original failed-boundary pre-selection state",
+  "new_policy_decisions": 0,
+  "archive_actions_replayed": 480,
+  "maximum_attempts": 1,
+  "hard_wall_seconds": 1200,
+  "maximum_gpu_hours": 0.333333334,
+  "charged_to_collection_cap_gpu_hours": 24,
+  "if_any_gate_fails": "Stop; do not change tolerance, replace scene, resume policy execution or invent outcome",
+  "source_files": ["data_contract_v2.py", "contract_gate_v2.py", "replay_prefix.py", "restore_gate_v2.py", "run_restore_gate_v2.sh"]
+}

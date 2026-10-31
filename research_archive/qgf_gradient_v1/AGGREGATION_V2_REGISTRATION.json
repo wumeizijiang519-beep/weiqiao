@@ -1,0 +1,24 @@
+{
+  "version": "fixed_cohort_evidence_reconciliation_v2",
+  "registered_at": "2026-10-26T11:31:00+08:00",
+  "source_sha256": {
+    "aggregate_training_v2.py": "589ac5a1d8b378031ce6973f1a1b6a88339713e412e7cec5efeff34517c3f79a",
+    "aggregate_training.py": "4cc596b7eedc18dd61f943f778b48a8f90e0043ef5478b357de3a061feaebf50",
+    "data_contract.py": "39301bf91924133f275ca4780a751a0c37c4787c5164fa45bb182e5d20bb26df",
+    "test_training_gate.py": "0ec303d72ac5fd6128537b229925f374f02a621005076656fd8261406f996000",
+    "test_aggregate_v2.py": "fae0c53d28cec00f8879c0a73f289d107c55e6146532339f69ee7473394c911c",
+    "wam_runtime.py": "5c4b354b5903d6c4b955e557bbdd1bbec07bc6f6eedec35874bfda0211e3dad0"
+  },
+  "manifest_sha256": "7194f02c8dba2c9ae01fddab1d0c48c169e28f6778e3926a0386dfeff0307af9",
+  "cohort_plan_sha256": "9a3cacec0af53238345a2ede162b05dd9d738042e234ec3ffdb986fd34471c87",
+  "execution_precondition": "All four fixed257 shards independently audited, dispatcher clean exit; preserve31 ledger. Never qualify intermediate results.",
+  "preserved_entries": 31,
+  "untouched_entries": 257,
+  "expected_entries": 288,
+  "changes_to_scientific_qualification": "none; reuse frozen qualification() from original aggregate_training.py",
+  "costs": "Explicitly reconcile failed316/319/320 plus successful collection/diagnostics and integration failures307/309. No failed record deletion.",
+  "recovery_disclosure": "V2 raw-raster gate remains failed. V3 restores measured sensor snapshot; original controller snapshots unavailable. Reconstructed video prefix not original.",
+  "scope": "CPU-only reconciliation; no model load, training or new rollout.",
+  "readiness_check_run": true,
+  "readiness_at_registration": false
+}

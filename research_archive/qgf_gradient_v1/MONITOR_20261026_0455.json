@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-26 04:59:47 UTC",
+  "stage_completion": "remaining257_shard0_collection_and_independent_audit",
+  "new_independently_audited_episodes": 65,
+  "total_independently_audited_fixed_entries": 96,
+  "cohort_total": 288,
+  "shard0_gpu_step": {
+    "step": "1593640.325",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "seconds": 7056,
+    "gpu_count": 1
+  },
+  "shard0_cpu_audit": {
+    "step": "1593640.327",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "seconds": 472,
+    "gpu_count": 0,
+    "audit_sha256": "be5ae616e7e488ba216350117bd39c956ce51d5305ffc1c95c964459c151dace",
+    "report_sha256": "d8650f3f78cd70c91eeb2cd22d64cd6984510423d23548cf0dd3bf0b1a97ee5e",
+    "local_hash_population_reconciliation": true
+  },
+  "next_step": {
+    "step": "1593640.328",
+    "shard": 1,
+    "episodes": 64,
+    "state": "RUNNING",
+    "actor_strict_load_passed": true,
+    "collector_pid": 36225,
+    "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+    "gpu_memory_mib": 25141,
+    "collector_rss_kib": 26579164
+  },
+  "dispatcher_pid": 19879,
+  "completed_collection_gpu_seconds": 11897,
+  "total_completed_gpu_seconds_with_stage0": 12955,
+  "cpu_preparation": {
+    "module": "critic_metrics.py",
+    "sha256": "5b946344c979133cee1ab67e8c81e21fce5053918c08a757000f02d4491bf523",
+    "synthetic_tests_passed": 6,
+    "real_predictions": false,
+    "admission_decision": false
+  },
+  "full_dataset_qualified": false,
+  "critic_fitted": false,
+  "online_efficacy_result": null,
+  "audio": "DISABLED",
+  "user_action_required": false
+}

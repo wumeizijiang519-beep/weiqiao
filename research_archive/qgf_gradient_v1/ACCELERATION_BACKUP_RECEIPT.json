@@ -1,0 +1,14 @@
+{
+  "status": "CODE_METADATA_SNAPSHOT_VERIFIED_NOT_FULL_DATA_BACKUP",
+  "platform_cutoff_cst": "2026-11-01T00:00:00+08:00",
+  "remote_archive": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/evidence_exports/qgf_code_metadata_inprogress_20261026_accel.tar.gz",
+  "local_archive": "C:/Users/SEU student/Documents/Codex/2026-07-10/new-chat/backups/qgf_code_metadata_inprogress_20261026_accel.tar.gz",
+  "sha256_both_ends": "fbea8c914fc8e52edacde78c751387e8542ad7c43bb0f5a6b3073c08e2ee63eb",
+  "includes": ["qgf_gradient_v1 source, protocols and retained metadata", "papers", "EXPERIMENT_MANAGEMENT.md"],
+  "excludes": ["live dispatcher and shard srun logs", "Python bytecode", "runs/ raw training trajectories and videos", "large model checkpoints", "results created after archive snapshot"],
+  "not_a_complete_or_final_reproducibility_export": true,
+  "gpu22_kernel_checks": {"gpu0_exit": 0, "gpu1_exit": 0, "charged_gpu_seconds": 10},
+  "gpu4_initial_resource_failure_gpu_seconds": 55,
+  "gpu4_retry_empty_scene_egl": "PASS",
+  "gpu4_full_wam_portability": "PENDING_MUST_CHECK_ARRAYS_AND_CLEAN_EXIT"
+}
