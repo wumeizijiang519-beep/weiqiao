@@ -1,0 +1,14 @@
+{
+  "status": "FAILED_POSTCHECKPOINT_DYNAMIC_CACHE_DIGEST",
+  "step": "1593640.359",
+  "state": "FAILED",
+  "exit_code": "1:0",
+  "elapsed_gpu_seconds": 44,
+  "coverage_nodes": 792,
+  "coverage_sha256": "f0f53d04671e0b52ba524e7886210ba032c70a5a4789d517fba9a83623f83ec9",
+  "branch_entered": "A0",
+  "saved_branch_trace": false,
+  "scientific_comparison_reached": false,
+  "cause": "A cache object created after checkpoint capture had no frozen graph path in diagnostic digest.",
+  "disposition": "Preserved as an engineering failure; no A-B-A numerical conclusion."
+}

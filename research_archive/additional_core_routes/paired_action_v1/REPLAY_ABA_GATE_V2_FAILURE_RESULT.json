@@ -1,0 +1,85 @@
+{
+  "status": "FAILED_STRICT_DIRECT_RASTER_REPEATABILITY_AFTER_WARMUP",
+  "scientific_pass": false,
+  "step_id": "1593640.367",
+  "slurm_state": "FAILED",
+  "exit_code": "1:0",
+  "elapsed_gpu_seconds": 130,
+  "branch_order": [
+    "WARMUP_EXCLUDED",
+    "A0",
+    "B0",
+    "A1",
+    "A2"
+  ],
+  "completed_steps_per_branch": 100,
+  "branch_returns": {
+    "WARMUP_EXCLUDED": 0.0,
+    "A0": 0.0,
+    "B0": 0.0,
+    "A1": 0.0,
+    "A2": 0.0
+  },
+  "branch_success": {
+    "WARMUP_EXCLUDED": false,
+    "A0": false,
+    "B0": false,
+    "A1": false,
+    "A2": false
+  },
+  "boundary_matches_a0": {
+    "B0": true,
+    "A1": true,
+    "A2": true
+  },
+  "a1_matches_a0": {
+    "reward": true,
+    "done": true,
+    "success": true,
+    "proprio": true,
+    "mujoco_integration": true,
+    "sim_state": true,
+    "rng": true,
+    "policy_raster": true,
+    "direct_raster": true
+  },
+  "a2_matches_a0": {
+    "reward": true,
+    "done": true,
+    "success": true,
+    "proprio": true,
+    "mujoco_integration": true,
+    "sim_state": true,
+    "rng": true,
+    "policy_raster": true,
+    "direct_raster": false
+  },
+  "a2_direct_raster_first_mismatch_step": 4,
+  "action_replay_max_abs_error": 0.0,
+  "interpretation": "A sacrificial first environment removed the V1 policy-raster mismatch. Both measured repeat branches reproduced all policy inputs, physical state, rewards, terminal flags, proprioception, and RNG exactly. The strict gate still fails because an additional audit-only direct render differed for A2 at step 4.",
+  "disposition": "Freeze this strict gate as failed. Do not launch the fixed-16 paired diagnostic unless a separately preregistered measurement-contract amendment is explicitly approved.",
+  "loads_wam": false,
+  "loads_critic": false,
+  "qgf_evaluated": false,
+  "engineering_budget": {
+    "prior_gpu_seconds": 586,
+    "this_attempt_gpu_seconds": 130,
+    "cumulative_gpu_seconds": 716,
+    "cap_gpu_seconds": 1800,
+    "remaining_gpu_seconds": 1084
+  },
+  "artifacts": {
+    "registration_sha256": "2c9378458adbecf6f6f977b71be7caf7cbb7c72a0a756c4ff6c768deebbb0ff8",
+    "failed_txt_sha256": "9cfdd9adb709f13d2e73b366a5568b9cb41796076bdf1ed851e199200c37cd7b",
+    "a0_hashes_sha256": "065553417e03868bdbf340f02947de320576cd000c76f06f6bde39a566e37bb3",
+    "a0_npz_sha256": "cc6e20bbcc44baf7b4ca5bc0a92f956a455c8f63cc838c59b36c14a2e8bc0b3b",
+    "a1_hashes_sha256": "065553417e03868bdbf340f02947de320576cd000c76f06f6bde39a566e37bb3",
+    "a1_npz_sha256": "cc6e20bbcc44baf7b4ca5bc0a92f956a455c8f63cc838c59b36c14a2e8bc0b3b",
+    "a2_hashes_sha256": "2e3f7d244af9a0b61b2ab6fefc717cc296ed0a02f2304ab8318e018de2f04713",
+    "a2_npz_sha256": "cc6e20bbcc44baf7b4ca5bc0a92f956a455c8f63cc838c59b36c14a2e8bc0b3b",
+    "b0_hashes_sha256": "055284c87c3a382876a89ad33df9cf7ad2ae36213a6ac9370e206c75552d9498",
+    "b0_npz_sha256": "6d5aa079db9db9dfba74dd543440dd01416d686a272084f03b69140c2c79c88b",
+    "warmup_hashes_sha256": "d39f62553c1067ba271af00a2d9abbf549d6a64d4826a8e30e3afc84e02b23b8",
+    "warmup_npz_sha256": "cc6e20bbcc44baf7b4ca5bc0a92f956a455c8f63cc838c59b36c14a2e8bc0b3b"
+  }
+}

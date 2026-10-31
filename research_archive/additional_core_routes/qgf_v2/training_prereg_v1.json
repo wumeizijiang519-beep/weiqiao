@@ -1,0 +1,28 @@
+{
+  "status": "CPU implementation prepared; launch only after full40 audit and class admission",
+  "representation": "fixed_rgb16patch_statistics_plus_proprio_and_remaining_time; not WAM hidden tensor",
+  "architecture": {"state_dim": 701, "action_horizon": 10, "action_dim": 16, "width": 256, "q_heads": 2, "value_head": true},
+  "variants": {
+    "td099": {"gamma_per_action_step": 0.99, "mc_weight": 0.0},
+    "td1": {"gamma_per_action_step": 1.0, "mc_weight": 0.0},
+    "calibrated1": {"gamma_per_action_step": 1.0, "mc_weight": 0.5}
+  },
+  "initialization_and_bootstrap_seeds": [0, 1, 2],
+  "auxiliary_control": "calibrated1 state-only critic at seeds0/1/2; action input forced constant in training and inference",
+  "steps": 10000,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "target_rate": 0.005,
+  "expectile": 0.7,
+  "gradient_norm_cap": 10.0,
+  "sampling": "stratified episode bootstrap preserving class counts; sample episode uniformly from bootstrap then one transition uniformly",
+  "validation_every_steps": 500,
+  "checkpoint_selection": "lowest episode-equal held-out MC MSE within each fixed variant; targets matched to that variant gamma",
+  "online_method_selection": "requires fresh matched online validation; low offline loss or action-shuffle delta alone does not establish action ranking or gain",
+  "comparability": "identical fixed features, architecture and episode sampler across variants; this is a matched-objective TD reference, not an exact reproduction of old Tau0 architecture",
+  "action_input": "full proposed10x16 chunk without outcome-dependent masking; actual execution lengths used only in targets",
+  "model_count": 12,
+  "gpu_launch_gate": "all40 data complete, unique accepted seeds, fixed32/8 split and at least4/2train/validation failures plus both classes; feature SHA checks",
+  "cost_gate": "measure first1000 steps of first admitted full run; estimate all12 runs and log GPU-hours/wall before launching remaining runs, especially if stage exceeds2h",
+  "test_evidence": "synthetic CPU mathematical/gradient checks only; no real critic trained as of registration"
+}

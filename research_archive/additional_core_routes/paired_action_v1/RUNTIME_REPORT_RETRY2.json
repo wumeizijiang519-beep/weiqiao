@@ -1,0 +1,31 @@
+{
+  "loads_wam": false,
+  "observation_keys": [
+    "agentview_image",
+    "akita_black_bowl_1_pos",
+    "akita_black_bowl_1_quat",
+    "akita_black_bowl_1_to_robot0_eef_pos",
+    "akita_black_bowl_1_to_robot0_eef_quat",
+    "object-state",
+    "robot0_eef_pos",
+    "robot0_eef_quat",
+    "robot0_eye_in_hand_image",
+    "robot0_gripper_qpos",
+    "robot0_gripper_qvel",
+    "robot0_joint_pos",
+    "robot0_joint_pos_cos",
+    "robot0_joint_pos_sin",
+    "robot0_joint_vel",
+    "robot0_proprio-state",
+    "wine_bottle_1_pos",
+    "wine_bottle_1_quat",
+    "wine_bottle_1_to_robot0_eef_pos",
+    "wine_bottle_1_to_robot0_eef_quat"
+  ],
+  "records": 963,
+  "rendering_initialized": true,
+  "robot_model_actions": 0,
+  "source_sha256": "75e80ced55882674865c13e98d8da517026f93810205e1f962e68de1161dd1ed",
+  "status": "RUNTIME_INVENTORY_ONLY_NO_RESTORE_PASS",
+  "unresolved_native_or_depth_records": 209
+}

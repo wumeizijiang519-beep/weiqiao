@@ -1,0 +1,34 @@
+{
+  "gamma_per_action_step": 0.99,
+  "partitions": {
+    "demo_clean": {
+      "episodes": 30,
+      "failures": 2,
+      "failure_episode_fraction": 0.06666666666666667,
+      "failure_chunk_fraction": 0.1757469244288225,
+      "total_chunks": 1707,
+      "success_terminal_reward_weight_from_start": {
+        "min": 1.714320677081393e-06,
+        "median": 0.016900943119097844,
+        "max": 0.03247890341721044
+      },
+      "finite_horizon_gamma1_success_weight": 1.0,
+      "note": "Failure imbalance remains; no training admission is implied."
+    },
+    "demo_randomized": {
+      "episodes": 10,
+      "failures": 2,
+      "failure_episode_fraction": 0.2,
+      "failure_chunk_fraction": 0.4172461752433936,
+      "total_chunks": 719,
+      "success_terminal_reward_weight_from_start": {
+        "min": 0.0004580615803715599,
+        "median": 0.008450352725152653,
+        "max": 0.03347308759177372
+      },
+      "finite_horizon_gamma1_success_weight": 1.0,
+      "note": "Failure imbalance remains; no training admission is implied."
+    }
+  },
+  "interpretation": "Counterfactual target-scale diagnostic only; does not assert UNITAS was trained, or demonstrate QGF gain."
+}

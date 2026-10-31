@@ -1,0 +1,24 @@
+{
+  "status": "PREREGISTERED_NOT_AUTHORIZED_TO_TRAIN",
+  "created_at_cst": "2026-10-27T23:59:00+08:00",
+  "protocol_sha256": "bea0b3f7382b51368ab39a5ee968bba71a7d50b864d29f1e9eb21e61b712ab6f",
+  "population_report_sha256": "501d7ce97068100eec28aa1db070d70680411e14e223be9058919b2cc508f1b6",
+  "independent_audit_sha256": "d365e4a24d174eaeb329e0871464e7f32a0d60687f59a23dcb97aa11f234ae0d",
+  "complete_physical_groups": 14,
+  "real_candidate_branches": 112,
+  "unavailable_entry_indices": [3, 5],
+  "folds": 4,
+  "training_seeds": [202641601, 202641602, 202641603],
+  "bootstrap_seed": 202641701,
+  "bootstrap_draws": 10000,
+  "primary_horizon": 32,
+  "secondary_horizon": 16,
+  "tie_tolerance": 1e-6,
+  "models": [
+    "action_aware",
+    "same_target_state_only",
+    "within_group_action_permutation"
+  ],
+  "gpu_launch_authorized": false,
+  "qgf_efficacy_claim": false
+}

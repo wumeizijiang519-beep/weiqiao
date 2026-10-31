@@ -1,0 +1,36 @@
+{
+  "status": "PREREGISTERED_BEFORE_DISPATCH",
+  "registered_at_cst": "2026-10-27T02:23:08+08:00",
+  "authorization": "User requested 30-minute active progression and not to stop deliberately; V2 minimal repair authorized.",
+  "preserved_v1_step": "1593640.356",
+  "repair": "Admit immutable dictionary keys None, exact str, exact int; reject all other key types.",
+  "entry": "train_0205",
+  "paired_boundary_model_step": 100,
+  "branch_order": ["A0", "restore", "B0", "restore", "A1", "restore", "A2"],
+  "prefix_sha256": "d8723903e95c8a42c061e199974f30642b826b58f9c1cd62d35c68ae28de99fa",
+  "a_sha256": "7311570b4138105f871aaea747ec3c08b420490e4a315918818b9c4f9f81a0a1",
+  "b_sha256": "d5fe30af14fabbe18ca34aca420214473aba4ac3818b86460441433120662b76",
+  "source_manifest_sha256": "f98de4e263c38af1a7fd7e22e155405f6fb3570bd67f17bda2c2dff3b188b430",
+  "protocol_sha256": "0166002980e03ee470b9865902f02d59b5e325b44512bab0610a4be37be58f3d",
+  "cpu_tests": 35,
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+    "startup_memory_mib": 4,
+    "startup_utilization_percent": 0,
+    "cpus": 8,
+    "memory_gb": 45,
+    "inner_timeout_seconds": 1200,
+    "slurm_hard_seconds": 1300
+  },
+  "budget": {
+    "prior_engineering_gpu_seconds": 305,
+    "remaining_engineering_gpu_seconds": 1495,
+    "bounded_retry": true
+  },
+  "gates_unchanged": true,
+  "loads_wam": false,
+  "loads_critic": false,
+  "scientific_result": false
+}

@@ -1,0 +1,10 @@
+{
+  "feature_source": "fixed_rgb16patch_statistics_not_WAM_hidden",
+  "episode": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_smoke_seed202615000_v2/trajectories/trajectory_000.npz",
+  "observations": 48,
+  "state_dim": 701,
+  "batch_vs_current_frame_max_error": 0.0,
+  "finite": true,
+  "passed": true,
+  "scope": "feature computation parity, not online policy efficacy"
+}

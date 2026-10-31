@@ -1,0 +1,18 @@
+{
+  "status": "FAILED_INPLACE_RENDERER_RESTORE_RASTER_MISMATCH",
+  "step": "1593640.361",
+  "state": "FAILED",
+  "exit_code": "1:0",
+  "elapsed_gpu_seconds": 93,
+  "entry": "train_0205",
+  "coverage_nodes": 792,
+  "coverage_sha256": "f0f53d04671e0b52ba524e7886210ba032c70a5a4789d517fba9a83623f83ec9",
+  "a0_actions_completed": 100,
+  "a0_npz_sha256": "cc6e20bbcc44baf7b4ca5bc0a92f956a455c8f63cc838c59b36c14a2e8bc0b3b",
+  "a0_hashes_sha256": "418db7fe710339d0d66a3ea205e1d6245b64378b533339e4c264b638c5e77fe8",
+  "failed_trace_sha256": "db6a2689eb807648f733abdd74cc0afd2322472359ed3472e14d60785d8d4ae5",
+  "failure_point": "First restore after complete A0 branch, during rebuilt live raster equality check.",
+  "scientific_comparison_reached": false,
+  "threshold_relaxed": false,
+  "disposition": "Freeze in-place checkpoint restoration as failed. Explore separately preregistered fresh-environment deterministic replay with identical exact observable thresholds."
+}

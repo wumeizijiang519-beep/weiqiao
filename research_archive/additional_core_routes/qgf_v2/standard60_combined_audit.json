@@ -1,0 +1,427 @@
+{
+  "episode_count": 60,
+  "successes": 56,
+  "failures": 4,
+  "episodes": [
+    {
+      "seed": 202615103,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_000.npz",
+      "sha256": "4a984aa4dfa206f72864ad31a8b1f14923af3f47426e0a199b28882d22502e70"
+    },
+    {
+      "seed": 202615104,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_001.npz",
+      "sha256": "cd5c73e417d9c1752824e60d90710c69069150db7b1d8d554505ea0ca972bea5"
+    },
+    {
+      "seed": 202615105,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_002.npz",
+      "sha256": "a5a32b90c52aa02732b4bace222ed1434a13900623f19492c3c7282b2b0f97ce"
+    },
+    {
+      "seed": 202615107,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_003.npz",
+      "sha256": "c0314d1e9b46e76464af080d786a4f4bd6b6c1157f0013a2ac5cb3ca7cd40796"
+    },
+    {
+      "seed": 202615110,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_004.npz",
+      "sha256": "40959c16879eb36b3c5c7998099a253dadc80b11a438c35d9b2b2327f4bc394d"
+    },
+    {
+      "seed": 202615111,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_005.npz",
+      "sha256": "244ace9e23669db8984c11a038b086ae04813e55bbee184d4ad3211172ea9eff"
+    },
+    {
+      "seed": 202615115,
+      "success": true,
+      "replans": 46,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_006.npz",
+      "sha256": "66dc707125156a341cd46550d75c4de6ccab732a59d2023989bb00f5ba3add97"
+    },
+    {
+      "seed": 202615119,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_007.npz",
+      "sha256": "af937d16463f7d1f80b704e2758405b1e5b58c9cc57d4e2d7475a91b1153187b"
+    },
+    {
+      "seed": 202615123,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_008.npz",
+      "sha256": "b2a03249b72421b3540c4ee37e6d64162fc039371c4a6d0b08d761e908ad73fc"
+    },
+    {
+      "seed": 202615124,
+      "success": true,
+      "replans": 46,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615100/trajectories/trajectory_009.npz",
+      "sha256": "5b37edb4bb0172d5bb775fd38bb540ae09609d9d46bb2df53c88dad24a505dd9"
+    },
+    {
+      "seed": 202615200,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_000.npz",
+      "sha256": "3ef64e50f3abfade8408a3b32a650a110c2c9e3c46fbd8457387df2b6f735370"
+    },
+    {
+      "seed": 202615201,
+      "success": true,
+      "replans": 48,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_001.npz",
+      "sha256": "6dabc7afea66c4ca52a6d6812b51a863f9ec99001fa2b941f1e785e0f0e1c500"
+    },
+    {
+      "seed": 202615203,
+      "success": true,
+      "replans": 42,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_002.npz",
+      "sha256": "bcd9f15a6f9dd49474da583611576602d7944cec30c196e9c95ce8ba6af67e79"
+    },
+    {
+      "seed": 202615206,
+      "success": true,
+      "replans": 53,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_003.npz",
+      "sha256": "283957b6699c0c3ddfa947e0e12f119265dc5e904de6d06e360b9c44cf4ae72d"
+    },
+    {
+      "seed": 202615207,
+      "success": false,
+      "replans": 120,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_004.npz",
+      "sha256": "df9dc6c9c4ef08c34fff345181f3c5fd27e97216b911af29238dca66b22090a7"
+    },
+    {
+      "seed": 202615208,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_005.npz",
+      "sha256": "c24c8f019d188d5d6a908f82ad34e4c2070027389ded12dafb3b061dc22c26b5"
+    },
+    {
+      "seed": 202615211,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_006.npz",
+      "sha256": "e6075d1b8c52e14f04180cdd8f96652aa2d97f4de427b8dc63eded854b7f1896"
+    },
+    {
+      "seed": 202615212,
+      "success": true,
+      "replans": 48,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_007.npz",
+      "sha256": "3f934378ddc27c420807ead7ef568dcaccaf9b93dee1d5134117931dc9a3f47e"
+    },
+    {
+      "seed": 202615214,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_008.npz",
+      "sha256": "3cb087575fab523a4f79de969bb49b64818c95497dce16a273d67f4963235f16"
+    },
+    {
+      "seed": 202615215,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615200/trajectories/trajectory_009.npz",
+      "sha256": "666508061f5b18591b06b7f8fcfbd070a2e65d92f093c2691bd6f33696085ea7"
+    },
+    {
+      "seed": 202615302,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_000.npz",
+      "sha256": "e9c4bf230f50aa10dfbb16f465c719637a5d8ece7fd60099ada104a72cfc50b6"
+    },
+    {
+      "seed": 202615303,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_001.npz",
+      "sha256": "c3dff696b1c5a9c1f511a6dbcf12311ebcc3e58695d38bba2e93dceb1a790c6e"
+    },
+    {
+      "seed": 202615306,
+      "success": true,
+      "replans": 46,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_002.npz",
+      "sha256": "cdd39c65d7c348e1dbd0b2aee69ce0c689fbac90895065a1dc612f6d2073ab80"
+    },
+    {
+      "seed": 202615307,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_003.npz",
+      "sha256": "583c4043c1190bd4bd493605a5644a9d53458860559efb51cd1b0735ff1feff7"
+    },
+    {
+      "seed": 202615308,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_004.npz",
+      "sha256": "1f39b9a2de92dd2cc2f23beb0409c374d0d74c429e078d4cea2bbe8291c0ed69"
+    },
+    {
+      "seed": 202615309,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_005.npz",
+      "sha256": "8fa7bd0d6b260c50a3983c7c30f542e523d0bfa29bbe504f11f5f1a0d4091e72"
+    },
+    {
+      "seed": 202615310,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_006.npz",
+      "sha256": "67db1add5da225b583a47db12e5a62b073e80cea2f88c249a26d308f582afbd7"
+    },
+    {
+      "seed": 202615315,
+      "success": false,
+      "replans": 120,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_007.npz",
+      "sha256": "601ad178f396254b67208a007e92ac94412bec1798ea4946b72dd3c42e277428"
+    },
+    {
+      "seed": 202615318,
+      "success": true,
+      "replans": 42,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_008.npz",
+      "sha256": "9ee3e21ac10ca40c0302514ba66df8156122033a075afd60a89c2aab9e8c9065"
+    },
+    {
+      "seed": 202615322,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615300/trajectories/trajectory_009.npz",
+      "sha256": "050d7e6138f2c49162d5ba8f3292a082f631a330f719d81e53fa0e2724dd7b00"
+    },
+    {
+      "seed": 202615400,
+      "success": false,
+      "replans": 120,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_000.npz",
+      "sha256": "4ff102fa5f5b6fe06e483eca6d98b2b63311f91fdf5ac5354aadb3c483472977"
+    },
+    {
+      "seed": 202615404,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_001.npz",
+      "sha256": "b366d6fc3c46a43bb096abf7589201abc4da0fb504fe37e5e99366e01fe0aeb5"
+    },
+    {
+      "seed": 202615405,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_002.npz",
+      "sha256": "ce8227a04215436dc540aedf74f100de8d6cf4d0dd8b42b2ff6880b4ca2c999e"
+    },
+    {
+      "seed": 202615409,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_003.npz",
+      "sha256": "fe0aca167c7460947d8ee905e76037a3a0d0d3a325715b52e728b1a62056aa59"
+    },
+    {
+      "seed": 202615411,
+      "success": false,
+      "replans": 120,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_004.npz",
+      "sha256": "c30e22b14740628d2b2ab8284e2ca00c70d88d81cceb0cfd4e9dacb69d1c2237"
+    },
+    {
+      "seed": 202615415,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_005.npz",
+      "sha256": "daaeea5656ecb442bf4c94d56dcae6e286c14f68c1dca722830fd1328b21b41b"
+    },
+    {
+      "seed": 202615419,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_006.npz",
+      "sha256": "7edcd675c592103c36309a678fc435b1f836f5c29923b764d2d21af1c939ea49"
+    },
+    {
+      "seed": 202615420,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_007.npz",
+      "sha256": "82e4b7f6e064d566dfeecd438baa8aa7f936cda85ab8e08d3a83d900b44aa7b7"
+    },
+    {
+      "seed": 202615421,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_008.npz",
+      "sha256": "3901d7e67d62208eb34efa4125cadaeebbfae1673b07706a7806c4175003e7eb"
+    },
+    {
+      "seed": 202615422,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202615400/trajectories/trajectory_009.npz",
+      "sha256": "ce8814dc6b700f6240af43cf999f6c0f3759201708422bd831bad4244013ddd9"
+    },
+    {
+      "seed": 202616100,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_000.npz",
+      "sha256": "42d8abed9c0d07c26e9a64f1983db46dd6027eb054f90aa5115de92a5091716b"
+    },
+    {
+      "seed": 202616101,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_001.npz",
+      "sha256": "da305882fa96f99bf663c97e91cc59b657fb41c8b68ad06069357f989eab9994"
+    },
+    {
+      "seed": 202616102,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_002.npz",
+      "sha256": "62f4341dbd44a0c0b4e88974705095df9c4e651bcb948a02aef2bc6611a676d7"
+    },
+    {
+      "seed": 202616104,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_003.npz",
+      "sha256": "3795521426054265d6a62249febbddae76d91414b9f1e40cde15884401d0c252"
+    },
+    {
+      "seed": 202616105,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_004.npz",
+      "sha256": "856cf28cee9a4dcb574e4ee980d989f51225a6af2e69a9c8eae1e07b88d6e738"
+    },
+    {
+      "seed": 202616111,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_005.npz",
+      "sha256": "dfa8ab6d27e88543018b7bb1c4229d6339c2bca9deba0aefd7f099e6f7f51c88"
+    },
+    {
+      "seed": 202616113,
+      "success": true,
+      "replans": 42,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_006.npz",
+      "sha256": "f0cdf15a313477a7694b74c303e0bf95330e3b3484d72067f44ce7d9b04df6ee"
+    },
+    {
+      "seed": 202616114,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_007.npz",
+      "sha256": "19bd3274fc3639a1ece08b4b26dd778c1c42ffe27f6780a115426c170bcd4471"
+    },
+    {
+      "seed": 202616115,
+      "success": true,
+      "replans": 106,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_008.npz",
+      "sha256": "671a239dd6e5cc9fccdcf41651aa7f378fdede9f1f94a009f622a4266381c84f"
+    },
+    {
+      "seed": 202616119,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616100/trajectories/trajectory_009.npz",
+      "sha256": "5d56bb4d85301cca60266f0598094c35555261de74521c1c0207e3876d02ff99"
+    },
+    {
+      "seed": 202616200,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_000.npz",
+      "sha256": "54f096b863d997d1e2d56782ae2fad2f5935924e6b4946653325a5acbdfaecce"
+    },
+    {
+      "seed": 202616202,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_001.npz",
+      "sha256": "017a8186fd97913a10ff4673e8d8e39a7e9e08d74e1d6320763d11b888b5446c"
+    },
+    {
+      "seed": 202616203,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_002.npz",
+      "sha256": "f711a6bc72a6890f5d4a44da2546f87c05bd51a02788d7490ea9044e03fd0173"
+    },
+    {
+      "seed": 202616204,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_003.npz",
+      "sha256": "ac565b63f89670fac27d972fbcdb188df49dc23f9d5d095f84f2b8c3b3cecbfa"
+    },
+    {
+      "seed": 202616210,
+      "success": true,
+      "replans": 42,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_004.npz",
+      "sha256": "19e4003b2a85556a77b8cfd48157b841646be111dc43d52182984b5f52bbae01"
+    },
+    {
+      "seed": 202616211,
+      "success": true,
+      "replans": 43,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_005.npz",
+      "sha256": "084ed96d3c3200aca998ef07fb1b74ecd40ff7617746d018ee4bf2f85aa46c1e"
+    },
+    {
+      "seed": 202616212,
+      "success": true,
+      "replans": 42,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_006.npz",
+      "sha256": "0453a87a6ce868121c759cf5a5c031f2f8b38e29bb3906b0015f2c33c3961e65"
+    },
+    {
+      "seed": 202616214,
+      "success": true,
+      "replans": 48,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_007.npz",
+      "sha256": "bc4af2c971f3590b7dded7826a4e290ec5c52a692fed5b88d7de95f8e2b60184"
+    },
+    {
+      "seed": 202616215,
+      "success": true,
+      "replans": 45,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_008.npz",
+      "sha256": "eb3685e75f1908ffaeecd3e8e4485182daa558ebfc7c27ae7557362e39f17115"
+    },
+    {
+      "seed": 202616217,
+      "success": true,
+      "replans": 44,
+      "file": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/qgf_v2/runs/standard_train10_seed202616200/trajectories/trajectory_009.npz",
+      "sha256": "b17bfd6448fe360cc46b096197fc587830c6a0cc1e153575351e1a416993d1d1"
+    }
+  ]
+}

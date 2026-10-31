@@ -1,0 +1,31 @@
+{
+  "purpose": "fresh standard on-policy data for MC calibration and TD ablation; no environment branching",
+  "backbone": "UNITAS frozen RoboTwin checkpoint and official action execution",
+  "task": "stack_bowls_three",
+  "task_config": "demo_randomized",
+  "policy_seed": 20261022,
+  "smoke_scene_seed": 202615000,
+  "smoke_role": "engineering only, excluded from training/validation",
+  "collection_candidate_starts": [202615100, 202615200, 202615300, 202615400],
+  "candidate_windows_exclusive_stop": [202615200, 202615300, 202615400, 202615500],
+  "window_exhaustion": "stop as infrastructure/feasibility failure; never enter another shard window",
+  "accepted_episodes_per_shard": 10,
+  "total_cap": 40,
+  "max_candidates_per_episode": 1000,
+  "all_accepted_outcomes_retained": true,
+  "split_seed": 202615500,
+  "split_rule": "after full seed/array audit, stratify 32 train and 8 validation using split seed; at least two failures in validation and at least four in train, otherwise stop",
+  "admission": "six successes and six failures minimum over retained data; smoke excluded",
+  "formal_seeds": "not allocated; reserve disjoint new sequence after independent method validation",
+  "cost_estimate": {
+    "evidence": "previous randomized task five-scene gate took tens of minutes including scene feasibility; failures may use full 1200 action steps",
+    "planning_minutes_per_episode": 10,
+    "four_parallel_shard_wall_minutes": 100,
+    "planning_total_gpu_hours": 13.34,
+    "per_shard_timeout_minutes": 180,
+    "gpu_hour_upper_bound": 24,
+    "resources": "four assigned simulator GPUs and four separate task-owned model-server GPUs, verified before launch"
+  },
+  "launch_gate": "single standard trajectory smoke passes arrays/actions/labels/finite values and storage checks; new data does not admit same-state pairwise loss",
+  "stop": "all four fixed shards complete or timeout; no outcome-based extension; interrupted episodes are infrastructure failures and not negative labels"
+}

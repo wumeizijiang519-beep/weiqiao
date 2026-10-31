@@ -1,0 +1,22 @@
+{
+  "status": "APPROVED_BOUNDED_EXTENSION20",
+  "user_approval": "Explicit user reply approved at most20 additional episodes; no further expansion authorized",
+  "reason": "fixed40 finished36success/4failure; preregistered six-failure training gate not met",
+  "task": "stack_bowls_three",
+  "task_config": "demo_randomized",
+  "additional_accepted_episode_cap": 20,
+  "shards": [
+    {"candidate_start": 202616100, "candidate_stop_exclusive": 202616200, "accepted_cap": 10},
+    {"candidate_start": 202616200, "candidate_stop_exclusive": 202616300, "accepted_cap": 10}
+  ],
+  "retention": "retain all original40 and all new accepted outcomes; no outcome-based dropping or extension",
+  "training_admission": "at least six successes and six failures in combined60; otherwise stop again",
+  "proposed_split_seed": 202616500,
+  "proposed_split": "48train/12validation, stratified; at least4train failures/2validation failures, both classes; no existing frozen split was created",
+  "unchanged": "checkpoint, official success criterion, action contract, model architecture and preregistered loss variants",
+  "planning_wall_minutes": 110,
+  "planning_gpu_hours": 7.34,
+  "two_parallel_shards_timeout_minutes": 180,
+  "gpu_hour_upper_bound": 12,
+  "no_guarantee": "additional20 may still provide fewer than two new failures; no further extension authorized"
+}

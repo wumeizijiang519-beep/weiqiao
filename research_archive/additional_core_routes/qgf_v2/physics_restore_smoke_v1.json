@@ -1,0 +1,7 @@
+{
+  "scope": "one free-falling rigid body, CPU physics, 20-step replay",
+  "max_pose_error": 0.0,
+  "finite": true,
+  "passed": true,
+  "robot_task_renderer_rng_model_parity": "not_tested"
+}

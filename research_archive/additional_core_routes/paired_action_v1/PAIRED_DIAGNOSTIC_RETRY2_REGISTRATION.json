@@ -1,0 +1,44 @@
+{
+  "status": "PREREGISTERED_USER_APPROVED_MINIMAL_REPAIR",
+  "authorization": "User explicitly requested repair on 2026-10-27 CST after the frozen Retry 1 invalid-result report.",
+  "only_code_change": {
+    "old": "array_hash(initial)",
+    "new": "hashlib.sha256(initial.tobytes()).hexdigest()",
+    "old_runner_sha256": "23c89f6eb0169831c6ab89b34a6681b577c19565f4707e901ac396f75bb659a8",
+    "new_runner_sha256": "63bf691b6aab83bf632cdcd2c1d6ad61e8b393f645ee3e065bf8a932469c5743"
+  },
+  "cpu_preflight": {
+    "status": "ALL_16_INITIAL_STATE_RAW_HASHES_PASS",
+    "entries": 16,
+    "unique_state_files": 7,
+    "report_sha256": "e688854c4cd811f9ba64dac8be56cf6b75cf89de2ca99f8e447a3df85257d3a8",
+    "gpu_seconds": 0
+  },
+  "unchanged": [
+    "Raster Contract V2",
+    "Simple-WAM model and checkpoint",
+    "fixed 16 groups and no replacement",
+    "candidate seeds and branch order",
+    "actions, horizons and official success criterion",
+    "measured labels and signal thresholds"
+  ],
+  "manifest_sha256": "e719471a76b8fe1d3f3bf7e9ea8c2ed8278db81fbd2b5f5450caa96491d66efc",
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_index": 0,
+    "cpus": 8,
+    "memory_gb": 45,
+    "inner_timeout_seconds": 6690,
+    "hard_seconds": 6780
+  },
+  "diagnostic_budget": {
+    "cap_gpu_seconds_including_failures": 7200,
+    "step_369_gpu_seconds": 117,
+    "step_372_gpu_seconds": 290,
+    "spent_gpu_seconds": 407,
+    "remaining_gpu_seconds": 6793,
+    "maximum_retry2_gpu_seconds": 6780
+  },
+  "automatic_retry3": false
+}

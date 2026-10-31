@@ -1,0 +1,345 @@
+{
+  "entries": [
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl",
+      "bddl_sha256": "5255fe54d7f25fad4dee8fa30a30033d8cb908f1708d953c91ab609264fb4fb8",
+      "category": "Sensor Noise",
+      "environment_seed": 202641205,
+      "episode_id": "train_0205",
+      "family": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "e98ded151f64a036c74c872336dd09b968c379f3c9db7bc333aba37e7c235b86",
+      "initial_state_index": 11,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "fc22e593a97fdca228d333ff3db6e3235236a5aeb30b70094a616d3c546b1dfd",
+      "selection_seed": 202642205,
+      "state_sha256": "163d19b5b7ba8f4ae1a9abd652b429ced34817799c94171852fa6775fd6da1f1",
+      "task_id": 1628,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_16"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample4.bddl",
+      "bddl_sha256": "b5935e49ab9607e4b4787dd1abcfa428b71e9704a53c782f408380cc32fdd455",
+      "category": "Objects Layout",
+      "environment_seed": 202641111,
+      "episode_id": "train_0111",
+      "family": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "8c0772c7103336d59a14b48a120721586bd7891c66183279eef9bd93822518f0",
+      "initial_state_index": 0,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_newobj/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample4.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "97c0e54a61a5e8d2cfc2270e3edff48a8fb04be0dd98007b8a6fdfbe4605f3a0",
+      "selection_seed": 202642111,
+      "state_sha256": "175d3f3802fbad99995ea0f0b433d0c12fee4cf09af917a70a82808fee6f43c7",
+      "task_id": 1979,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample4"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level3_sample1.bddl",
+      "bddl_sha256": "1af883b0ad34c62925388513f88793994bc36f294eb02b9a8ddfea6df1f759e9",
+      "category": "Objects Layout",
+      "environment_seed": 202641175,
+      "episode_id": "train_0175",
+      "family": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "group_oof_fold": 2,
+      "initial_file_sha256": "2ebac6b20a389a00885261045a8d24ca8bf209920783b6b6eccd6a28e24217ba",
+      "initial_state_index": 0,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_newobj/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level3_sample1.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "f99da18db43fc178238b53780d857e3f8ab4550d44913140a3b422395e08304d",
+      "selection_seed": 202642175,
+      "state_sha256": "36c1e6ddb45392e5d0350a7f7badbb1e1f81f779048ea8dc158cc81faf4b2848",
+      "task_id": 1974,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level3_sample1"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_28.bddl",
+      "bddl_sha256": "80416ca2195fc8040e1ed027fdeb9b564ee484e7a4fdd53ec02d98b0b48cd66f",
+      "category": "Objects Layout",
+      "environment_seed": 202641250,
+      "episode_id": "train_0250",
+      "family": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it",
+      "group_oof_fold": 0,
+      "initial_file_sha256": "6f74327611e4bf435c928e050e97fef79cd274641e5d57fd4f72f0393c897b80",
+      "initial_state_index": 0,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_newobj/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_28.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "db01cfb669c4ac32f3eed4bbfbcb32f6f69d7c2bf29fc1af18f974b966bf9144",
+      "selection_seed": 202642250,
+      "state_sha256": "4b85c7fdac7562f99ebef2fd447ee3fb7aabf45c4f6b4012f1abb0cb58d7de6a",
+      "task_id": 1969,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_28"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl",
+      "bddl_sha256": "456d145f92be049f445fc77673dc583d9d17ea7afe92f6ffcb2fd1fa5565d420",
+      "category": "Robot Initial States",
+      "environment_seed": 202641032,
+      "episode_id": "train_0032",
+      "family": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "initial_state_index": 29,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "b9f4fe75c0334c695e130a80f472c67d157ef36b9c87113fb588a3cb6e5d47e4",
+      "selection_seed": 202642032,
+      "state_sha256": "a150030bf0568bd21227c1ea0486c4abd8fa1436ca1b68d65858f77f2bdeaeb1",
+      "task_id": 679,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_480"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_5.bddl",
+      "bddl_sha256": "90ab79aab98c2fb97a4cc8c58d255d89ac3ff74c2d88e083dba871324fe42055",
+      "category": "Language Instructions",
+      "environment_seed": 202641025,
+      "episode_id": "train_0025",
+      "family": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "initial_state_index": 32,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "e7d8f96463eef12b780e61fbabc031f8d880f2751a638f1fe3adaf8e9597d9bd",
+      "selection_seed": 202642025,
+      "state_sha256": "0dd395b5c2aede7e424a17feb3db52ccd431f2b897f47cc9a8d479bac8b990f5",
+      "task_id": 1446,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_5_view_0_0_100_0_0_initstate_0"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl",
+      "bddl_sha256": "456d145f92be049f445fc77673dc583d9d17ea7afe92f6ffcb2fd1fa5565d420",
+      "category": "Sensor Noise",
+      "environment_seed": 202641104,
+      "episode_id": "train_0104",
+      "family": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "group_oof_fold": 0,
+      "initial_file_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "initial_state_index": 41,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "af0db2b390b4173497bb3a761818c14dd481f9f8ea6d897a16700b5763d77b1c",
+      "selection_seed": 202642104,
+      "state_sha256": "7313b89f917417b7ba041e0bbda16e3af59c4e2f78d61a37ad294aa342e7ad7f",
+      "task_id": 1929,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_47"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl",
+      "bddl_sha256": "456d145f92be049f445fc77673dc583d9d17ea7afe92f6ffcb2fd1fa5565d420",
+      "category": "Sensor Noise",
+      "environment_seed": 202641265,
+      "episode_id": "train_0265",
+      "family": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "group_oof_fold": 2,
+      "initial_file_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "initial_state_index": 16,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "c60bd0ee35b3c8e325b77d9da5a5dd6d27106e2fc3145271e709e9a32fb47357",
+      "selection_seed": 202642265,
+      "state_sha256": "fcaede80ee19d1d5be4fecf8cfb2229c4ef98566fdb5c1d7248738dbaae20b01",
+      "task_id": 1917,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_34"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+      "bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+      "category": "Camera Viewpoints",
+      "environment_seed": 202641001,
+      "episode_id": "train_0001",
+      "family": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "initial_state_index": 37,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "f080daf5efaec76abae87e4d8fafbd434761d87d17b009d049490b9b6161e7ed",
+      "selection_seed": 202642001,
+      "state_sha256": "824abb69855d29c4b5b1f436cb6766de8603b59a4b3907f7c1c2486476a4308b",
+      "task_id": 688,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_1_15_100_0_0_initstate_0"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_1.bddl",
+      "bddl_sha256": "c6bd870c74b77165958034df839cda2f9e22edfd63b4c3357cf859ec5e3fb928",
+      "category": "Background Textures",
+      "environment_seed": 202641141,
+      "episode_id": "train_0141",
+      "family": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "group_oof_fold": 0,
+      "initial_file_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "initial_state_index": 28,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "5af4efe4c55862df07a18c463da8ebb9ae7610c8a30626dbd5c6cb1e631af604",
+      "selection_seed": 202642141,
+      "state_sha256": "d079c26b3e1034e2fe2273301c6da1c5b0f7f6eb409780591f0ef1729c3d576e",
+      "task_id": 152,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_1"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl",
+      "bddl_sha256": "2e661058917f683a25bce480015197f0a2c1911bcbc2b9dd9d947199069c9618",
+      "category": "Camera Viewpoints",
+      "environment_seed": 202641105,
+      "episode_id": "train_0105",
+      "family": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "group_oof_fold": 2,
+      "initial_file_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "initial_state_index": 19,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "717e894328410b3d9b49885c0757546f5fa47ff7bbd1d31249e612bc9876ec39",
+      "selection_seed": 202642105,
+      "state_sha256": "a6fb28270e5509da8619115495b070fe25bec4e644f15080bf7a3a61f8382a16",
+      "task_id": 687,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_354_initstate_0"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_3.bddl",
+      "bddl_sha256": "519314d3bff482dceaa084af0eb8d67f0f31c9649043786642fff3fac141d369",
+      "category": "Background Textures",
+      "environment_seed": 202641140,
+      "episode_id": "train_0140",
+      "family": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket",
+      "group_oof_fold": 0,
+      "initial_file_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "initial_state_index": 32,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "6cf30986ec8c85e4cb6743ff2538b02d2fd20865e23a627bf939d0effac8f986",
+      "selection_seed": 202642140,
+      "state_sha256": "c0c6740129c25b9e6a7e8490d910e976325956c92ff00307672b5cac0e556b53",
+      "task_id": 157,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_3"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl",
+      "bddl_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "category": "Robot Initial States",
+      "environment_seed": 202641152,
+      "episode_id": "train_0152",
+      "family": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "group_oof_fold": 2,
+      "initial_file_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "initial_state_index": 3,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "27bb636d036e416ad6525f20acc703cde864d60b06776c147867c55318d5d353",
+      "selection_seed": 202642152,
+      "state_sha256": "79a2ec18a6067d027a62de697a1931bf818dffc4dd7572c39c4426e122bd35d0",
+      "task_id": 458,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_125"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_33.bddl",
+      "bddl_sha256": "67dc7acfebb87afd158061f1284531c146bfbd322f84ea89ac280098a69491d2",
+      "category": "Language Instructions",
+      "environment_seed": 202641022,
+      "episode_id": "train_0022",
+      "family": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "group_oof_fold": 0,
+      "initial_file_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "initial_state_index": 42,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "ced577f84a738512465bd5f5288d6f6a075ce23bec3e75c9aebfc763f1a6d8b6",
+      "selection_seed": 202642022,
+      "state_sha256": "34869aac319cc93f73293d11408ec229d748e00f3bbd9a6f55b26ff978490820",
+      "task_id": 1281,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_33_view_0_0_100_0_0_initstate_0"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl",
+      "bddl_sha256": "0c6749b920bff1e1efe47ffb0e0b801a3e6959a650e710f376dd2b812c74e865",
+      "category": "Robot Initial States",
+      "environment_seed": 202641018,
+      "episode_id": "train_0018",
+      "family": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "initial_state_index": 38,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "4316ab39a2be99a9427155bf544d6a4c392b351706ffc533d3d4ba208d12e454",
+      "selection_seed": 202642018,
+      "state_sha256": "4e01942608308effa1acc219767f94d6b87b28beb5f371795da47f840473cb33",
+      "task_id": 468,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_235"
+    },
+    {
+      "bddl_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/bddl_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_27.bddl",
+      "bddl_sha256": "17e3f1d073a8465b9c6b34f4390f17efbbd1c68fb443820e46640e0c6190574d",
+      "category": "Light Conditions",
+      "environment_seed": 202641156,
+      "episode_id": "train_0156",
+      "family": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate",
+      "group_oof_fold": 1,
+      "initial_file_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "initial_state_index": 12,
+      "initial_state_path": "/public/wangsenbao221/pqr/qgf_mainstream_20261022/backbones/Simple-WAM-396cba18c318bc33a1ef42513b85298e3016e28a/third_party/LIBERO-plus/libero/libero/init_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init",
+      "online_arm_order": [
+        "random_logging"
+      ],
+      "paired_boundary_model_step": 100,
+      "physical_input_group": "c1bbef62ae2dfad3a73a00b9a339243ce2b2679eac8a99768bd2d47f3f273c8d",
+      "selection_seed": 202642156,
+      "state_sha256": "15954d8f96d3f923d28e4ab44fd0dde7cd5e8a9767aa35b5bfb0ee49ae84977d",
+      "task_id": 2449,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_27"
+    }
+  ],
+  "parent_manifest_sha256": "7194f02c8dba2c9ae01fddab1d0c48c169e28f6778e3926a0386dfeff0307af9",
+  "protocol_sha256": "baf919f2d3d3b96410f727465c94bdc3d8c989da00936e6352d08967534a3666",
+  "selection_uses_outcomes": false,
+  "source_sha256": "a6f5798bba41c98ef2c181ca2f69e9baa44de104a7e002a6e8094ca9b97d7a04",
+  "status": "METADATA_REGISTERED_NOT_ACTION_ADMITTED"
+}

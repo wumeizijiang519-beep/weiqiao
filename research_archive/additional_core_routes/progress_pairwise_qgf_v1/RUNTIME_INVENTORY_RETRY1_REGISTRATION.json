@@ -1,0 +1,21 @@
+{
+  "automatic_further_retry_allowed": false,
+  "cpus": 4,
+  "failed_attempt": {
+    "exit_code": "1:0",
+    "gpu_seconds": 114,
+    "reason": "MuJoCo joint count field was incorrectly named njoint instead of njnt",
+    "slurm_step": "1593640.396"
+  },
+  "gpu_count": 1,
+  "gpu_seconds_hard_cap": 300,
+  "launcher_sha256": "d490d080daa5a96b6320481ca658f91c527caf56a8a9e4c26647962851171c59",
+  "manifest_sha256": "aa20335f10dfe3b39c6ebf0ce3a4f77c24d694f9a2a5e7672cf90fb08120e256",
+  "memory_gb": 12,
+  "protocol_sha256": "96e7f85d097bd07194084ac2fa3d1593f701568f9eac54c2a7b438ccb8173f78",
+  "repair_note_sha256": "cbafb970bc5d0def441e59a6417075c6d48264de822a734b8a7fe6644410eb16",
+  "runtime_inventory_source_sha256": "7aa58ecb90852d3efdf38555c08201bc331b659ea10acf4dba4e8af9e1bcdda6",
+  "scope": "same four frozen families; environment initialization only; zero WAM calls; zero dummy or robot actions",
+  "slurm_job_id": 1593640,
+  "status": "RUNTIME_INVENTORY_RETRY1_USER_AUTHORIZED"
+}

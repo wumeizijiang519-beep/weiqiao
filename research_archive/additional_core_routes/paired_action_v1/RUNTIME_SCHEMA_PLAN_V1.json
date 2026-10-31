@@ -1,0 +1,1211 @@
+{
+  "builder_sha256": "62d0d95c7c292f129e07bea27653fe4828f93f29e78979160b22aa85ebb09305",
+  "class_counts": {
+    "alias_identity": 173,
+    "callback_identity_and_closure_required": 22,
+    "container_alias_preserving": 354,
+    "exact_python_object_schema": 86,
+    "mutable_array_exact_bytes": 118,
+    "native_physics_adapter_required": 2,
+    "renderer_rebuild_and_raster_verifier_required": 6,
+    "static_xml_sha_and_identity": 202
+  },
+  "dynamic_restore_passed": false,
+  "limitations": [
+    "Classification is not serialization implementation",
+    "Renderer rebuild needs exact future raster A-B-A verification",
+    "MjModel static identity and MjData integration state require separate adapters"
+  ],
+  "records": 963,
+  "robot_actions": 0,
+  "runtime_report_sha256": "9c487092200bc5a3947e084ef94a5cbdd822f5ea2e4b6159a48c067dfed3e63c",
+  "source_inventory_sha256": "c454c83cbad36a7e2da53c885ffacf9d00b9051a2f0c26148f994d21446db740",
+  "status": "SCHEMA_PLAN_COMPLETE_IMPLEMENTATION_NOT_ADMITTED",
+  "type_manifest": {
+    "OpenGL._opaque.EGLContext_pointer": {
+      "classes": [
+        "renderer_rebuild_and_raster_verifier_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.gl_ctx._context"
+      ],
+      "field_sets": [
+        []
+      ]
+    },
+    "builtins.dict": {
+      "classes": [
+        "alias_identity",
+        "container_alias_preserving"
+      ],
+      "count": 102,
+      "examples": [
+        "env.env._arena_properties",
+        "env.env._obs_cache",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data._model._actuator_id2name"
+      ],
+      "field_sets": []
+    },
+    "builtins.function": {
+      "classes": [
+        "alias_identity",
+        "callback_identity_and_closure_required"
+      ],
+      "count": 76,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._corrupter",
+        "env.env._observables['robot0_joint_pos']._delayer",
+        "env.env._observables['robot0_joint_pos']._filter"
+      ],
+      "field_sets": []
+    },
+    "builtins.list": {
+      "classes": [
+        "alias_identity",
+        "container_alias_preserving"
+      ],
+      "count": 233,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self._ref_gripper_joint_pos_indexes",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self._ref_gripper_joint_vel_indexes",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self._ref_joint_actuator_indexes"
+      ],
+      "field_sets": []
+    },
+    "builtins.tuple": {
+      "classes": [
+        "alias_identity",
+        "container_alias_preserving"
+      ],
+      "count": 60,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._data_shape",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data._model.actuator_names",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data._model.body_names"
+      ],
+      "field_sets": []
+    },
+    "collections.OrderedDict": {
+      "classes": [
+        "container_alias_preserving"
+      ],
+      "count": 8,
+      "examples": [
+        "env.env._observables",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.robot_model.grippers",
+        "env.env.conditional_placement_initializer.sample_args"
+      ],
+      "field_sets": []
+    },
+    "libero.libero.envs.arenas.kitchen_arena.KitchenTableArena": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env.model.mujoco_arena"
+      ],
+      "field_sets": [
+        [
+          "actuator",
+          "asset",
+          "bottom_pos",
+          "center_pos",
+          "contact",
+          "equality",
+          "file",
+          "floor",
+          "folder",
+          "has_legs",
+          "root",
+          "sensor",
+          "table_body",
+          "table_collision",
+          "table_friction",
+          "table_full_size",
+          "table_half_size",
+          "table_legs_visual",
+          "table_offset",
+          "table_top",
+          "table_visual",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "libero.libero.envs.env_wrapper.OffScreenRenderEnv": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env"
+      ],
+      "field_sets": [
+        [
+          "domain_name",
+          "env",
+          "language_instruction",
+          "noise",
+          "problem_name"
+        ]
+      ]
+    },
+    "libero.libero.envs.object_states.base_object_states.ObjectState": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 4,
+      "examples": [
+        "env.env.object_states_dict['akita_black_bowl_1']",
+        "env.env.object_states_dict['wine_bottle_1']",
+        "env.env.object_states_dict['white_cabinet_1']"
+      ],
+      "field_sets": [
+        [
+          "env",
+          "has_turnon_affordance",
+          "is_fixture",
+          "object_name",
+          "object_state_type",
+          "query_dict"
+        ]
+      ]
+    },
+    "libero.libero.envs.object_states.base_object_states.SiteObjectState": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 9,
+      "examples": [
+        "env.env.object_states_dict['kitchen_table_white_cabinet_init_region']",
+        "env.env.object_states_dict['kitchen_table_wine_rack_init_region']",
+        "env.env.object_states_dict['kitchen_table_akita_black_bowl_init_region']"
+      ],
+      "field_sets": [
+        [
+          "env",
+          "is_fixture",
+          "object_name",
+          "object_state_type",
+          "parent_name",
+          "query_dict"
+        ]
+      ]
+    },
+    "libero.libero.envs.objects.articulated_objects.WhiteCabinet": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 5,
+      "examples": [
+        "env.env.fixtures[0]",
+        "env.env.fixtures_dict['white_cabinet_1']",
+        "env.env.model.mujoco_objects[2]"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_bodies",
+          "_contact_geoms",
+          "_joints",
+          "_name",
+          "_obj",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "category_name",
+          "contact",
+          "duplicate_collision_geoms",
+          "equality",
+          "file",
+          "folder",
+          "joint_specs",
+          "obj_type",
+          "object_properties",
+          "root",
+          "rotation",
+          "rotation_axis",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "libero.libero.envs.objects.google_scanned_objects.AkitaBlackBowl": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 5,
+      "examples": [
+        "env.env.model.mujoco_objects[0]",
+        "env.env.object_states_dict['akita_black_bowl_1'].query_dict['akita_black_bowl_1']",
+        "env.env.objects[0]"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_bodies",
+          "_contact_geoms",
+          "_joints",
+          "_name",
+          "_obj",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "category_name",
+          "contact",
+          "duplicate_collision_geoms",
+          "equality",
+          "file",
+          "folder",
+          "joint_specs",
+          "obj_type",
+          "object_properties",
+          "root",
+          "rotation",
+          "rotation_axis",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "libero.libero.envs.objects.site_object.SiteObject": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 5,
+      "examples": [
+        "env.env.object_sites_dict['white_cabinet_1_top_side']",
+        "env.env.object_sites_dict['white_cabinet_1_top_region']",
+        "env.env.object_sites_dict['white_cabinet_1_middle_region']"
+      ],
+      "field_sets": [
+        [
+          "joints",
+          "name",
+          "object_properties",
+          "parent_name",
+          "rgba",
+          "site_pos",
+          "site_quat",
+          "site_type",
+          "size"
+        ]
+      ]
+    },
+    "libero.libero.envs.objects.target_zones.TargetZone": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 4,
+      "examples": [
+        "env.env.object_sites_dict['kitchen_table_white_cabinet_init_region']",
+        "env.env.object_sites_dict['kitchen_table_wine_rack_init_region']",
+        "env.env.object_sites_dict['kitchen_table_akita_black_bowl_init_region']"
+      ],
+      "field_sets": [
+        [
+          "category_name",
+          "joints",
+          "name",
+          "object_properties",
+          "parent_name",
+          "pos",
+          "quat",
+          "rgba",
+          "site_pos",
+          "site_quat",
+          "site_type",
+          "size"
+        ]
+      ]
+    },
+    "libero.libero.envs.objects.turbosquid_objects.WineBottle": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 5,
+      "examples": [
+        "env.env.model.mujoco_objects[1]",
+        "env.env.object_states_dict['akita_black_bowl_1'].query_dict['wine_bottle_1']",
+        "env.env.objects[1]"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_bodies",
+          "_contact_geoms",
+          "_joints",
+          "_name",
+          "_obj",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "category_name",
+          "contact",
+          "duplicate_collision_geoms",
+          "equality",
+          "file",
+          "folder",
+          "joint_specs",
+          "obj_type",
+          "object_properties",
+          "root",
+          "rotation",
+          "rotation_axis",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "libero.libero.envs.objects.turbosquid_objects.WineRack": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 5,
+      "examples": [
+        "env.env.fixtures[1]",
+        "env.env.fixtures_dict['wine_rack_1']",
+        "env.env.model.mujoco_objects[3]"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_bodies",
+          "_contact_geoms",
+          "_joints",
+          "_name",
+          "_obj",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "category_name",
+          "contact",
+          "duplicate_collision_geoms",
+          "equality",
+          "file",
+          "folder",
+          "joint_specs",
+          "obj_type",
+          "object_properties",
+          "root",
+          "rotation",
+          "rotation_axis",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "libero.libero.envs.problems.libero_kitchen_tabletop_manipulation.Libero_Kitchen_Tabletop_Manipulation": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 20,
+      "examples": [
+        "env.env",
+        "env.env._observables['agentview_image']._sensor.closure.self",
+        "env.env._observables['robot0_eye_in_hand_image']._sensor.closure.self"
+      ],
+      "field_sets": [
+        [
+          "_action_dim",
+          "_arena_properties",
+          "_arena_type",
+          "_arena_xml",
+          "_obs_cache",
+          "_observables",
+          "_xml_processor",
+          "bddl_file_name",
+          "camera_depths",
+          "camera_heights",
+          "camera_names",
+          "camera_segmentations",
+          "camera_widths",
+          "conditional_placement_initializer",
+          "conditional_placement_on_objects_initializer",
+          "control_freq",
+          "control_timestep",
+          "cur_time",
+          "custom_asset_dir",
+          "deterministic_reset",
+          "done",
+          "end_point_rot",
+          "end_point_vertical",
+          "env_configuration",
+          "fixtures",
+          "fixtures_dict",
+          "hard_reset",
+          "has_offscreen_renderer",
+          "has_renderer",
+          "horizon",
+          "horizon_view",
+          "ignore_done",
+          "init_state",
+          "kitchen_table_full_size",
+          "kitchen_table_offset",
+          "model",
+          "model_timestep",
+          "num_cameras",
+          "num_robots",
+          "obj_body_id",
+          "obj_of_interest",
+          "object_property_initializers",
+          "object_sites_dict",
+          "object_states_dict",
+          "objects",
+          "objects_dict",
+          "parsed_problem",
+          "placement_initializer",
+          "render_camera",
+          "render_collision_mesh",
+          "render_gpu_device_id",
+          "render_visual_mesh",
+          "renderer",
+          "renderer_config",
+          "reward_scale",
+          "reward_shaping",
+          "robot_configs",
+          "robot_names",
+          "robots",
+          "scale_factor",
+          "sim",
+          "sim_state_initial",
+          "timestep",
+          "tracking_object_states_change",
+          "use_camera_obs",
+          "use_object_obs",
+          "vertical_view",
+          "viewer",
+          "viewer_get_obs",
+          "visualization_sites_list",
+          "workspace_name",
+          "workspace_offset",
+          "z_offset"
+        ]
+      ]
+    },
+    "libero.libero.envs.regions.base_region_sampler.MultiRegionRandomSampler": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env.placement_initializer.samplers['white_cabinet_1_sampler']",
+        "env.env.placement_initializer.samplers['wine_rack_1_sampler']"
+      ],
+      "field_sets": [
+        [
+          "ensure_object_boundary_in_range",
+          "ensure_valid_placement",
+          "idx",
+          "mujoco_objects",
+          "name",
+          "num_ranges",
+          "reference_pos",
+          "rotation",
+          "rotation_axis",
+          "x_ranges",
+          "y_ranges",
+          "z_offset"
+        ]
+      ]
+    },
+    "libero.libero.envs.regions.base_region_sampler.SiteSequentialCompositeSampler": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env.conditional_placement_initializer"
+      ],
+      "field_sets": [
+        [
+          "ensure_object_boundary_in_range",
+          "ensure_valid_placement",
+          "mujoco_objects",
+          "name",
+          "reference_pos",
+          "sample_args",
+          "samplers",
+          "z_offset"
+        ]
+      ]
+    },
+    "libero.libero.envs.regions.object_property_sampler.OpenCloseSampler": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env.object_property_initializers[0]",
+        "env.env.object_property_initializers[1]"
+      ],
+      "field_sets": [
+        [
+          "joint_ranges",
+          "mujoco_objects",
+          "name",
+          "state_type"
+        ]
+      ]
+    },
+    "libero.libero.envs.regions.workspace_region_sampler.Libero100TableRegionSampler": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env.placement_initializer.samplers['akita_black_bowl_1']",
+        "env.env.placement_initializer.samplers['wine_bottle_1']"
+      ],
+      "field_sets": [
+        [
+          "ensure_object_boundary_in_range",
+          "ensure_valid_placement",
+          "idx",
+          "mujoco_objects",
+          "name",
+          "num_ranges",
+          "reference_pos",
+          "rotation",
+          "rotation_axis",
+          "x_ranges",
+          "y_ranges",
+          "z_offset"
+        ]
+      ]
+    },
+    "libero.libero.envs.robots.mounted_panda.MountedPanda": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.robot_model",
+        "env.env.model.mujoco_robots[0]"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_base_offset",
+          "_bodies",
+          "_contact_geoms",
+          "_elements",
+          "_joints",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "cameras",
+          "contact",
+          "equality",
+          "file",
+          "folder",
+          "grippers",
+          "hand_rotation_offset",
+          "idn",
+          "mount",
+          "root",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "mujoco._render.MjrContext": {
+      "classes": [
+        "renderer_rebuild_and_raster_verifier_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.con"
+      ],
+      "field_sets": []
+    },
+    "mujoco._structs.MjData": {
+      "classes": [
+        "native_physics_adapter_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data._data"
+      ],
+      "field_sets": []
+    },
+    "mujoco._structs.MjModel": {
+      "classes": [
+        "native_physics_adapter_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data._model._model"
+      ],
+      "field_sets": []
+    },
+    "mujoco._structs.MjvCamera": {
+      "classes": [
+        "renderer_rebuild_and_raster_verifier_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.cam"
+      ],
+      "field_sets": []
+    },
+    "mujoco._structs.MjvOption": {
+      "classes": [
+        "renderer_rebuild_and_raster_verifier_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.vopt"
+      ],
+      "field_sets": []
+    },
+    "mujoco._structs.MjvPerturb": {
+      "classes": [
+        "renderer_rebuild_and_raster_verifier_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.pert"
+      ],
+      "field_sets": []
+    },
+    "mujoco._structs.MjvScene": {
+      "classes": [
+        "renderer_rebuild_and_raster_verifier_required"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.scn"
+      ],
+      "field_sets": []
+    },
+    "numpy.ndarray": {
+      "classes": [
+        "alias_identity",
+        "mutable_array_exact_bytes"
+      ],
+      "count": 124,
+      "examples": [
+        "env.env._obs_cache['robot0_joint_pos']",
+        "env.env._obs_cache['robot0_joint_pos_cos']",
+        "env.env._obs_cache['robot0_joint_pos_sin']"
+      ],
+      "field_sets": []
+    },
+    "robosuite.controllers.osc.OperationalSpaceController": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller"
+      ],
+      "field_sets": [
+        [
+          "J_full",
+          "J_ori",
+          "J_pos",
+          "action_input_transform",
+          "action_output_transform",
+          "action_scale",
+          "actuator_max",
+          "actuator_min",
+          "control_dim",
+          "control_freq",
+          "damping_ratio_max",
+          "damping_ratio_min",
+          "ee_ori_mat",
+          "ee_ori_vel",
+          "ee_pos",
+          "ee_pos_vel",
+          "eef_name",
+          "goal_ori",
+          "goal_pos",
+          "impedance_mode",
+          "initial_ee_ori_mat",
+          "initial_ee_pos",
+          "initial_joint",
+          "input_max",
+          "input_min",
+          "interpolator_ori",
+          "interpolator_pos",
+          "joint_dim",
+          "joint_index",
+          "joint_pos",
+          "joint_vel",
+          "kd",
+          "kp",
+          "kp_max",
+          "kp_min",
+          "mass_matrix",
+          "model_timestep",
+          "name_suffix",
+          "new_update",
+          "ori_ref",
+          "orientation_limits",
+          "output_max",
+          "output_min",
+          "position_limits",
+          "qpos_index",
+          "qvel_index",
+          "relative_ori",
+          "sim",
+          "torques",
+          "uncoupling",
+          "use_delta",
+          "use_ori"
+        ]
+      ]
+    },
+    "robosuite.models.grippers.panda_gripper.PandaGripper": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.gripper",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.robot_model.grippers['robot0_right_hand']"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_base_offset",
+          "_bodies",
+          "_contact_geoms",
+          "_elements",
+          "_joints",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "contact",
+          "current_action",
+          "equality",
+          "file",
+          "folder",
+          "idn",
+          "mount",
+          "root",
+          "rotation_offset",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "robosuite.models.mounts.rethink_mount.RethinkMount": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.robot_model.mount"
+      ],
+      "field_sets": [
+        [
+          "_actuators",
+          "_base_offset",
+          "_bodies",
+          "_contact_geoms",
+          "_elements",
+          "_joints",
+          "_root_body",
+          "_sensors",
+          "_sites",
+          "_visual_geoms",
+          "actuator",
+          "asset",
+          "contact",
+          "equality",
+          "file",
+          "folder",
+          "idn",
+          "mount",
+          "root",
+          "rotation_offset",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "robosuite.models.tasks.manipulation_task.ManipulationTask": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env.model"
+      ],
+      "field_sets": [
+        [
+          "_classes_to_ids",
+          "_geom_ids_to_classes",
+          "_geom_ids_to_instances",
+          "_instances_to_ids",
+          "_site_ids_to_classes",
+          "_site_ids_to_instances",
+          "actuator",
+          "asset",
+          "contact",
+          "equality",
+          "file",
+          "folder",
+          "mujoco_arena",
+          "mujoco_objects",
+          "mujoco_robots",
+          "root",
+          "sensor",
+          "tendon",
+          "tree",
+          "worldbody"
+        ]
+      ]
+    },
+    "robosuite.renderers.context.egl_context.EGLGLContext": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.gl_ctx"
+      ],
+      "field_sets": [
+        [
+          "_context"
+        ]
+      ]
+    },
+    "robosuite.robots.single_arm.SingleArm": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 9,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self",
+        "env.env._observables['robot0_joint_pos_cos']._sensor.closure.self",
+        "env.env._observables['robot0_joint_pos_sin']._sensor.closure.self"
+      ],
+      "field_sets": [
+        [
+          "_ref_gripper_joint_pos_indexes",
+          "_ref_gripper_joint_vel_indexes",
+          "_ref_joint_actuator_indexes",
+          "_ref_joint_gripper_actuator_indexes",
+          "_ref_joint_indexes",
+          "_ref_joint_pos_indexes",
+          "_ref_joint_vel_indexes",
+          "base_ori",
+          "base_pos",
+          "control_freq",
+          "controller",
+          "controller_config",
+          "eef_cylinder_id",
+          "eef_rot_offset",
+          "eef_site_id",
+          "gripper",
+          "gripper_joints",
+          "gripper_type",
+          "has_gripper",
+          "idn",
+          "init_qpos",
+          "initialization_noise",
+          "mount_type",
+          "name",
+          "recent_actions",
+          "recent_ee_acc",
+          "recent_ee_forcetorques",
+          "recent_ee_pose",
+          "recent_ee_vel",
+          "recent_ee_vel_buffer",
+          "recent_qpos",
+          "recent_torques",
+          "robot_joints",
+          "robot_model",
+          "sim",
+          "torques"
+        ]
+      ]
+    },
+    "robosuite.utils.binding_utils.MjData": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim.data"
+      ],
+      "field_sets": [
+        [
+          "_data",
+          "_model"
+        ]
+      ]
+    },
+    "robosuite.utils.binding_utils.MjModel": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 3,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.data._model",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.model",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim.model"
+      ],
+      "field_sets": [
+        [
+          "_actuator_id2name",
+          "_actuator_name2id",
+          "_body_id2name",
+          "_body_name2id",
+          "_camera_id2name",
+          "_camera_name2id",
+          "_geom_id2name",
+          "_geom_name2id",
+          "_joint_id2name",
+          "_joint_name2id",
+          "_light_id2name",
+          "_light_name2id",
+          "_mesh_id2name",
+          "_mesh_name2id",
+          "_model",
+          "_sensor_id2name",
+          "_sensor_name2id",
+          "_site_id2name",
+          "_site_name2id",
+          "_tendon_id2name",
+          "_tendon_name2id",
+          "actuator_names",
+          "body_names",
+          "camera_names",
+          "geom_names",
+          "joint_names",
+          "light_names",
+          "mesh_names",
+          "sensor_names",
+          "site_names",
+          "tendon_names"
+        ]
+      ]
+    },
+    "robosuite.utils.binding_utils.MjRenderContextOffscreen": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen"
+      ],
+      "field_sets": [
+        [
+          "cam",
+          "con",
+          "data",
+          "device_id",
+          "gl_ctx",
+          "model",
+          "offscreen",
+          "pert",
+          "scn",
+          "sim",
+          "vopt"
+        ]
+      ]
+    },
+    "robosuite.utils.binding_utils.MjSim": {
+      "classes": [
+        "alias_identity",
+        "exact_python_object_schema"
+      ],
+      "count": 5,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller.sim._render_context_offscreen.sim",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.controller_config['sim']"
+      ],
+      "field_sets": [
+        [
+          "_render_context_offscreen",
+          "data",
+          "model"
+        ]
+      ]
+    },
+    "robosuite.utils.binding_utils.MjSimState": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env.sim_state_initial"
+      ],
+      "field_sets": [
+        [
+          "qpos",
+          "qvel",
+          "time"
+        ]
+      ]
+    },
+    "robosuite.utils.buffers.DeltaBuffer": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 7,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.recent_actions",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.recent_ee_acc",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.recent_ee_forcetorques"
+      ],
+      "field_sets": [
+        [
+          "current",
+          "dim",
+          "last"
+        ]
+      ]
+    },
+    "robosuite.utils.buffers.RingBuffer": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 1,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.recent_ee_vel_buffer"
+      ],
+      "field_sets": [
+        [
+          "_size",
+          "buf",
+          "dim",
+          "length",
+          "ptr"
+        ]
+      ]
+    },
+    "robosuite.utils.observables.Observable": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 19,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']",
+        "env.env._observables['robot0_joint_pos_cos']",
+        "env.env._observables['robot0_joint_pos_sin']"
+      ],
+      "field_sets": [
+        [
+          "_active",
+          "_corrupter",
+          "_current_delay",
+          "_current_observed_value",
+          "_data_shape",
+          "_delayer",
+          "_enabled",
+          "_filter",
+          "_is_number",
+          "_sampled",
+          "_sampling_timestep",
+          "_sensor",
+          "_time_since_last_sample",
+          "name"
+        ]
+      ]
+    },
+    "robosuite.utils.placement_samplers.SequentialCompositeSampler": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 2,
+      "examples": [
+        "env.env.conditional_placement_on_objects_initializer",
+        "env.env.placement_initializer"
+      ],
+      "field_sets": [
+        [
+          "ensure_object_boundary_in_range",
+          "ensure_valid_placement",
+          "mujoco_objects",
+          "name",
+          "reference_pos",
+          "sample_args",
+          "samplers",
+          "z_offset"
+        ]
+      ]
+    },
+    "xml.etree.ElementTree.Element": {
+      "classes": [
+        "alias_identity",
+        "static_xml_sha_and_identity"
+      ],
+      "count": 214,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.gripper._elements['actuators'][0]",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.gripper._elements['actuators'][1]",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.gripper._elements['root_body']"
+      ],
+      "field_sets": []
+    },
+    "xml.etree.ElementTree.ElementTree": {
+      "classes": [
+        "exact_python_object_schema"
+      ],
+      "count": 9,
+      "examples": [
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.gripper.tree",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.robot_model.mount.tree",
+        "env.env._observables['robot0_joint_pos']._sensor.closure.self.robot_model.tree"
+      ],
+      "field_sets": [
+        [
+          "_root"
+        ]
+      ]
+    }
+  },
+  "unhandled": []
+}

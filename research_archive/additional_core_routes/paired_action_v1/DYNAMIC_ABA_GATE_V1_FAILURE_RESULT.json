@@ -1,0 +1,21 @@
+{
+  "status": "FAILED_PREBRANCH_UNDECLARED_NONE_DICTIONARY_KEY",
+  "slurm_step": "1593640.356",
+  "slurm_state": "FAILED",
+  "slurm_exit_code": "1:0",
+  "elapsed_gpu_seconds": 54,
+  "failed_txt_sha256": "abd2dba7e3ec82b5e598467d386a9744b76bfec44a84c9332cab1e5bf7c0d03a",
+  "run_registration_sha256": "066778d07ce2060c8581f17275d6b2afbae1be456cffc1e673d892ccf69a1d5a",
+  "preregistration_sha256": "8280d29967d3c3329477c836e2652e4c74a6ac71343022ca65c8a9c122fe8699",
+  "stage": "runtime_checkpoint_capture",
+  "dummy_wait_actions_executed": 30,
+  "frozen_prefix_actions_executed": 100,
+  "a_branch_actions_executed": 0,
+  "b_branch_actions_executed": 0,
+  "wam_loaded": false,
+  "critic_loaded": false,
+  "scientific_result": false,
+  "cause": "Official MuJoCo _geom_name2id contains a legitimate None key; V1 admitted only exact str/int keys and failed closed.",
+  "remaining_engineering_gpu_seconds": 1495,
+  "automatic_retry_authorized": false
+}

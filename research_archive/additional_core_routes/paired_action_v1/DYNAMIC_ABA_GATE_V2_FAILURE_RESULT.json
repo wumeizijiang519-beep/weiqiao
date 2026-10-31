@@ -1,0 +1,16 @@
+{
+  "status": "FAILED_PREBRANCH_PLACEHOLDER_COVERAGE_THRESHOLD",
+  "slurm_step": "1593640.358",
+  "slurm_state": "FAILED",
+  "slurm_exit_code": "1:0",
+  "elapsed_gpu_seconds": 45,
+  "failed_txt_sha256": "e258b301a9b8c6be7fdf7f6f51e2d0222c29d42523fa790ea18ec2eb577d7e1f",
+  "coverage_sha256": "f0f53d04671e0b52ba524e7886210ba032c70a5a4789d517fba9a83623f83ec9",
+  "coverage_nodes": 792,
+  "coverage_kind_counts": {"external": 227, "list": 219, "array": 126, "object": 84, "dict": 82, "tuple": 46, "ordered_dict": 8},
+  "a_branch_actions_executed": 0,
+  "b_branch_actions_executed": 0,
+  "cause": "V2 code contained an unsupported placeholder assertion requiring more than 900 graph nodes despite explicit native and renderer externalization.",
+  "remaining_engineering_gpu_seconds": 1450,
+  "scientific_result": false
+}

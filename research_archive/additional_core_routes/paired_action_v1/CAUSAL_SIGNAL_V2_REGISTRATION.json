@@ -1,0 +1,56 @@
+{
+  "status": "CAUSAL_SIGNAL_V2_PREREGISTERED",
+  "authorization": "User approved execution of the prioritized next-step plan on 2026-10-27 CST.",
+  "frozen_precursor": {
+    "status": "NO_PAIRED_ACTION_VALUE_SIGNAL",
+    "groups": 16,
+    "final_report_sha256": "1bcb771b783d5dce99a67cdd3ddd9de270135b3497404506c54f2ef4aa3a2abc",
+    "independent_audit_sha256": "19cb4b6c98fbc67ec79e031328736eaa1a610e2e85ad7f582b9f8b8d3cd3032b",
+    "causal_effect_audit_status": "PHYSICAL_DIVERGENCE_WITH_FEEDBACK_INSENSITIVITY",
+    "causal_effect_audit_report_sha256": "845f18509ac572d63a1bedb832ec5bab014208de372d56326a6010d59bf3d29d"
+  },
+  "population": {
+    "registration_sha256": "59ea15d5205bf58903bff3e04fa802ead5195a2d81609ef0441b48f363d21ce3",
+    "groups": 16,
+    "pilot_slice": [0, 1],
+    "remaining_slice": [1, 16],
+    "replacement_allowed": false
+  },
+  "contract": {
+    "candidate_seeds": [10000, 11000, 12000, 13000, 14000, 15000, 16000, 17000],
+    "candidate_shape": [8, 32, 7],
+    "executed_steps": 32,
+    "registered_endpoints": [16, 32],
+    "branch_wam_calls": 0,
+    "action_commit_max_error": 1e-6,
+    "minimum_complete_groups": 12,
+    "binary_gate": {"groups": 4, "families": 2},
+    "dense_gate": {"families": 2, "bootstrap_draws": 10000, "bootstrap_seed": 202641101},
+    "qgf_efficacy_claim": false
+  },
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_index": 0,
+    "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+    "verified_idle_memory_mib": 4,
+    "verified_idle_utilization_percent": 0,
+    "verified_at_cst": "2026-10-27T13:48:24+08:00",
+    "cpus": 8,
+    "memory_gb": 45
+  },
+  "budget": {
+    "total_cap_gpu_seconds_including_failures": 14400,
+    "pilot_cap_gpu_seconds": 1800,
+    "remaining_cap_gpu_seconds": 12600,
+    "automatic_retry_allowed": false
+  },
+  "source_sha256": {
+    "protocol": "c628a32de10bd7c521572c4be911e8fbe8de2854526582edd29f4e3442b21f6e",
+    "runner": "9500113b767b51a0940e7f92621b0b1094d18b721c9c7d51bfd51fa48e3f71db",
+    "metrics": "60fd1a826ccbb2a4ac37d227840204c78ba5e7989ab2297527e741e12bc7dece",
+    "finalizer": "bb7930b4a9e16593e8a2c9936d9682312be981652bacfbfe6841e6e315372086",
+    "tests": "22c922c3ccfbfd8e52111e456f7a71ac6339a6cbf61434e30523308c1e991672",
+    "pilot_audit": "044d95d3ff3c404148efaf530ca955dd75e4742507919ef980f6bb426b93f294"
+  }
+}

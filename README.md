@@ -26,6 +26,9 @@ registrations, audits, and final results are retained instead.
 - `research_archive/simplewam_visual_rl_v1/`: project code, protocols,
   registrations, audits, and frozen reports.
 - `research_archive/qgf_gradient_v1/`: relevant QGF source and handoff record.
+- `research_archive/additional_core_routes/`: compact server-sourced,
+  scientifically distinct QGF route implementations. Its manifest records the
+  original relative path, byte size, and SHA256 for every included file.
 - `research_archive/backbones/`: compact Simple-WAM source snapshot without
   model weights or the large public LIBERO corpus.
 - `research_archive/SERVER_SHUTDOWN_BACKUP_METADATA_20261031/`: environment,
@@ -65,4 +68,5 @@ against the original experiment.
   <https://github.com/lanlankilkil/tau0-qgf/blob/main/docs/visual_rl.md>
 - openpi-RLT: <https://github.com/Yyshadow/openpi-RLT>
 - QGF: <https://github.com/zhouzypaul/qgf>
+
 

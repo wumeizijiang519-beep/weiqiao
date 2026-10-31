@@ -1,0 +1,25 @@
+{
+  "status": "DELETED_VERIFIED_STAGING_DUPLICATES",
+  "files": [
+    {
+      "source": "/public/home/wangsenbao221/qgf_openwam_water_training_rgbpatch_v1/training_retry2/token_step5000.pt",
+      "preserved_archive": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/openwam_qgf_v1_20261022/water_training_rgbpatch_v1/training_retry2/token_step5000.pt",
+      "sha256": "7fa0ae6c925847199d78f30740ad9ae8ab253c7d23d0e0e115091f2d6b4a151a",
+      "bytes": 839630672
+    },
+    {
+      "source": "/public/home/wangsenbao221/qgf_openwam_water_training_rgbpatch_v1/training_retry2/critic_seed0_step10000.pt",
+      "preserved_archive": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/openwam_qgf_v1_20261022/water_training_rgbpatch_v1/training_retry2/critic_seed0_step10000.pt",
+      "sha256": "544494d8da07d2786c2b22dac289235f8f9641343a6fef087ea5545fe169075a",
+      "bytes": 869724379
+    },
+    {
+      "source": "/public/home/wangsenbao221/qgf_openwam_water_training_rgbpatch_v1/training_retry2/critic_seed1_step10000.pt",
+      "preserved_archive": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/openwam_qgf_v1_20261022/water_training_rgbpatch_v1/training_retry2/critic_seed1_step10000.pt",
+      "sha256": "ea4837a9e0d719c6b1c13ac812a3ab413d610b181874327871cea3434bf6a6ae",
+      "bytes": 869724379
+    }
+  ],
+  "logical_bytes": 2579079430,
+  "scope": "home staging only; persistent checkpoints/data/results untouched"
+}

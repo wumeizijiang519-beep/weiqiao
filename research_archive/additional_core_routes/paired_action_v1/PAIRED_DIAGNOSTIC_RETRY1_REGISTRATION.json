@@ -1,0 +1,42 @@
+{
+  "status": "PREREGISTERED_INFRASTRUCTURE_RETRY",
+  "failed_step": {
+    "step_id": "1593640.369",
+    "state": "FAILED",
+    "exit_code": "1:0",
+    "elapsed_gpu_seconds": 117,
+    "failure_phase": "before checkpoint construction, environment creation, candidate inference, and robot actions",
+    "cause": "official experiments/libero directory omitted from PYTHONPATH"
+  },
+  "only_changes": [
+    "add official experiments/libero PYTHONPATH",
+    "add audited LIBERO/offline asset environment",
+    "add audited GCC11 toolchain and run-local caches"
+  ],
+  "unchanged": [
+    "Python diagnostic runner",
+    "Raster Contract V2",
+    "model and checkpoint",
+    "fixed 16 groups",
+    "candidate seeds and branch order",
+    "actions, horizon and success criterion",
+    "labels and signal thresholds"
+  ],
+  "manifest_sha256": "2edd2d888236a23a1354a0cb06a8b2c5dbf92ed664e314f13b3d3a0598a875e6",
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_index": 0,
+    "cpus": 8,
+    "memory_gb": 45,
+    "inner_timeout_seconds": 6980,
+    "hard_seconds": 7080
+  },
+  "diagnostic_budget": {
+    "cap_gpu_seconds_including_failures": 7200,
+    "spent_gpu_seconds": 117,
+    "remaining_gpu_seconds": 7083,
+    "maximum_retry_gpu_seconds": 7080
+  },
+  "automatic_further_retry": false
+}

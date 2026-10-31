@@ -1,0 +1,32 @@
+{
+  "status": "INVALID_INFRASTRUCTURE_RESULT_INITIAL_STATE_HASH_HELPER_MISMATCH",
+  "scientific_result": false,
+  "step_id": "1593640.372",
+  "slurm_state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed_gpu_seconds": 290,
+  "report_sha256": "dc0e5534f0678727f3eb7c6b0baf64c7e8035235c8a3affc5c730027b69164b3",
+  "groups_marked_unavailable": 16,
+  "valid_complete_groups": 0,
+  "robot_actions": 0,
+  "candidate_requests": 0,
+  "failure_phase": "after WAM load but before environment construction and branch execution",
+  "root_cause": "Runner compared the manifest raw-byte state_sha256 against data_contract.array_hash, which intentionally hashes dtype and shape in addition to bytes.",
+  "independent_cpu_confirmation": {
+    "episode_id": "train_0205",
+    "raw_bytes_sha256": "163d19b5b7ba8f4ae1a9abd652b429ced34817799c94171852fa6775fd6da1f1",
+    "registered_state_sha256": "163d19b5b7ba8f4ae1a9abd652b429ced34817799c94171852fa6775fd6da1f1",
+    "array_hash": "94c8d7df66c4247ff64161ba99658c0ed8a002f963dddaeb35cb47ab9f01145d",
+    "raw_matches": true,
+    "array_hash_matches": false
+  },
+  "interpretation": "The runner's exception catcher converted the shared pre-environment code error into 16 GROUP_UNAVAILABLE rows and then wrote NO_IDENTIFIABLE_SIGNAL. That marker is invalid as a scientific result because no fixed group reached the intervention boundary.",
+  "disposition": "Preserve all files and costs. Do not use NO_IDENTIFIABLE_SIGNAL scientifically. A further retry requires explicit approval because Retry 1 prohibited automatic additional retries.",
+  "diagnostic_budget": {
+    "step_369_gpu_seconds": 117,
+    "step_372_gpu_seconds": 290,
+    "spent_gpu_seconds": 407,
+    "cap_gpu_seconds": 7200,
+    "remaining_gpu_seconds": 6793
+  }
+}

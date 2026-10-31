@@ -1,0 +1,59 @@
+{
+  "status": "PREREGISTERED_BEFORE_GPU_DISPATCH",
+  "authorization": "User explicitly approved Raster Contract V2 and reasonable continuation of the paired diagnostic.",
+  "population": {
+    "registration_sha256": "59ea15d5205bf58903bff3e04fa802ead5195a2d81609ef0441b48f363d21ce3",
+    "fixed_groups": 16,
+    "families": 4,
+    "replacement_groups": 0,
+    "boundary_model_step": 100
+  },
+  "contract": {
+    "registration_sha256": "d6ae7e7abd72fd2ef41bddf75a1289360a3be29270fb6230349bf9b4405aadf9",
+    "remote_cpu_audit_report_sha256": "9b2fcf1a1426cda86301f7587a7c8449a8fa988fc635bb29fb6f59063a5efcfb",
+    "strict_failures_preserved": true,
+    "direct_renderer_is_audit_only": true
+  },
+  "execution": {
+    "candidate_seeds": [10000, 11000, 12000, 13000],
+    "candidate_shape": [4, 32, 7],
+    "candidate_prefix_steps": 10,
+    "continuation": "native candidate0 closed-loop",
+    "diagnostic_step_limit": 100,
+    "fresh_environment_per_branch": true,
+    "branch_order": "ascending sha256(paired-branch-v1|physical_input_group|candidate_index)",
+    "only_executed_branches_receive_labels": true,
+    "oracle_deployment": false
+  },
+  "gate": {
+    "minimum_complete_groups": 12,
+    "minimum_differing_binary_groups": 4,
+    "minimum_differing_families": 2,
+    "no_extension_or_replacement": true
+  },
+  "sources": {
+    "manifest_sha256": "36e244238b3c5d9b152253f8343ea8f42b3dbb2ffdbaa77b2fdb24e9f4e25190",
+    "run_shell_sha256": "735909b26e9c033d4af4a1ef2c5d9919bd3c21e14035e41f3efb04d268db5e44",
+    "runner_sha256": "23c89f6eb0169831c6ab89b34a6681b577c19565f4707e901ac396f75bb659a8",
+    "runner_test_sha256": "0b9bb0a85d27964d28c42750ffeb6ed02a4b36c0d74a748196d4ae36b6311a71",
+    "core_sha256": "1b30c5d66f3958b05aa9dcc582f2eef42ee03a308300260fbe0b6d74fc0f6d29",
+    "data_contract_sha256": "39301bf91924133f275ca4780a751a0c37c4787c5164fa45bb182e5d20bb26df",
+    "wam_runtime_sha256": "5c4b354b5903d6c4b955e557bbdd1bbec07bc6f6eedec35874bfda0211e3dad0"
+  },
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_index": 0,
+    "cpus": 8,
+    "memory_gb": 45,
+    "hard_seconds": 7200,
+    "inner_timeout_seconds": 7100,
+    "forecast_gpu_seconds": 5100,
+    "diagnostic_cap_gpu_seconds": 7200
+  },
+  "cost_accounting": {
+    "prior_total_gpu_hours": 12.3828,
+    "restore_engineering_gpu_seconds": 716,
+    "all_failures_retained": true
+  }
+}

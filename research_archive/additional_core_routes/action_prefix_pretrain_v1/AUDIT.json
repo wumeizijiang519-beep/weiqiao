@@ -1,0 +1,59 @@
+{
+  "corpus_sha256": "1f01660d5771deb9d3e57fe93019fa94bdb48b3dafc549283e69562728f26bfb",
+  "errors": [],
+  "initial_failed_processes": [
+    {
+      "charged_gpu_seconds": 6,
+      "exit_code": "1",
+      "process": "runs/qgf_action_prefix_seed_202642302_process"
+    },
+    {
+      "charged_gpu_seconds": 6,
+      "exit_code": "1",
+      "process": "runs/qgf_action_prefix_seed_202642301_process"
+    }
+  ],
+  "retry1_processes": [
+    {
+      "charged_gpu_seconds": 102,
+      "exit_code": "0",
+      "process": "runs/qgf_action_prefix_seed_202642303_retry1_process"
+    },
+    {
+      "charged_gpu_seconds": 106,
+      "exit_code": "0",
+      "process": "runs/qgf_action_prefix_seed_202642301_retry1_process"
+    },
+    {
+      "charged_gpu_seconds": 103,
+      "exit_code": "0",
+      "process": "runs/qgf_action_prefix_seed_202642302_retry1_process"
+    }
+  ],
+  "scientific_claim": false,
+  "seeds": [
+    {
+      "checkpoint_sha256": "253d63e66ec4a514f61e84e9fe92194c95f1fdf5e8dc2ddb154f933817ffacb9",
+      "model_state_sha256": "6f582d531767934b48e7b66eac0885bdffd04af29000db043ce43912d9f8a8ed",
+      "result_sha256": "3f9246b1da577c9a942b4e5862f08aedeb10ff72c355d5ca488ad9ef6d718af9",
+      "seed": 202642301,
+      "validation_masked_mse": 0.03745193034410477
+    },
+    {
+      "checkpoint_sha256": "ab16c704cf11a017af53a2a9c25b4e16e77b57cfc509686d73bfd20047559c77",
+      "model_state_sha256": "e67665611812194d55d44917a9814a3ed8c4bf334e4600b801b468cb25d478b3",
+      "result_sha256": "6f0a750b211e720b2412330fdc8d7ade9836baad17641289a5501d962758cae3",
+      "seed": 202642302,
+      "validation_masked_mse": 0.03990859165787697
+    },
+    {
+      "checkpoint_sha256": "903891dc2c4f318c188a196d537c59322fa8b0cf89f16084ca4220a48479536c",
+      "model_state_sha256": "049168957fe183de882fa37e4b4e9641f2b538a65ee61f8958b63ad0d1f51af1",
+      "result_sha256": "bfc124590d4958f5b3df3bd8a7833d7c6cf4b21b87f3bf1534a41f4ad1f62937",
+      "seed": 202642303,
+      "validation_masked_mse": 0.03780632093548775
+    }
+  ],
+  "status": "ACTION_PREFIX_PRETRAIN_AUDIT_PASS",
+  "total_charged_gpu_seconds": 323
+}

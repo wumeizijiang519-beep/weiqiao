@@ -1,0 +1,190 @@
+{
+  "status": "DELETED_INVALID_PAYLOADS",
+  "reason": "previously marked INVALID_PROTOCOL: missing required gripper gain",
+  "preserved": "all JSON, logs, configuration, code, seeds, summaries and failure markers",
+  "files": [
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0000_seed_745849164.npz",
+      "bytes": 296090453,
+      "sha256": "afb5aac0e4a5ee63fa7707ea7923f14da7b885a533d7d3da811a427c8b17107e"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0001_seed_1927462846.npz",
+      "bytes": 114235442,
+      "sha256": "a2bb0b63851e8ef8d4212fa25b2a7fc9b2d14e31199bed6016c6769e6683b77a"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0002_seed_1103759875.npz",
+      "bytes": 113085595,
+      "sha256": "4daf6b1beb88203ef3d43c6bece78745b9aa82d7d1cdc8a0598c2c890b77e048"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0003_seed_776717633.npz",
+      "bytes": 289292040,
+      "sha256": "9545b36fc9b13288b3dcd60e46b159c0d7f575220d9bc907543ae5331ab49e0d"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0004_seed_387021395.npz",
+      "bytes": 92624348,
+      "sha256": "deb3c38dcd95d069fbb0638d3dd0fb73325e74b6e0c43c860b03fd7cbd3fc558"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0005_seed_35778210.npz",
+      "bytes": 110081396,
+      "sha256": "80dcd5b3cffd553bc1a779b2023d78774f6f31cb01b21d9406df30ba825d9071"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0006_seed_99209827.npz",
+      "bytes": 118168768,
+      "sha256": "c1db44f678096ef621dec4f7c74e5d81129ac5cadd0bcca74570d7a846335333"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0007_seed_932218073.npz",
+      "bytes": 112499061,
+      "sha256": "c576fc9b2ecaeef41ef8d4a168c0fae51646a1fc62963a94e3004a1f53bdb081"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0008_seed_2004139601.npz",
+      "bytes": 108546979,
+      "sha256": "5174350cdb8f65209147286d72049eac98b2069e75cf12b33a024a9a4adb8531"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0009_seed_309677972.npz",
+      "bytes": 113979259,
+      "sha256": "9280e02dea45fa0817ea632ef8aa34cfbc5367bc8ea4d58ad2864e266fd3c51b"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0000_seed_2076490324.npz",
+      "bytes": 103718451,
+      "sha256": "583c9e64722b1a9c38b3cb8bf7e25d473e13defe9de6ef9db41e01bcfd400a15"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0001_seed_1955071490.npz",
+      "bytes": 106243969,
+      "sha256": "3deeaf04e84fdccfcd91edb2acdd23d0fd0a321d81fa4cd5d28704e52aa016ff"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0002_seed_1284911913.npz",
+      "bytes": 110580416,
+      "sha256": "e03123269cf47754cce81f10770b17fbd9164026afc64ea14094eecb23a74117"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0003_seed_1852847998.npz",
+      "bytes": 115317354,
+      "sha256": "6773dfe9f1c49723192af9767ed80720421225fe68eed524ff5328dc1cf9acfe"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0004_seed_1830953223.npz",
+      "bytes": 113004818,
+      "sha256": "558297569acf4031aca18cdd2b0647f6217f9f8360e2c80fa4d9306701546c24"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0005_seed_1442545465.npz",
+      "bytes": 113469892,
+      "sha256": "31e52caa7fbc9e96004e3a7f71244bae34e78b7395136d62d547ee2b61d65095"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0006_seed_1474753220.npz",
+      "bytes": 292563711,
+      "sha256": "42b7a0d0af4254b1932a2ddd572114e781da3aeee9414e011ee824c5eb23ee73"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0007_seed_678623292.npz",
+      "bytes": 127861550,
+      "sha256": "e176329264628629181b5b1aabd02cd9ee1a007ec1141f1466e7033028e35cd1"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0008_seed_1233170608.npz",
+      "bytes": 288380018,
+      "sha256": "44ee662269f82fbe2fbde3f321a738d3865d3e87a4badb322b3085624c496046"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0009_seed_115078623.npz",
+      "bytes": 114744705,
+      "sha256": "230130b49a1a9981e45dbe977e6bcd2fe817eba5bc1861dc77f194bef1fa2d93"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0000_seed_1765179639.npz",
+      "bytes": 165709462,
+      "sha256": "d2d4529dd437e74593c84126c6b747127c496bb79aca9ce58b8b11e9f2bc7950"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0001_seed_846831024.npz",
+      "bytes": 160730624,
+      "sha256": "b80b2d8674554024c11979042f2fd196a2bee9799ac7092f55d9e6cb6f927e5f"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0002_seed_1327900020.npz",
+      "bytes": 156704094,
+      "sha256": "280f99ab574f77a348a8f1d5b3c6bd404b8f1b9baf93cd9cc3de291d92344a89"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0003_seed_1442761724.npz",
+      "bytes": 157037663,
+      "sha256": "137bd555dd975da53084556c9adb9805bdd60326a93d3c2d4fe312185618257d"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0004_seed_1360704643.npz",
+      "bytes": 162185680,
+      "sha256": "5cfb6b64196d2a143f3f49d348677fdc8199aedc5fd48bde6b4a7854d3460fcb"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0005_seed_784957046.npz",
+      "bytes": 159708890,
+      "sha256": "ab6dd2515de4e9fa4052f687bacf65bfdfa4dbf251f7c081affbfcdbb52b74f4"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0006_seed_1000547564.npz",
+      "bytes": 162360709,
+      "sha256": "d697f0d5d319f99657f2e7529a8f3d6f9bfb7abd19e8a1bd8524105c8925dbc7"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0007_seed_840977509.npz",
+      "bytes": 159760741,
+      "sha256": "37129af6b0c3ffafded2c194f46d338aff7b9cd01f16b98ec91750d09200a980"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0008_seed_268253302.npz",
+      "bytes": 152159578,
+      "sha256": "cd9681b415962091f6874e53e1745b7baa12bcf17ffd980a7f1428d688674a07"
+    },
+    {
+      "path": "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0009_seed_105431323.npz",
+      "bytes": 162510805,
+      "sha256": "c1c971fd880a5a520763879eda85cf3805e3bf69672232204a2314042e6d436e"
+    }
+  ],
+  "logical_bytes": 4553356471,
+  "deleted": [
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0000_seed_745849164.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0001_seed_1927462846.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0002_seed_1103759875.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0003_seed_776717633.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0004_seed_387021395.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0005_seed_35778210.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0006_seed_99209827.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0007_seed_932218073.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0008_seed_2004139601.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu1/drawer_canonical10_officialconfig_v4_master2026102021_retry1/trajectories/episode_0009_seed_309677972.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0000_seed_2076490324.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0001_seed_1955071490.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0002_seed_1284911913.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0003_seed_1852847998.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0004_seed_1830953223.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0005_seed_1442545465.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0006_seed_1474753220.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0007_seed_678623292.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0008_seed_1233170608.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/drawer_canonical10_officialconfig_v4_master2026102019/trajectories/episode_0009_seed_115078623.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0000_seed_1765179639.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0001_seed_846831024.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0002_seed_1327900020.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0003_seed_1442761724.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0004_seed_1360704643.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0005_seed_784957046.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0006_seed_1000547564.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0007_seed_840977509.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0008_seed_268253302.npz",
+    "/public/wangsenbao221/pqr/qgf_cvpr_20261018/qgf_multitask_officialconfig_v4_20261020/protocol_invalid_missing_gripper_gain/gpu4/handle_canonical10_officialconfig_v4_master2026102018/trajectories/episode_0009_seed_105431323.npz"
+  ]
+}

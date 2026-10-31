@@ -1,0 +1,29 @@
+{
+  "status": "ACTIVE_AND_CPU_AUDITED",
+  "approved_at_cst": "2026-10-27",
+  "authorization": "User explicitly approved activating the proposed contract for a reasonable repair.",
+  "contract_sha256": "0bac6224581b41385fbe6362da46313ad6ae3f8f7e479f7f505297c0f14ef96a",
+  "audit_source_sha256": "5969966fa4b6242d453b7235c3e64a4306ed57333f31fc8d62e2473b3b629dcf",
+  "audit_test_sha256": "deb5b6ea0a26d041b118eee2264d06aecc2fc445048ff9eb10991a6a50a153b2",
+  "strict_v2_failure_sha256": "43e2c4b2f9fbc41383740c5c72181de5bc636d03b1b834d1869b1a0e165aa9bf",
+  "audit_report_sha256": "8b6e14487d51d5935d584cb85fd984d0ace2611f2d8aa5e54d2989396af33125",
+  "audit_status": "RASTER_CONTRACT_V2_ADMISSION_PASS",
+  "admission_fields": [
+    "policy_returned_dual_camera_tensors",
+    "mujoco_integration_state",
+    "simulator_state",
+    "proprioception",
+    "reward_terminal_success",
+    "python_numpy_torch_cpu_cuda_and_caller_rng",
+    "archived_action_replay_max_abs_error_le_1e-6"
+  ],
+  "audit_only_fields": [
+    "additional_direct_renderer_call"
+  ],
+  "observed_direct_renderer_mismatches": {
+    "A1_vs_A0": [],
+    "A2_vs_A0": [4]
+  },
+  "scientific_scope": "Admits only the already frozen fixed-16 paired-action diagnostic; no critic retraining, validation, formal evaluation, or efficacy claim.",
+  "gpu_seconds": 0
+}

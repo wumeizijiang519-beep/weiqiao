@@ -1,0 +1,12 @@
+{
+  "sapien": "3.0.0b1",
+  "scene": {
+    "pack_poses": "pack_poses(self: sapien.pysapien.Scene) -> bytes\n",
+    "unpack_poses": "unpack_poses(self: sapien.pysapien.Scene, data: bytes) -> None\n"
+  },
+  "physx_cpu": {
+    "pack": "pack(self: sapien.pysapien.physx.PhysxCpuSystem) -> bytes\n",
+    "unpack": "unpack(self: sapien.pysapien.physx.PhysxCpuSystem, data: bytes) -> None\n"
+  },
+  "status": "API inventory only, no restore parity claim"
+}

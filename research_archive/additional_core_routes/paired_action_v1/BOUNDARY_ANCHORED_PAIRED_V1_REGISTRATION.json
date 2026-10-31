@@ -1,0 +1,53 @@
+{
+  "status": "BOUNDARY_ANCHORED_PAIRED_V1_PREREGISTERED",
+  "authorization": "User approved the ordered boundary-anchored path on 2026-10-27 CST after Retry 2 failed its frozen gate.",
+  "old_result": {
+    "status": "NO_IDENTIFIABLE_SIGNAL",
+    "complete_groups": 5,
+    "unavailable_groups": 11,
+    "differing_binary_groups": 0,
+    "report_sha256": "4765f8189137b6a1090b445fd4269e46bc117daa06a09320e3bff6f8d39642c4",
+    "independent_audit_sha256": "d55b19c9f77ed5c777e184a4b884f3cedcb735b8da469b276c203b1976c0bea5"
+  },
+  "frozen_population": {
+    "entries": 16,
+    "registration_sha256": "59ea15d5205bf58903bff3e04fa802ead5195a2d81609ef0441b48f363d21ce3",
+    "pilot_entry_slice": [0, 1],
+    "remaining_entry_slice": [1, 16],
+    "replacement_allowed": false
+  },
+  "contract": {
+    "candidate_seeds": [10000, 11000, 12000, 13000],
+    "candidate_shape": [4, 32, 7],
+    "executed_prefix_steps": 10,
+    "wam_calls_per_group": 5,
+    "branch_wam_calls": 0,
+    "action_commit_max_error": 1e-6,
+    "binary_gate": {"complete_groups": 12, "discordant_groups": 4, "families": 2},
+    "dense_gate": {"families_with_bootstrap_lower_above_zero": 2, "draws": 10000, "seed": 202641001},
+    "qgf_efficacy_claim": false
+  },
+  "source_sha256": {
+    "protocol": "00e9823ed148f913d4ad8d4c4482dca6143cf1016677ad8b68ac9c2b51aa709f",
+    "runner": "00ef258e8280642895bf1f1d022dede8a96a09e70b9f8d58333d3fd8d2121a19",
+    "metrics": "9e6eb1672474af3ad83d49710faabda2e926781f6f237ac86e1bbf604aa801a4",
+    "tests": "2b29b216f57bed906ec9548d6aecc56d87c857745f47233fa27ca8ed47d444a9"
+  },
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_index": 0,
+    "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+    "startup_memory_mib": 4,
+    "startup_utilization_percent": 0,
+    "cpus": 8,
+    "memory_gb": 45,
+    "pilot_inner_timeout_seconds": 1100,
+    "pilot_hard_seconds": 1200
+  },
+  "budget": {
+    "new_branch_cap_gpu_seconds_including_failures": 7200,
+    "pilot_max_gpu_seconds": 1200,
+    "remaining_max_gpu_seconds": 6000
+  }
+}

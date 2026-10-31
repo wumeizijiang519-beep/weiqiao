@@ -1,0 +1,18 @@
+{
+  "purpose": "actual-task restore engineering smoke, no training labels",
+  "task": "stack_bowls_three",
+  "config": "demo_randomized",
+  "candidate_scene_seeds": [202614000, 202614001, 202614002, 202614003, 202614004],
+  "accepted_scenes_cap": 1,
+  "policy_calls_cap": 1,
+  "fixed_actions_per_replay": 2,
+  "replays": 2,
+  "timeout_seconds": 900,
+  "gpus": "one allocated simulator GPU plus one existing isolated server GPU",
+  "gpu_hour_cap": 0.5,
+  "planning_wall_minutes": 15,
+  "evidence_basis": "previous full-scene gates completed within the bounded smoke budget; timeout enforces upper limit",
+  "success_rule": "joint max abs error <=1e-6 and RGB exact for both replay steps",
+  "full_branch_admission": false,
+  "failure_rule": "retain first failure; no automatic collection or seed changes"
+}

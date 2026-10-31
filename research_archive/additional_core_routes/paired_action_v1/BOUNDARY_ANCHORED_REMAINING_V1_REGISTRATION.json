@@ -1,0 +1,33 @@
+{
+  "status": "BOUNDARY_ANCHORED_REMAINING_V1_PREREGISTERED",
+  "pilot": {
+    "step": "1593640.376",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_gpu_seconds": 568,
+    "entry_slice": [0, 1],
+    "complete_groups": 1,
+    "commit_max_error": 0.0,
+    "report_sha256": "a128546203427b6469c294459468a10b10ae1a3752e5858a8a84ae52bf13611a",
+    "group_result_sha256": "57ce1d7dca861708c4bc4dd294db92adf95eb9e99e1a16f3674ffa69a55e7b7f"
+  },
+  "remaining_entry_slice": [1, 16],
+  "pilot_must_not_repeat": true,
+  "source_registration_sha256": "e1acdd907c15dde7896771f70ab1dcfe23b3f2065d4acad0318e9a78f734a12f",
+  "resource": {
+    "job_id": 1593640,
+    "node": "gpu1",
+    "gpu_index": 0,
+    "gpu_uuid": "GPU-137cf86f-282b-dfea-23b5-b93d37195640",
+    "cpus": 8,
+    "memory_gb": 45,
+    "inner_timeout_seconds": 5900,
+    "hard_seconds": 6000
+  },
+  "budget": {
+    "new_branch_cap_gpu_seconds": 7200,
+    "pilot_spent_gpu_seconds": 568,
+    "remaining_max_gpu_seconds": 6000,
+    "reserve_gpu_seconds": 632
+  }
+}

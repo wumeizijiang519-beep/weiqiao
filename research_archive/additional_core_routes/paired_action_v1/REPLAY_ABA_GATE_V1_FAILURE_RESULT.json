@@ -1,0 +1,29 @@
+{
+  "status": "FAILED_STRICT_FRESH_ENVIRONMENT_RASTER_REPEATABILITY",
+  "step": "1593640.363",
+  "state": "FAILED",
+  "exit_code": "1:0",
+  "elapsed_gpu_seconds": 99,
+  "entry": "train_0205",
+  "branches_completed": ["A0", "B0", "A1", "A2"],
+  "branch_steps": {"A0": 100, "B0": 100, "A1": 100, "A2": 100},
+  "branch_success": {"A0": false, "B0": false, "A1": false, "A2": false},
+  "branch_return": {"A0": 0.0, "B0": 0.0, "A1": 0.0, "A2": 0.0},
+  "all_boundaries_bitwise_equal": true,
+  "a_numeric_trace_equal": {"reward": true, "done": true, "success": true, "proprio": true, "mujoco_integration": true, "sim_state": true, "rng": true},
+  "a1_raster_mismatch": {"returned_policy_steps": [3, 4], "direct_live_steps": [3]},
+  "a2_raster_mismatch": {"returned_policy_steps": [3, 4], "direct_live_steps": [3]},
+  "a1_a2_hash_files_identical": true,
+  "action_replay_max_abs_error": 0.0,
+  "failed_trace_sha256": "19fbb948928834bde3af40daf6d9603b12372f0fbc965f8fa0ad3eafa9b7b343",
+  "artifacts": {
+    "A0_npz_sha256": "cc6e20bbcc44baf7b4ca5bc0a92f956a455c8f63cc838c59b36c14a2e8bc0b3b",
+    "A0_hashes_sha256": "1fee5bad6d9d02f1b5b616618c7fbea7c724054964b8a8450b74bad844f915de",
+    "A1_hashes_sha256": "065553417e03868bdbf340f02947de320576cd000c76f06f6bde39a566e37bb3",
+    "A2_hashes_sha256": "065553417e03868bdbf340f02947de320576cd000c76f06f6bde39a566e37bb3",
+    "B0_npz_sha256": "6d5aa079db9db9dfba74dd543440dd01416d686a272084f03b69140c2c79c88b"
+  },
+  "scientific_disposition": "The preregistered raw-raster repeatability gate failed. Do not run the fixed16 paired-action diagnostic, relax raster equality, add warmup retries, replace samples, or claim QGF efficacy.",
+  "engineering_gpu_seconds_cumulative": 586,
+  "engineering_gpu_seconds_unspent": 1214
+}
